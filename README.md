@@ -1,4 +1,4 @@
-### <div align="center">Hi 🖐️ i'm Manu, i'm passionate a frontend development 💻</div>  
+### <div align="center">Hi 🖐️ i'm Manu, i'm passionate a frontend development  <img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1200px-Vue.js_Logo_2.svg.png" alt="Vue.js" height="15" /></div>  
   
 
   
