@@ -1,4 +1,4 @@
-### <div align="center">Hi 🖐️ my name is Manu, I'm passionate about web development, I like creating animation with javascript and I'm a fan of the vue.js framework <img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1200px-Vue.js_Logo_2.svg.png" alt="Vue.js" height="15"  /></div>  
+### <div align="center">Hi 🖐️ my name is Manu, I am passionate about web development, I like creating animations with javascript and I am a fan of the vue.js framework <img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1200px-Vue.js_Logo_2.svg.png" alt="Vue.js" height="15"  /> and my next goal is to become a fullstack js developer</div>  
   
 
   
