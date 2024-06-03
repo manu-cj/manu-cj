@@ -66,6 +66,9 @@ I'm passionate about web development, creating animations with JavaScript, and I
 ###
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=manu-cj&layout=compact&hide=css,html,scss,hack&theme=radical" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=manu-cj&theme=radical" />
+  
+  
 </div>
 
 
