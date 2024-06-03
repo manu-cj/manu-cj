@@ -20,7 +20,7 @@ I'm passionate about web development, creating animations with JavaScript, and I
 
  
 <h2 align="center">My Skill Set</h2>
-<table align="center">
+<table align="center" style="border-radius: 15px;">
   <tr>
     <td valign="top" width="33%" style="border: 2px solid black; padding: 10px; background-color: #f9f9f9;">
       <h3 align="center">Frontend</h3>  
