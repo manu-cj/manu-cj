@@ -65,16 +65,19 @@ I'm passionate about web development, creating animations with JavaScript, and I
 
 ###
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=manu-cj&layout=compact&hide=css,html,scss,hack&theme=radical" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=manu-cj&theme=radical" />
-  
-  
+  <img src="https://awesome-github-stats.azurewebsites.net/user-stats/manu-cj?cardType=level&theme=nightowl&preferLogin=true" height="200px" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=manu-cj&theme=nightowl" height="200px" />
 </div>
-
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=manu-cj&layout=compact&hide=css,html,scss,hack&theme=nightowl" height="200px" />
+</div>
 
 
 
 <h2 align="center">My activity</h2>
 
-![snake gif](https://github.com/manu-cj/manu-cj/blob/output/github-contribution-grid-snake-dark.svg)
+<div align="center">
+  <img src="https://github.com/manu-cj/manu-cj/blob/output/github-contribution-grid-snake-dark.svg">
+</div>
+
 
