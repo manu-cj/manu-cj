@@ -62,8 +62,8 @@
    <img height="190rem" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=manu-cj&show_icons=true&title_color=007acc&icon_color=007acc&text_color=007acc&bg_color=00000000&border_radius=15&border_color=00000000&count_private=true&hide=contribs&hide_rank=true"/>
    
    <img height="190rem" alt="Most Used Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=manu-cj&langs_count=6&layout=compact&title_color=007acc&icon_color=007acc&text_color=007acc&bg_color=00000000&border_radius=15&border_color=00000000&hide=jupyter%20notebook"/>
-
 </div>
+
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=manu-cj&layout=compact&hide=css,html,scss,hack,jupyter%20notebook&title_color=007acc&icon_color=007acc&text_color=007acc&bg_color=00000000&border_radius=15&border_color=00000000
 " height="200px" />
