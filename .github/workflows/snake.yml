@@ -4,7 +4,7 @@ name: Generate Snake
 # Controls when the action will run.
 on:
   schedule:
-      # every 6 hours
+      # every 12 hours
     - cron: "0 */6 * * *"
 
   # This command allows us to run the Action automatically from the Actions tab.
@@ -35,7 +35,7 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/github-contribution-grid-snake.gif?color_snake=#007acc&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#007acc&color_dots=#49739e,#3c7dd9,#3264a8,#274985
         env:
            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -50,4 +50,5 @@ jobs:
           commit_message: Update snake animations
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
