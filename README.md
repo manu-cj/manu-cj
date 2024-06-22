@@ -1,5 +1,6 @@
 <meta name="description" content="GitHub profile in blue color">
-<meta name="keywords" content="Full Stack Developer, GitHub Stats, GitHub Profile, JavaScript, TypeScript, React, Nodejs, HTML5, CSS3, Bootstrap, Python, C#, C++, C, Java, PHP, PostgreSQL, MySQL, MongoDB"/>
+<meta name="keywords" content="Full Stack Developer, GitHub Stats, GitHub Profile, JavaScript, TypeScript, React, Nodejs, HTML5, CSS3, PHP, MySQL, MongoDB"/>
+
 <div>
    <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=007acc&height=120&section=header"
 </div>
