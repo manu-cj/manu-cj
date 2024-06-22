@@ -65,10 +65,9 @@
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=manu-cj&layout=compact&hide=css,html,scss,hack,jupyter%20notebook&title_color=007acc&icon_color=007acc&text_color=007acc&bg_color=00000000&border_radius=15&border_color=00000000
-" height="200px" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=manu-cj&theme=vue-dark&hide_border=true&&title_color=007acc&icon_color=007acc&text_color=007acc&bg_color=00000000&border_radius=15&border_color=00000000&hide=jupyter%20notebook" height="200px" />
 </div>
-
+<br>
 <div align="center">
  <a href="www.linkedin.com/in/manu-cj" target="_blank">
        <img height="30" width="120" title="linkedin.com/in/manu-cj/" src="./linkedin.png">
