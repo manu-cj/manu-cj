@@ -13,7 +13,7 @@
   <tr>
     <td valign="top" width="33%" style="border: 2px solid black; padding: 10px; background-color: #f9f9f9;">
       <br>
-       <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=40&pause=5000&&center=true&vCenter=truerandom=false&reapeat=false&width=435&height=100&lines=Frontend">
+       <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=40&pause=99000&&center=true&vCenter=truerandom=false&reapeat=false&width=435&height=100&lines=Frontend">
       <p align="center">
         <a href="https://skillicons.dev">
           <img src="https://skillicons.dev/icons?i=html,sass,js,vue,pinia" />
@@ -22,7 +22,7 @@
     </td>
     <td valign="top" width="33%" style="border: 2px solid black; padding: 10px; background-color: #e9e9e9;">
        <br>
-       <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=40&duration=5000&pause=5000&&center=true&vCenter=truerandom=false&reapeat=false&width=435&height=100&lines=Backend">
+       <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=40&duration=5000&pause=99000&&center=true&vCenter=truerandom=false&reapeat=false&width=435&height=100&lines=Backend">
       <p align="center">
         <a href="https://skillicons.dev">
           <img src="https://skillicons.dev/icons?i=nodejs,php,docker,mysql" />
@@ -31,7 +31,7 @@
     </td>
     <td valign="top" width="33%" style="border: 2px solid black; padding: 10px; background-color: #d9d9d9;">
        <br>
-       <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=40&duration=5000&pause=5000&&center=true&vCenter=truerandom=false&reapeat=false&width=435&height=100&lines=Other">
+       <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=40&duration=5000&pause=99000&&center=true&vCenter=truerandom=false&reapeat=false&width=435&height=100&lines=Other">
       <p align="center">
         <a href="https://skillicons.dev">
           <img src="https://skillicons.dev/icons?i=git,py,linux" />
