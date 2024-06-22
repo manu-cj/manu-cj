@@ -65,7 +65,7 @@
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=manu-cj&theme=vue-dark&hide_border=true&&title_color=007acc&icon_color=007acc&text_color=007acc&bg_color=00000000&border_radius=15&border_color=00000000&hide=jupyter%20notebook" height="200px" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=manu-cj&theme=react&langs_count=6&layout=compact&title_color=007acc&icon_color=007acc&text_color=007acc&bg_color=00000000&border_radius=15&border_color=00000000&hide=jupyter%20notebook" height="200px" />
 </div>
 <br>
 <div align="center">
