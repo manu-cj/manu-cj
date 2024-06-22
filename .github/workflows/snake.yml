@@ -35,7 +35,7 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/github-contribution-grid-snake-dark.svg?color_snake=#007acc&color_dots=#49739e,#3c7dd9,#3264a8,#274985
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#007acc&color_dots=#0d1117,#161b22,#21262d,#30363d,#484f58
         env:
            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -50,5 +50,6 @@ jobs:
           commit_message: Update snake animations
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
 
