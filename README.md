@@ -71,7 +71,7 @@
 
 <div align="center">
  <a href="www.linkedin.com/in/manu-cj" target="_blank">
-       <img height="30" width="120" title="linkedin.com/in/manu-cj/" src="./img/linkedin.png">
+       <img height="30" width="120" title="linkedin.com/in/manu-cj/" src="./linkedin.png">
    </a>
 </div>
    <a href="#">
