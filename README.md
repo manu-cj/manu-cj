@@ -4,6 +4,7 @@
 <div>
    <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=007acc&height=120&section=header"
 </div>
+   
 <img src="https://readme-typing-svg.herokuapp.com/?color=007acc&size=35&center=true&weight=700&size=40&vCenter=true&width=1000&lines=Hi,+I'm+Manu;I'm+a+Full+Stack+Js+Developer;Be+Welcome!+ツ">
 
 <br/>  
