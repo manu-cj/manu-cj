@@ -69,7 +69,7 @@
 </div>
 <br>
 <div align="center">
- <a href="www.linkedin.com/in/manu-cj" target="_blank">
+ <a href="https://www.linkedin.com/in/manu-cj" target="_blank">
        <img height="30" width="120" title="linkedin.com/in/manu-cj/" src="./linkedin.png">
    </a>
 </div>
