@@ -84,4 +84,3 @@
 <div align="center">
   <img src="https://github.com/manu-cj/manu-cj/blob/output/github-contribution-grid-snake-dark.svg">
 </div>
-
