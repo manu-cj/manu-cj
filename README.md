@@ -10,7 +10,6 @@
 
 <br/>  
 
-
 <table align="center" style="border-radius: 15px;">
   <tr>
     <td valign="top" width="33%" style="border: 2px solid black; padding: 10px; background-color: #f9f9f9;">
