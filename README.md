@@ -9,6 +9,7 @@
 <img src="https://readme-typing-svg.herokuapp.com/?color=1BF7B3&size=35&center=true&weight=700&size=40&pause=1500&&vCenter=true&width=1000&lines=Hi,+I'm+Manu;I'm+a+Full+Stack+Js+Developer;Be+Welcome!+ツ">
 
 <br/>  
+<br/>  
 
 <table align="center" style="border-radius: 15px;">
   <tr>
