@@ -75,9 +75,6 @@
        <img height="30" width="120" title="linkedin.com/in/manu-cj/" src="./linkedin.png">
    </a>
 </div>
-<div align="center">
- <img src="https://visitcount.itsvg.in/api?id=manu-cj&label=Profile%20Views&color=9&icon=5&pretty=false" />
-</div>
 
    <a href="#">
        <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=007acc&height=120&section=footer"/>
