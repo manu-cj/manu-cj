@@ -18,9 +18,6 @@ jobs:
       with:
         node-version: '18'
 
-    - name: Install dependencies
-      run: npm install
-
     - name: Generate random library
       id: random-library
       run: |
@@ -79,12 +76,12 @@ jobs:
           ["Zustand"]="Une bibliothèque pour la gestion d'état simple et flexible dans les applications React."
           ["MobX"]="Une bibliothèque pour la gestion d'état réactive et transparente."
         )
-        
+
         # Choisir une bibliothèque aléatoire
         library_names=("${!libraries[@]}")
         random_library=${library_names[$((RANDOM % ${#library_names[@]}))]}
         random_description=${libraries[$random_library]}
-        
+
         echo "random_library=${random_library}" >> $GITHUB_ENV
         echo "random_description=${random_description}" >> $GITHUB_ENV
 
