@@ -152,7 +152,7 @@ function updateReadme() {
 
   // Si aucune section de bibliothèque n'est trouvée, ajoutez-en une nouvelle
   if (!librarySectionPattern.test(content)) {
-    newContent += `\n<!-- START_LIBRARY_SECTION -->\n- **${newLibrary.name}**: ${newLibrary.description}\n<!-- END_LIBRARY_SECTION -->`;
+    newContent += `\n<!-- START_LIBRARY_SECTION -->\n **${newLibrary.name}**: ${newLibrary.description}\n<!-- END_LIBRARY_SECTION -->`;
   }
 
   // Écrire le nouveau contenu dans le README
