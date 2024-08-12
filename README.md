@@ -90,6 +90,6 @@
 <div align="center">## Bibliothèque JavaScript aléatoire
 
 <!-- START_LIBRARY_SECTION -->
-- **Highcharts**: Une bibliothèque pour créer des graphiques interactifs pour le web.
+- **Koa**: Un framework web pour Node.js conçu pour être un moteur de middleware plus moderne.
 <!-- END_LIBRARY_SECTION -->
 </div>
