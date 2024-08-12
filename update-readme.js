@@ -101,6 +101,11 @@ const libraries = [
   { name: "Storybook", description: "Un outil pour construire et tester des composants UI de manière isolée.", link: "https://storybook.js.org/" }
 ];
 
+// Fonction pour sélectionner une bibliothèque au hasard
+function getRandomLibrary() {
+  const index = Math.floor(Math.random() * libraries.length);
+  return libraries[index];
+}
 
 function updateReadme() {
   if (!fs.existsSync(readmePath)) {
