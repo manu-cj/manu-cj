@@ -131,7 +131,7 @@ const readmePath = path;
 let readmeContent = fs.readFileSync(readmePath, 'utf8');
 
 // Créer la section à ajouter
-const newSection = `## Bibliothèque JavaScript aléatoire\n\nVoici une bibliothèque JavaScript que vous pourriez trouver utile :\n\n**${randomLibrary.name}: ${randomLibrary.description}**\n`;
+const newSection = `<div align="center">## Bibliothèque JavaScript aléatoire\n\nVoici une bibliothèque JavaScript que vous pourriez trouver utile :\n\n**${randomLibrary.name}: ${randomLibrary.description}**\n </div>`;
 
 // Ajouter ou remplacer la section dans le README
 if (readmeContent.includes('## Bibliothèque JavaScript aléatoire')) {
