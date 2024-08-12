@@ -1,4 +1,4 @@
-name: Update README
+name: Update README with Random Library
 
 on:
   schedule:
@@ -101,6 +101,7 @@ jobs:
         random_index=$((RANDOM % ${#libraries[@]}))
         random_library=${libraries[$random_index]}
 
+        # Écrire la bibliothèque aléatoire dans une variable d'environnement
         echo "random_library=$random_library" >> $GITHUB_ENV
 
     - name: Verify random library
