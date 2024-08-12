@@ -13,112 +13,116 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: Generate random JavaScript library
-      id: generate_library
-      run: |
-        # Liste des bibliothèques avec descriptions
-        libraries=(
-          "Axios: Une bibliothèque pour faire des requêtes HTTP."
-          "Lodash: Une bibliothèque utilitaire qui fournit des fonctions pour des tâches courantes."
-          "Moment.js: Une bibliothèque pour la manipulation et la validation des dates."
-          "jQuery: Une bibliothèque rapide, petite et riche en fonctionnalités pour JavaScript."
-          "D3.js: Une bibliothèque pour créer des graphiques dynamiques et interactifs."
-          "Chart.js: Une bibliothèque pour créer des graphiques simples et flexibles."
-          "Underscore: Une bibliothèque utilitaire qui fournit des fonctions pour des tâches courantes."
-          "Ramda: Une bibliothèque utilitaire qui fournit des fonctions pour des tâches fonctionnelles."
-          "Recharts: Une bibliothèque pour créer des graphiques React."
-          "Three.js: Une bibliothèque pour créer des graphiques 3D dans le navigateur."
-          "Leaflet: Une bibliothèque pour créer des cartes interactives."
-          "Highcharts: Une bibliothèque pour créer des graphiques interactifs."
-          "Puppeteer: Une bibliothèque pour automatiser le navigateur Chrome."
-          "Async: Une bibliothèque pour la gestion des opérations asynchrones."
-          "Anime.js: Une bibliothèque pour créer des animations complexes."
-          "Popper.js: Une bibliothèque pour la gestion des pop-ups et des éléments de positionnement."
-          "Immutable.js: Une bibliothèque pour les structures de données immuables."
-          "Socket.io: Une bibliothèque pour la communication en temps réel avec les websockets."
-          "Jest: Un framework de tests pour JavaScript."
-          "Mocha: Un framework de tests pour JavaScript."
-          "Chai: Une bibliothèque d'assertions pour les tests JavaScript."
-          "Sinon: Une bibliothèque pour les tests de comportement en JavaScript."
-          "Prettier: Un formateur de code pour JavaScript et d'autres langages."
-          "ESLint: Un outil pour l'analyse statique du code JavaScript."
-          "RxJS: Une bibliothèque pour la programmation réactive avec des Observables."
-          "Eslint-plugin-react: Un plugin ESLint pour les projets React."
-          "Hapi.js: Un framework pour créer des applications et des services sur Node.js."
-          "Express: Un framework minimaliste pour Node.js."
-          "NestJS: Un framework de développement Node.js pour les applications côté serveur."
-          "Koa: Un framework web pour Node.js qui est plus léger qu'Express."
-          "Mongoose: Une bibliothèque pour gérer les modèles MongoDB avec Node.js."
-          "Sequelize: Un ORM pour Node.js pour gérer les bases de données SQL."
-          "TypeORM: Un ORM pour TypeScript et JavaScript pour les bases de données SQL."
-          "Joi: Une bibliothèque pour la validation des données."
-          "Winston: Une bibliothèque pour la journalisation et le logging."
-          "Morgan: Un middleware pour la journalisation HTTP requests dans Express."
-          "Cypress: Un framework pour les tests end-to-end."
-          "Karma: Un test runner pour les tests unitaires JavaScript."
-          "Puppeteer-cluster: Une bibliothèque pour gérer les clusters Puppeteer."
-          "Gulp: Un toolkit de build pour JavaScript."
-          "Webpack: Un module bundler pour les applications JavaScript."
-          "Rollup: Un module bundler pour JavaScript, orienté vers l'optimisation des bibliothèques."
-          "Parcel: Un bundler d'applications web simple et rapide."
-          "Babel: Un transcompilateur JavaScript pour convertir ES6+ en ES5."
-          "Vite: Un build tool moderne pour les applications web."
-          "Sass: Un préprocesseur CSS."
-          "Less: Un préprocesseur CSS avec des fonctionnalités avancées."
-          "Tailwind CSS: Un framework CSS utilitaire pour créer des interfaces personnalisées."
-          "Bootstrap: Un framework CSS pour le design réactif."
-          "Foundation: Un framework CSS pour le développement web."
-          "Bulma: Un framework CSS basé sur Flexbox."
-          "Materialize: Un framework CSS basé sur les principes Material Design."
-          "Normalize.css: Une bibliothèque CSS pour normaliser les styles de navigateur."
-          "Animate.css: Une bibliothèque pour les animations CSS."
-          "Cleave.js: Une bibliothèque pour le formatage des champs de saisie."
-          "Inputmask: Une bibliothèque pour la création de masques de saisie."
-          "Vuex: Une bibliothèque de gestion d'état pour Vue.js."
-          "MobX: Une bibliothèque pour la gestion d'état dans les applications JavaScript."
-          "Zustand: Un état global minimaliste pour React."
-          "Redux: Une bibliothèque de gestion d'état pour les applications JavaScript."
-          "Redux-Saga: Une bibliothèque pour la gestion des effets secondaires dans Redux."
-          "Redux-Thunk: Un middleware pour Redux pour la gestion des fonctions asynchrones."
-          "Formik: Une bibliothèque pour la gestion des formulaires dans React."
-          "React Hook Form: Une bibliothèque pour la gestion des formulaires dans React."
-          "React Router: Une bibliothèque pour la gestion de la navigation dans React."
-          "Next.js: Un framework React pour le rendu côté serveur."
-          "Gatsby: Un générateur de site statique basé sur React."
-          "Nuxt.js: Un framework Vue.js pour le rendu côté serveur."
-          "SvelteKit: Un framework pour construire des applications web avec Svelte."
-          "Eleventy: Un générateur de site statique."
-          "Jekyll: Un générateur de site statique pour GitHub Pages."
-          "Hugo: Un générateur de site statique rapide."
-          "Grav: Un système de gestion de contenu basé sur des fichiers."
-          "KeystoneJS: Un CMS pour Node.js basé sur MongoDB."
-          "Strapi: Un CMS open-source basé sur Node.js."
-          "Sanity: Un CMS pour gérer des contenus avec une interface personnalisable."
-          "Directus: Un CMS open-source avec une API pour les bases de données SQL."
-        )
-
-        # Choisir une bibliothèque aléatoire
-        random_index=$((RANDOM % ${#libraries[@]}))
-        random_library=${libraries[$random_index]}
-
-        # Écrire la bibliothèque aléatoire dans une variable d'environnement
-        echo "random_library=$random_library" >> $GITHUB_ENV
-
-    - name: Verify random library
-      run: echo "Random library: ${{ env.random_library }}"
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
 
     - name: Update README.md
       run: |
-        # Conserver le contenu actuel
-        current_content=$(cat README.md)
+        const fs = require('fs');
+        const path = 'README.md';
 
-        # Créer la nouvelle section
-        new_content="## Bibliothèque JavaScript aléatoire\n\nVoici une bibliothèque JavaScript que vous pourriez trouver utile :\n\n**${{ env.random_library }}**"
+        // Liste des bibliothèques JavaScript avec descriptions
+        const libraries = [
+          { name: "Axios", description: "Une bibliothèque pour faire des requêtes HTTP." },
+          { name: "Lodash", description: "Une bibliothèque utilitaire qui fournit des fonctions pour des tâches courantes." },
+          { name: "Moment.js", description: "Une bibliothèque pour manipuler les dates et heures." },
+          { name: "Chart.js", description: "Une bibliothèque pour créer des graphiques interactifs." },
+          { name: "Three.js", description: "Une bibliothèque pour créer des graphiques 3D dans le navigateur." },
+          { name: "D3.js", description: "Une bibliothèque pour manipuler des documents basés sur des données." },
+          { name: "Vue.js", description: "Un framework pour construire des interfaces utilisateur." },
+          { name: "React", description: "Une bibliothèque pour construire des interfaces utilisateur." },
+          { name: "Angular", description: "Un framework pour construire des applications web dynamiques." },
+          { name: "Redux", description: "Une bibliothèque pour la gestion de l'état des applications JavaScript." },
+          { name: "JQuery", description: "Une bibliothèque pour simplifier le travail avec le DOM." },
+          { name: "Express.js", description: "Un framework pour créer des applications web avec Node.js." },
+          { name: "Socket.io", description: "Une bibliothèque pour la communication en temps réel entre le client et le serveur." },
+          { name: "Jest", description: "Un framework de test JavaScript." },
+          { name: "Mocha", description: "Un framework de test pour Node.js." },
+          { name: "Chai", description: "Une bibliothèque d'assertions pour les tests JavaScript." },
+          { name: "Supertest", description: "Une bibliothèque pour tester les API HTTP." },
+          { name: "Babel", description: "Un compilateur JavaScript pour utiliser les dernières fonctionnalités du langage." },
+          { name: "Webpack", description: "Un module bundler pour les applications JavaScript." },
+          { name: "Parcel", description: "Un bundler d'applications web rapide, sans configuration." },
+          { name: "ESLint", description: "Un outil pour l'analyse statique du code JavaScript." },
+          { name: "Prettier", description: "Un formateur de code JavaScript." },
+          { name: "Gatsby", description: "Un générateur de site statique basé sur React." },
+          { name: "Next.js", description: "Un framework React pour la génération de pages côté serveur." },
+          { name: "Sass", description: "Un préprocesseur CSS qui ajoute des fonctionnalités comme les variables et les mixins." },
+          { name: "Less", description: "Un préprocesseur CSS qui simplifie l'écriture de styles CSS." },
+          { name: "Tailwind CSS", description: "Un framework CSS utilitaire pour créer des designs personnalisés." },
+          { name: "Bulma", description: "Un framework CSS moderne basé sur Flexbox." },
+          { name: "Foundation", description: "Un framework CSS responsive pour des sites web." },
+          { name: "Semantic UI", description: "Un framework CSS qui utilise des classes sémantiques pour créer des interfaces." },
+          { name: "Bootstrap", description: "Un framework CSS populaire pour créer des sites web réactifs." },
+          { name: "Pug", description: "Un moteur de templates pour Node.js." },
+          { name: "EJS", description: "Un moteur de templates simple pour JavaScript." },
+          { name: "Handlebars", description: "Un moteur de templates pour les applications web." },
+          { name: "Hapi.js", description: "Un framework pour construire des applications web avec Node.js." },
+          { name: "Koa", description: "Un framework pour créer des applications web avec Node.js." },
+          { name: "Knex.js", description: "Un constructeur de requêtes SQL pour Node.js." },
+          { name: "Sequelize", description: "Un ORM pour Node.js qui prend en charge plusieurs bases de données." },
+          { name: "TypeORM", description: "Un ORM pour TypeScript et JavaScript." },
+          { name: "Mongoose", description: "Un ODM pour MongoDB avec Node.js." },
+          { name: "Apollo Client", description: "Un client GraphQL pour JavaScript." },
+          { name: "GraphQL", description: "Un langage de requêtes pour les APIs." },
+          { name: "RxJS", description: "Une bibliothèque pour la programmation réactive avec des observables." },
+          { name: "Immutable.js", description: "Une bibliothèque pour des structures de données immutables." },
+          { name: "Ramda", description: "Une bibliothèque fonctionnelle pour JavaScript." },
+          { name: "Underscore", description: "Une bibliothèque utilitaire pour JavaScript." },
+          { name: "Async.js", description: "Une bibliothèque pour gérer les opérations asynchrones." },
+          { name: "Bluebird", description: "Une bibliothèque pour les promesses en JavaScript." },
+          { name: "RxDB", description: "Une base de données réactive pour JavaScript." },
+          { name: "Knex", description: "Un constructeur de requêtes SQL pour Node.js." },
+          { name: "LoopBack", description: "Un framework pour construire des APIs REST avec Node.js." },
+          { name: "Strapi", description: "Un CMS headless pour JavaScript." },
+          { name: "Ghost", description: "Une plateforme de publication open source." },
+          { name: "Jekyll", description: "Un générateur de site statique." },
+          { name: "Hugo", description: "Un générateur de site statique rapide." },
+          { name: "Eleventy", description: "Un générateur de site statique simple et flexible." },
+          { name: "VuePress", description: "Un générateur de site statique basé sur Vue.js." },
+          { name: "Docusaurus", description: "Un générateur de site de documentation basé sur React." },
+          { name: "Storybook", description: "Un outil pour construire des interfaces utilisateur en isolation." },
+          { name: "Styleguidist", description: "Un générateur de style guide pour React." },
+          { name: "Swagger", description: "Un outil pour documenter les APIs." },
+          { name: "Postman", description: "Un outil pour tester les APIs." },
+          { name: "Insomnia", description: "Un client HTTP pour tester les APIs." },
+          { name: "Restify", description: "Un framework pour construire des APIs REST avec Node.js." },
+          { name: "LoopBack", description: "Un framework pour créer des APIs REST avec Node.js." },
+          { name: "Sinon", description: "Une bibliothèque pour les tests JavaScript." },
+          { name: "Mocha", description: "Un framework de test pour Node.js." },
+          { name: "Jasmine", description: "Un framework de test pour JavaScript." },
+          { name: "Ava", description: "Un framework de test JavaScript minimaliste." },
+          { name: "Cypress", description: "Un outil pour les tests end-to-end." },
+          { name: "TestCafe", description: "Un outil pour les tests d'interface utilisateur." },
+          { name: "Puppeteer", description: "Une bibliothèque pour contrôler des navigateurs via le protocole DevTools." },
+          { name: "Nightwatch.js", description: "Un outil pour les tests end-to-end et d'interface utilisateur." }
+          // Ajoutez les autres bibliothèques ici...
+        ];
 
-        # Écrire le nouveau contenu dans README.md
-        echo "$current_content" > README.md
-        echo "" >> README.md
-        echo "$new_content" >> README.md
+        // Choisir une bibliothèque aléatoire
+        const randomIndex = Math.floor(Math.random() * libraries.length);
+        const randomLibrary = libraries[randomIndex];
+
+        // Lire le README.md actuel
+        const readmePath = path;
+        let readmeContent = fs.readFileSync(readmePath, 'utf8');
+
+        // Créer la section à ajouter
+        const newSection = `## Bibliothèque JavaScript aléatoire\n\nVoici une bibliothèque JavaScript que vous pourriez trouver utile :\n\n**${randomLibrary.name}: ${randomLibrary.description}**\n`;
+
+        // Ajouter ou remplacer la section dans le README
+        if (readmeContent.includes('## Bibliothèque JavaScript aléatoire')) {
+          readmeContent = readmeContent.replace(/## Bibliothèque JavaScript aléatoire.*?(\n\n|$)/s, newSection);
+        } else {
+          readmeContent += `\n\n${newSection}`;
+        }
+
+        // Écrire les modifications dans le README.md
+        fs.writeFileSync(readmePath, readmeContent, 'utf8');
+      env:
+        NODE_ENV: production
 
     - name: Commit and push changes
       uses: EndBug/add-and-commit@v9
