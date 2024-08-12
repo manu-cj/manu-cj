@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path'); // Assurez-vous que ce module est importé correctement
 
-const readmePath = path.join(__dirname, '..', 'README.md');
+const readmePath = path.join(__dirname, 'README.md');
 
 // Liste des bibliothèques JavaScript avec descriptions
 const libraries = [
@@ -132,18 +132,28 @@ function getRandomLibrary() {
 
 // Fonction pour mettre à jour le README
 function updateReadme() {
+  if (!fs.existsSync(readmePath)) {
+    console.error('Le fichier README.md est introuvable à l\'emplacement :', readmePath);
+    process.exit(1);
+  }
+
   // Lire le contenu actuel du README
   let content = fs.readFileSync(readmePath, 'utf8');
 
   // Trouver l'ancien bloc de bibliothèque à remplacer
-  const librarySectionPattern = /<!-- START_LIBRARY_SECTION -->([\s\S]*?)<!-- END_LIBRARY_SECTION -->/;
-  let newContent = content.replace(librarySectionPattern, (match, p1) => {
-    // Supprimer l'ancienne bibliothèque
-    const newLibrary = getRandomLibrary();
+  const librarySectionPattern = /<!-- START_LIBRARY_SECTION -->[\s\S]*?<!-- END_LIBRARY_SECTION -->/;
+  const newLibrary = getRandomLibrary();
+  let newContent = content.replace(librarySectionPattern, (match) => {
+    // Remplacer l'ancienne bibliothèque par la nouvelle
     return `<!-- START_LIBRARY_SECTION -->
 - **${newLibrary.name}**: ${newLibrary.description}
 <!-- END_LIBRARY_SECTION -->`;
   });
+
+  // Si aucune section de bibliothèque n'est trouvée, ajoutez-en une nouvelle
+  if (!librarySectionPattern.test(content)) {
+    newContent += `\n<!-- START_LIBRARY_SECTION -->\n- **${newLibrary.name}**: ${newLibrary.description}\n<!-- END_LIBRARY_SECTION -->`;
+  }
 
   // Écrire le nouveau contenu dans le README
   fs.writeFileSync(readmePath, newContent, 'utf8');
