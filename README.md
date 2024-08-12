@@ -89,13 +89,7 @@
 
 <div align="center">## Bibliothèque JavaScript aléatoire
 
-Voici une bibliothèque JavaScript que vous pourriez trouver utile :
-
-**ApexCharts: Une bibliothèque pour créer des graphiques interactifs et modernes.**
- </div>Voici une bibliothèque JavaScript que vous pourriez trouver utile :
-
-**Moralis: Une plateforme pour simplifier le développement Web3 avec des outils prêts à l'emploi.**
-
 <!-- START_LIBRARY_SECTION -->
 - **Highcharts**: Une bibliothèque pour créer des graphiques interactifs pour le web.
 <!-- END_LIBRARY_SECTION -->
+</div>
