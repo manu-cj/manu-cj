@@ -83,7 +83,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **Ethers.js**: Une bibliothèque pour interagir avec Ethereum et ses écosystèmes.
+ **LiveServer**: Un serveur de développement local avec rechargement automatique.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
