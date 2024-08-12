@@ -83,7 +83,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
-- **Ethers.js**: Une bibliothèque pour interagir avec Ethereum et ses écosystèmes.
+ **Ethers.js**: Une bibliothèque pour interagir avec Ethereum et ses écosystèmes.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
