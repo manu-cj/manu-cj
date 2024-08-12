@@ -83,7 +83,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
-- **Koa**: Un framework web pour Node.js conçu pour être un moteur de middleware plus moderne.
+- **Ethers.js**: Une bibliothèque pour interagir avec Ethereum et ses écosystèmes.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
