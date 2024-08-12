@@ -146,7 +146,7 @@ function updateReadme() {
   let newContent = content.replace(librarySectionPattern, (match) => {
     // Remplacer l'ancienne bibliothèque par la nouvelle
     return `<!-- START_LIBRARY_SECTION -->
-- **${newLibrary.name}**: ${newLibrary.description}
+ **${newLibrary.name}**: ${newLibrary.description}
 <!-- END_LIBRARY_SECTION -->`;
   });
 
