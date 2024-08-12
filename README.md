@@ -80,6 +80,13 @@
        <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=007acc&height=120&section=footer"/>
    </a> 
 
+<div align="center"><h3>Bibliothèque JavaScript du jours</h3>
+
+<!-- START_LIBRARY_SECTION -->
+- **Koa**: Un framework web pour Node.js conçu pour être un moteur de middleware plus moderne.
+<!-- END_LIBRARY_SECTION -->
+</div>
+
 <h2 align="center">My activity</h2>
 
 <div align="center">
@@ -87,9 +94,4 @@
 </div>
 
 
-<div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
-<!-- START_LIBRARY_SECTION -->
-- **Koa**: Un framework web pour Node.js conçu pour être un moteur de middleware plus moderne.
-<!-- END_LIBRARY_SECTION -->
-</div>
