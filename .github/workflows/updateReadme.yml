@@ -1,125 +1,101 @@
-name: README
+name: Update README
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Exécuter tous les jours à minuit UTC
+    - cron: '0 0 * * *' # Exécute tous les jours à minuit
+  workflow_dispatch:
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+    - name: Checkout repository
+      uses: actions/checkout@v3
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '14'
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
 
-      - name: Install dependencies
-        run: npm install
+    - name: Install dependencies
+      run: npm install
 
-      - name: Choose a random JavaScript library
-        id: choose-library
-        run: |
-          # Liste des librairies JavaScript (75 librairies)
-          libraries=(
-            "axios - Client HTTP basé sur les promesses pour le navigateur et node.js"
-            "lodash - Utilitaires modernes pour le JavaScript"
-            "moment - Manipulation des dates et des heures"
-            "chart.js - Bibliothèque de graphiques pour le web"
-            "react - Bibliothèque pour construire des interfaces utilisateur"
-            "vue - Framework JavaScript progressif pour créer des interfaces utilisateur"
-            "angular - Framework pour des applications web dynamiques"
-            "d3 - Librairie pour la manipulation des documents basés sur des données"
-            "three.js - Bibliothèque pour créer des graphiques 3D"
-            "next.js - Framework React pour des applications web server-side"
-            "express - Framework web pour Node.js"
-            "redux - Conteneur d'état prévisible pour les applications JavaScript"
-            "rxjs - Bibliothèque pour la programmation réactive avec des observables"
-            "jQuery - Bibliothèque rapide, concise et riche en fonctionnalités"
-            "axios - Client HTTP basé sur les promesses pour le navigateur et node.js"
-            "typescript - Sur-ensemble de JavaScript avec typage statique"
-            "redux-saga - Gestion des effets secondaires avec Redux"
-            "formik - Gestion des formulaires pour React"
-            "chartist - Librairie de graphiques responsive"
-            "highcharts - Librairie de graphiques interactive"
-            "leaflet - Bibliothèque JavaScript pour des cartes interactives"
-            "mapbox-gl-js - Librairie pour des cartes vectorielles"
-            "openlayers - Librairie pour les cartes"
-            "esri-leaflet - Extension pour Leaflet avec ESRI"
-            "moment - Librairie pour les dates et heures"
-            "date-fns - Librairie pour les dates et heures"
-            "luxon - Librairie pour les dates et heures"
-            "dayjs - Librairie pour les dates et heures"
-            "chrono - Librairie pour le parsing des dates"
-            "timeago.js - Librairie pour les dates relatives"
-            "js-joda - Librairie pour les dates et heures"
-            "react-dates - Composants de sélection de date pour React"
-            "react-calendar - Composant calendrier pour React"
-            "fullcalendar - Composant calendrier pour les applications web"
-            "react-datepicker - Sélecteur de date pour React"
-            "flatpickr - Sélecteur de date et heure"
-            "pikaday - Sélecteur de date"
-            "airbnb-react-dates - Composants de sélection de date pour React"
-            "react-day-picker - Composant de calendrier pour React"
-            "react-time-picker - Sélecteur de temps pour React"
-            "react-date-range - Sélecteur de plage de dates pour React"
-            "react-month-picker - Sélecteur de mois pour React"
-            "react-year-picker - Sélecteur d'année pour React"
-            "react-dates - Sélecteur de date pour React"
-            "react-calendar-heatmap - Carte thermique de calendrier pour React"
-            "react-event-calendar - Composant calendrier d'événements pour React"
-            "react-week-calendar - Calendrier hebdomadaire pour React"
-            "react-big-calendar - Calendrier pour React"
-            "react-d3-tree - Arbre D3 pour React"
-            "react-flow - Bibliothèque de diagrammes de flux pour React"
-            "react-graph-vis - Visualisation de graphes pour React"
-            "react-plotly.js - Graphiques interactifs pour React"
-            "react-chartjs-2 - Graphiques pour React"
-            "react-metrics-graphics - Graphiques pour React"
-            "react-data-grid - Tableaux de données pour React"
-            "react-table - Tableaux de données pour React"
-            "react-virtualized - Tableaux et listes pour React"
-            "react-window - Liste virtuelle pour React"
-            "react-query - Gestion des requêtes de données pour React"
-            "react-redux - Intégration de Redux avec React"
-            "redux-thunk - Middleware Redux pour les fonctions asynchrones"
-            "redux-toolkit - Toolkit pour Redux"
-            "react-hooks-form - Gestion des formulaires avec les hooks"
-            "final-form - Gestion des formulaires pour React"
-            "react-final-form - Gestion des formulaires pour React"
-            "react-hook-form - Gestion des formulaires avec les hooks"
-            "react-jsonschema-form - Formulaires basés sur JSON Schema pour React"
-            "react-json-view - Visualiseur de JSON pour React"
-            "react-codemirror2 - Intégration de CodeMirror pour React"
-            "react-ace - Intégration d'ACE pour React"
-            "react-monaco-editor - Intégration de Monaco Editor pour React"
-            "react-summernote - Éditeur de texte WYSIWYG pour React"
-            "react-quill - Éditeur de texte WYSIWYG pour React"
-            "draft-js - Framework pour éditeur de texte pour React"
-            "tinymce - Éditeur de texte WYSIWYG"
-            "ckeditor4 - Éditeur de texte WYSIWYG"
-            "ckeditor5 - Éditeur de texte WYSIWYG"
-            "trumbowyg - Éditeur de texte WYSIWYG"
-            "simplemde - Éditeur Markdown pour le web"
-            "react-mde - Éditeur Markdown pour React"
-            "simplemde-markdown-editor - Éditeur Markdown pour le web"
-            "react-markdown-editor-lite - Éditeur Markdown pour React"
-            "react-markdown - Analyseur Markdown pour React"
-          )
-          # Choisir une librairie au hasard
-          random_library="${libraries[$RANDOM % ${#libraries[@]}]}"
-          echo "random_library=$random_library" >> $GITHUB_ENV
+    - name: Generate random library
+      id: random-library
+      run: |
+        # Dictionnaire des bibliothèques JavaScript avec descriptions
+        declare -A libraries
+        libraries=(
+          ["Lodash"]="Une bibliothèque utilitaire moderne qui facilite le travail avec les tableaux, les objets, et plus encore."
+          ["Axios"]="Une bibliothèque pour faire des requêtes HTTP depuis le navigateur ou Node.js."
+          ["Moment.js"]="Une bibliothèque pour manipuler et formater des dates et heures."
+          ["Day.js"]="Une alternative légère à Moment.js pour manipuler les dates et heures."
+          ["date-fns"]="Une bibliothèque moderne pour manipuler les dates avec une API simple."
+          ["Luxon"]="Une bibliothèque pour gérer les dates et heures, basée sur le module Intl de JavaScript."
+          ["Chrono"]="Une bibliothèque pour l'analyse des dates et heures dans le texte."
+          ["Formik"]="Une bibliothèque pour la gestion des formulaires dans les applications React."
+          ["React Hook Form"]="Une bibliothèque pour la gestion des formulaires dans React, avec une API simple et une faible consommation de ressources."
+          ["Final Form"]="Une bibliothèque pour la gestion des formulaires avec une API simple et extensible."
+          ["React Final Form"]="Une version de Final Form pour React."
+          ["React JSON Schema Form"]="Une bibliothèque pour générer des formulaires à partir de schémas JSON."
+          ["Monaco Editor"]="L'éditeur de code de Microsoft, utilisé dans Visual Studio Code."
+          ["CodeMirror"]="Un éditeur de texte adaptable pour le navigateur, avec de nombreuses fonctionnalités."
+          ["Ace Editor"]="Un éditeur de code qui peut être intégré dans les applications web."
+          ["Draft.js"]="Une bibliothèque pour la gestion des éditeurs de texte enrichi dans React."
+          ["Quill"]="Un éditeur de texte riche avec une API extensible."
+          ["TinyMCE"]="Un éditeur de texte riche pour le web, qui supporte les plugins et la personnalisation."
+          ["SimpleMDE"]="Un éditeur Markdown simple et extensible pour le web."
+          ["Mark Text"]="Un éditeur Markdown open-source avec une interface utilisateur moderne."
+          ["Chart.js"]="Une bibliothèque pour créer des graphiques interactifs en JavaScript."
+          ["D3.js"]="Une bibliothèque pour manipuler des documents basés sur des données avec HTML, SVG, et CSS."
+          ["Highcharts"]="Une bibliothèque pour créer des graphiques interactifs et dynamiques."
+          ["ApexCharts"]="Une bibliothèque de graphiques modernes avec une API simple."
+          ["ECharts"]="Une bibliothèque de graphiques puissante et flexible pour le web."
+          ["Plotly.js"]="Une bibliothèque pour créer des graphiques interactifs et de haute qualité."
+          ["Three.js"]="Une bibliothèque pour créer et afficher des graphiques 3D en JavaScript."
+          ["jQuery"]="Une bibliothèque populaire pour simplifier le développement JavaScript."
+          ["Preact"]="Une bibliothèque pour construire des interfaces utilisateur avec une API similaire à React."
+          ["Backbone.js"]="Une bibliothèque qui fournit une structure aux applications web en utilisant des modèles avec une liaison clé-valeur."
+          ["Ember.js"]="Un framework JavaScript ambitieux pour créer des applications web."
+          ["Mithril"]="Un framework JavaScript léger pour construire des interfaces utilisateur."
+          ["Aurelia"]="Un framework JavaScript moderne pour construire des applications web."
+          ["Webpack"]="Un module bundler pour les applications JavaScript modernes."
+          ["Rollup"]="Un module bundler pour les projets JavaScript qui se concentre sur la sortie optimisée."
+          ["Parcel"]="Un bundler web zéro configuration qui supporte de nombreux formats de fichiers."
+          ["Vite"]="Un outil de construction rapide pour les projets modernes avec une configuration minimale."
+          ["ESLint"]="Un linter pour identifier et corriger les problèmes dans le code JavaScript."
+          ["Prettier"]="Un formateur de code pour garder un style de code cohérent."
+          ["Apollo Client"]="Une bibliothèque pour la gestion des données GraphQL dans les applications JavaScript."
+          ["Fetch API"]="Une API moderne pour faire des requêtes HTTP dans le navigateur."
+          ["Superagent"]="Une bibliothèque légère pour faire des requêtes HTTP."
+          ["Express"]="Un framework web pour Node.js qui facilite la création d'applications web et APIs."
+          ["NestJS"]="Un framework pour construire des applications serveur avec Node.js, basé sur TypeScript."
+          ["Koa"]="Un framework web pour Node.js conçu par les créateurs d'Express."
+          ["RxJS"]="Une bibliothèque pour la programmation réactive en JavaScript."
+          ["Redux"]="Une bibliothèque pour la gestion d'état dans les applications JavaScript."
+          ["Redux-Saga"]="Une bibliothèque pour gérer les effets secondaires dans Redux."
+          ["Immer"]="Une bibliothèque pour manipuler les états immuables dans JavaScript."
+          ["Zustand"]="Une bibliothèque pour la gestion d'état simple et flexible dans les applications React."
+          ["MobX"]="Une bibliothèque pour la gestion d'état réactive et transparente."
+        )
+        
+        # Choisir une bibliothèque aléatoire
+        library_names=("${!libraries[@]}")
+        random_library=${library_names[$((RANDOM % ${#library_names[@]}))]}
+        random_description=${libraries[$random_library]}
+        
+        echo "random_library=${random_library}" >> $GITHUB_ENV
+        echo "random_description=${random_description}" >> $GITHUB_ENV
 
-      - name: Update README.md
-        run: |
-          # Variables
-          RANDOM_LIBRARY="${{ env.random_library }}"
+    - name: Update README.md
+      run: |
+        # Variables
+        RANDOM_LIBRARY=${{ env.random_library }}
+        RANDOM_DESCRIPTION=${{ env.random_description }}
 
-          # Ajouter ou mettre à jour le contenu du README.md
-          cat <<EOL > README.md
+        # Contenu du README
+        cat > README.md <<EOF
 <meta name="description" content="GitHub profile in blue color">
 <meta name="keywords" content="Full Stack Developer, GitHub Stats, GitHub Profile, JavaScript, TypeScript, React, Nodejs, HTML5, CSS3, PHP, MySQL, MongoDB"/>
 
@@ -210,5 +186,14 @@ jobs:
 
 <p align="center">Here is a random JavaScript library that you might find useful:</p>
 
-<p align="center"><b>${RANDOM_LIBRARY}</b></p>
-EOL
+<p align="center"><b>${{ env.random_library }}</b></p>
+<p align="center">${{ env.random_description }}</p>
+EOF
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name 'GitHub Actions'
+        git config --global user.email 'actions@github.com'
+        git add README.md
+        git commit -m 'Update README with a random JavaScript library and its description'
+        git push
