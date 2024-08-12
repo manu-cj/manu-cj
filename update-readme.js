@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = 'README.md';
 
+const readmePath = path.join(__dirname, '..', 'README.md');
 // Liste des bibliothèques JavaScript avec descriptions
 const libraries = [
   { name: "Axios", description: "Une bibliothèque pour faire des requêtes HTTP." },
@@ -122,23 +123,36 @@ const libraries = [
   { name: "Math.js", description: "Une bibliothèque pour les calculs mathématiques avancés en JavaScript." }
 ];
 
-// Choisir une bibliothèque aléatoire
-const randomIndex = Math.floor(Math.random() * libraries.length);
-const randomLibrary = libraries[randomIndex];
-
-// Lire le README.md actuel
-const readmePath = path;
-let readmeContent = fs.readFileSync(readmePath, 'utf8');
-
-// Créer la section à ajouter
-const newSection = `<div align="center">## Bibliothèque JavaScript aléatoire\n\nVoici une bibliothèque JavaScript que vous pourriez trouver utile :\n\n**${randomLibrary.name}: ${randomLibrary.description}**\n </div>`;
-
-// Ajouter ou remplacer la section dans le README
-if (readmeContent.includes('## Bibliothèque JavaScript aléatoire')) {
-  readmeContent = readmeContent.replace(/## Bibliothèque JavaScript aléatoire.*?(\n\n|$)/s, newSection);
-} else {
-  readmeContent += `\n\n${newSection}`;
+// Fonction pour sélectionner une bibliothèque aléatoire
+function getRandomLibrary() {
+  const index = Math.floor(Math.random() * libraries.length);
+  return libraries[index];
 }
 
-// Écrire les modifications dans le README.md
-fs.writeFileSync(readmePath, readmeContent, 'utf8');
+// Fonction pour mettre à jour le README
+function updateReadme() {
+  // Lire le contenu actuel du README
+  let content = fs.readFileSync(readmePath, 'utf8');
+
+  // Trouver l'ancien bloc de bibliothèque à remplacer
+  const librarySectionPattern = /<!-- START_LIBRARY_SECTION -->([\s\S]*?)<!-- END_LIBRARY_SECTION -->/;
+  let newContent = content.replace(librarySectionPattern, (match, p1) => {
+    // Supprimer l'ancienne bibliothèque
+    const newLibrary = getRandomLibrary();
+    return `<!-- START_LIBRARY_SECTION -->
+- **${newLibrary.name}**: ${newLibrary.description}
+<!-- END_LIBRARY_SECTION -->`;
+  });
+
+  // Si la section de bibliothèque n'existe pas encore, l'ajouter
+  if (!librarySectionPattern.test(content)) {
+    const newLibrary = getRandomLibrary();
+    newContent += `\n\n<!-- START_LIBRARY_SECTION -->\n- **${newLibrary.name}**: ${newLibrary.description}\n<!-- END_LIBRARY_SECTION -->`;
+  }
+
+  // Écrire les modifications dans le README
+  fs.writeFileSync(readmePath, newContent, 'utf8');
+}
+
+// Exécuter la mise à jour
+updateReadme();
