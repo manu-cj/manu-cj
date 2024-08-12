@@ -2,7 +2,7 @@ name: Update README
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Exécute tous les jours à minuit
+    - cron: '0 0 * * *'  # Exécute tous les jours à minuit UTC
   workflow_dispatch:
 
 jobs:
@@ -13,110 +13,133 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: Generate random library
-      id: random-library
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Generate random JavaScript library
+      id: generate_library
       run: |
-        declare -A libraries
+        # Liste des bibliothèques avec descriptions
         libraries=(
-          ["Lodash"]="A modern utility library for working with arrays, objects, etc."
-          ["Axios"]="A promise-based HTTP client for the browser and Node.js."
-          ["Moment.js"]="A library for parsing, validating, manipulating, and formatting dates."
-          ["Day.js"]="A lightweight alternative to Moment.js for date manipulation."
-          ["date-fns"]="Modern JavaScript date utility library with a simple API."
-          ["Luxon"]="A library for working with dates and times, built on top of the Intl API."
-          ["Chrono"]="A natural language date parser in JavaScript."
-          ["Formik"]="A library for managing form state and validation in React."
-          ["React Hook Form"]="A performant, flexible, and extensible form library for React."
-          ["Final Form"]="A library for managing form state with a simple API."
-          ["React Final Form"]="A React binding for Final Form."
-          ["React JSON Schema Form"]="A library for generating forms from JSON schemas."
-          ["Monaco Editor"]="The code editor used in Visual Studio Code."
-          ["CodeMirror"]="A versatile text editor implemented in JavaScript."
-          ["Ace Editor"]="A code editor written in JavaScript."
-          ["Draft.js"]="A framework for building rich text editors in React."
-          ["Quill"]="A modern rich text editor with a clean API."
-          ["TinyMCE"]="A powerful rich text editor that is customizable and extensible."
-          ["SimpleMDE"]="A simple, embeddable Markdown editor with a focus on usability."
-          ["Mark Text"]="A minimalist Markdown editor with a focus on simplicity."
-          ["Chart.js"]="A library for creating interactive charts and graphs."
-          ["D3.js"]="A JavaScript library for producing dynamic, interactive data visualizations."
-          ["Highcharts"]="A charting library that makes interactive charts easy to add."
-          ["ApexCharts"]="A modern charting library that is easy to use."
-          ["ECharts"]="A powerful, interactive charting library."
-          ["Plotly.js"]="A graphing library that supports a wide range of chart types."
-          ["Three.js"]="A JavaScript library for creating 3D graphics in the browser."
-          ["jQuery"]="A fast, small, and feature-rich JavaScript library."
-          ["Preact"]="A fast 3kB alternative to React with the same modern API."
-          ["Backbone.js"]="Provides the minimal structure needed for web applications."
-          ["Ember.js"]="An opinionated framework for building ambitious web applications."
-          ["Mithril"]="A modern client-side JavaScript framework for building Single Page Applications."
-          ["Aurelia"]="A modern framework for building powerful applications."
-          ["Webpack"]="A module bundler for modern JavaScript applications."
-          ["Rollup"]="A module bundler for JavaScript that compiles small pieces of code into a larger piece."
-          ["Parcel"]="A zero-configuration web application bundler."
-          ["Vite"]="A next-generation frontend tooling with a focus on speed."
-          ["ESLint"]="A tool for identifying and fixing problems in JavaScript code."
-          ["Prettier"]="An opinionated code formatter that enforces a consistent style."
-          ["Apollo Client"]="A comprehensive state management library for JavaScript that enables you to manage both local and remote data with GraphQL."
-          ["Fetch API"]="A modern replacement for XMLHttpRequest to make HTTP requests."
-          ["Superagent"]="A small progressive HTTP request library."
-          ["Express"]="A fast, unopinionated, minimalist web framework for Node.js."
-          ["NestJS"]="A framework for building efficient, reliable, and scalable server-side applications."
-          ["Koa"]="A new web framework designed by the team behind Express."
-          ["RxJS"]="A library for reactive programming using observables."
-          ["Redux"]="A predictable state container for JavaScript apps."
-          ["Redux-Saga"]="A library for managing side effects in Redux applications."
-          ["Immer"]="A library for working with immutable state in a more convenient way."
-          ["Zustand"]="A small, fast state management library for React."
-          ["MobX"]="A library that makes state management simple and scalable by transparently applying functional reactive programming."
+          "Axios: Une bibliothèque pour faire des requêtes HTTP."
+          "Lodash: Une bibliothèque utilitaire qui fournit des fonctions pour des tâches courantes."
+          "Moment.js: Une bibliothèque pour la manipulation et la validation des dates."
+          "jQuery: Une bibliothèque rapide, petite et riche en fonctionnalités pour JavaScript."
+          "D3.js: Une bibliothèque pour créer des graphiques dynamiques et interactifs."
+          "Underscore.js: Une bibliothèque qui fournit des utilitaires pour le JavaScript."
+          "Chart.js: Une bibliothèque pour créer des graphiques avec JavaScript."
+          "Three.js: Une bibliothèque pour créer et afficher des graphiques 3D."
+          "RxJS: Une bibliothèque pour la programmation réactive avec des observables."
+          "Socket.io: Une bibliothèque pour les communications en temps réel entre le client et le serveur."
+          "Backbone.js: Une bibliothèque qui fournit le modèle MVC pour JavaScript."
+          "Recharts: Une bibliothèque de graphiques pour React."
+          "Day.js: Une bibliothèque de manipulation de dates alternative à Moment.js."
+          "Puppeteer: Une bibliothèque pour le contrôle de Chrome via l'API DevTools."
+          "Zustand: Une bibliothèque de gestion d'état pour React."
+          "Lottie: Une bibliothèque pour l'animation basée sur des fichiers JSON."
+          "Cypress: Une bibliothèque pour les tests end-to-end."
+          "Eslint: Un outil pour l'analyse de code JavaScript."
+          "Prettier: Un formateur de code JavaScript."
+          "VeeValidate: Une bibliothèque pour la validation des formulaires en Vue.js."
+          "Jest: Un framework de test pour JavaScript."
+          "Mocha: Un framework de test JavaScript pour Node.js et le navigateur."
+          "Chai: Une bibliothèque d'assertion pour les tests JavaScript."
+          "Jasmine: Un framework de test comportemental pour JavaScript."
+          "Sinon: Une bibliothèque pour les spies, mocks, et stubs en JavaScript."
+          "Parallax.js: Une bibliothèque pour créer des effets de parallaxe."
+          "Tween.js: Une bibliothèque pour des animations JavaScript."
+          "Karma: Un test runner pour JavaScript."
+          "Webpack: Un bundler pour JavaScript."
+          "Rollup: Un bundler de module JavaScript."
+          "Parcel: Un bundler de modules JavaScript rapide et zéro configuration."
+          "Gulp: Un toolkit pour automatiser des tâches dans le développement web."
+          "Babel: Un compilateur JavaScript."
+          "React Query: Une bibliothèque pour la gestion de l'état serveur dans React."
+          "React Hook Form: Une bibliothèque pour la gestion des formulaires dans React."
+          "Redux: Une bibliothèque pour la gestion de l'état de l'application."
+          "MobX: Une bibliothèque pour la gestion de l'état réactif."
+          "Formik: Une bibliothèque pour la gestion des formulaires en React."
+          "Recoil: Une bibliothèque pour la gestion de l'état dans React."
+          "Tailwind CSS: Un framework CSS utilitaire."
+          "Bootstrap: Un framework CSS pour le développement de sites web réactifs."
+          "Foundation: Un framework CSS pour le développement web."
+          "Materialize: Un framework CSS basé sur les principes de Material Design."
+          "Bulma: Un framework CSS moderne basé sur Flexbox."
+          "Ant Design: Un framework de design pour les applications React."
+          "Semantic UI: Un framework CSS pour des applications web."
+          "Sass: Un préprocesseur CSS."
+          "Less: Un préprocesseur CSS."
+          "Stylus: Un préprocesseur CSS."
+          "Pug: Un moteur de templates pour Node.js."
+          "EJS: Un moteur de templates JavaScript."
+          "Handlebars: Un moteur de templates JavaScript."
+          "Mustache: Un moteur de templates logicless."
+          "Nunjucks: Un moteur de templates pour JavaScript."
+          "Mocha: Un framework de test JavaScript."
+          "Jest: Un framework de test JavaScript."
+          "Chai: Une bibliothèque d'assertion pour les tests JavaScript."
+          "Karma: Un test runner pour JavaScript."
+          "Supertest: Une bibliothèque pour tester les APIs HTTP."
+          "Sinon: Une bibliothèque pour les mocks et spies."
+          "Jasmine: Un framework de test comportemental pour JavaScript."
+          "React Native: Un framework pour construire des applications mobiles en JavaScript."
+          "Expo: Un toolkit pour React Native."
+          "NativeScript: Un framework pour construire des applications mobiles en JavaScript."
+          "Ionic: Un framework pour construire des applications mobiles hybrides."
+          "Electron: Un framework pour créer des applications de bureau avec JavaScript."
+          "NW.js: Un framework pour les applications de bureau JavaScript."
+          "Cordova: Un framework pour construire des applications mobiles hybrides."
+          "Appcelerator Titanium: Un framework pour construire des applications mobiles."
+          "Capacitor: Un framework pour construire des applications mobiles avec des technologies web."
+          "NestJS: Un framework pour construire des applications server-side en TypeScript."
+          "Hapi.js: Un framework pour construire des applications web et services en Node.js."
+          "Sails.js: Un framework MVC pour Node.js."
+          "LoopBack: Un framework pour créer des APIs REST."
+          "Koa: Un framework web pour Node.js."
+          "Express: Un framework web pour Node.js."
+          "Fastify: Un framework web rapide pour Node.js."
+          "AdonisJS: Un framework MVC pour Node.js."
+          "Meteor: Un framework full-stack pour construire des applications web en JavaScript."
+          "Feathers: Un framework pour créer des applications en temps réel."
+          "Next.js: Un framework React pour le rendu côté serveur."
+          "Nuxt.js: Un framework Vue.js pour le rendu côté serveur."
+          "Gatsby: Un générateur de sites statiques basé sur React."
+          "Grav: Un CMS basé sur des fichiers plats."
+          "Jekyll: Un générateur de sites statiques pour GitHub Pages."
+          "Hugo: Un générateur de sites statiques rapide."
+          "Hexo: Un générateur de blogs statiques."
+          "11ty: Un générateur de sites statiques."
+          "Eleventy: Un générateur de sites statiques."
         )
 
-        library_names=("${!libraries[@]}")
-        random_library=${library_names[$((RANDOM % ${#library_names[@]}))]}
-        random_description=${libraries[$random_library]}
+        # Choisir une bibliothèque aléatoire
+        random_index=$((RANDOM % ${#libraries[@]}))
+        random_library=${libraries[$random_index]}
 
-        echo "RANDOM_LIBRARY=${random_library}" >> $GITHUB_ENV
-        echo "RANDOM_DESCRIPTION=${random_description}" >> $GITHUB_ENV
+        echo "random_library=$random_library" >> $GITHUB_ENV
 
-    - name: Update README.md
+    - name: Update README
       run: |
-        cat <<EOF > README.md
-# My GitHub Profile
+        # Lire le contenu actuel du README
+        content=$(cat README.md)
+        
+        # Écrire le nouveau contenu dans le README
+        echo "$content" > README.md
+        echo '## Activité' >> README.md
+        echo '![GitHub Activity](https://github.com/manu-cj/manu-cj/blob/output/github-contribution-grid-snake-dark.svg)' >> README.md
+        echo '' >> README.md
+        echo '## Bibliothèque JavaScript aléatoire' >> README.md
+        echo 'Voici une bibliothèque JavaScript que vous pourriez trouver utile :' >> README.md
+        echo '**${{ env.random_library }}**' >> README.md
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=007acc&height=120&section=header)
-
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=1BF7B3&size=35&center=true&weight=700&size=40&pause=1500&&vCenter=true&width=1000&lines=Hi,+I'm+Manu;I'm+a+Full+Stack+Js+Developer;Be+Welcome!+😁)
-
-## Skills
-
-### Frontend
-![Frontend](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=40&duration=2000&pause=99000&center=true&vCenter=truerandom=false&reapeat=false&width=435&height=100&lines=Frontend)
-![Frontend Skills](https://skillicons.dev/icons?i=html,sass,js,vue,react,ts)
-
-### Backend
-![Backend](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=40&duration=2000&pause=99000&center=true&vCenter=truerandom=false&reapeat=false&width=435&height=100&lines=Backend)
-![Backend Skills](https://skillicons.dev/icons?i=php,docker,mysql)
-
-### Other
-![Other](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=40&duration=2000&pause=99000&center=true&vCenter=truerandom=false&reapeat=false&width=435&height=100&lines=Other)
-![Other Skills](https://skillicons.dev/icons?i=git,py,linux)
-
-### I learn
-![I learn](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&duration=1000&pause=99000&center=true&vCenter=truerandom=false&reapeat=false&width=435&height=100&lines=I+learn)
-![Learning Skills](https://skillicons.dev/icons?i=svelte,angular,nodejs,mongodb)
-
-## GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=manu-cj&show_icons=true&title_color=007acc&icon_color=007acc&text_color=007acc&bg_color=00000000&border_radius=15&border_color=00000000&count_private=true&hide=contribs&hide_rank=true)
-![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=manu-cj&langs_count=6&layout=compact&title_color=007acc&icon_color=007acc&text_color=007acc&bg_color=00000000&border_radius=15&border_color=00000000&hide=css,html,hack,Dockerfile,scss)
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=manu-cj&theme=react&langs_count=6&layout=compact&title_color=007acc&icon_color=007acc&text_color=007acc&bg_color=00000000&border_radius=15&border_color=00000000&hide=jupyter%20notebook)
-
-## My activity
-![My activity](https://github.com/manu-cj/manu-cj/blob/output/github-contribution-grid-snake-dark.svg)
-
-## Random JavaScript Library
-Here is a random JavaScript library that you might find useful:
-
-**${{ env.RANDOM_LIBRARY }}**
-
-${{ env.RANDOM_DESCRIPTION }}
-EOF
+    - name: Commit and push changes
+      uses: EndBug/add-and-commit@v9
+      with:
+        author_name: github-actions
+        author_email: github-actions@github.com
+        message: 'Update README with a random JavaScript library'
