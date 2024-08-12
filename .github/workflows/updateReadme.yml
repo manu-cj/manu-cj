@@ -16,63 +16,61 @@ jobs:
     - name: Generate random library
       id: random-library
       run: |
-        # Dictionnaire des bibliothèques JavaScript avec descriptions
         declare -A libraries
         libraries=(
-          ["Lodash"]="Une bibliothèque utilitaire moderne qui facilite le travail avec les tableaux, les objets, et plus encore."
-          ["Axios"]="Une bibliothèque pour faire des requêtes HTTP depuis le navigateur ou Node.js."
-          ["Moment.js"]="Une bibliothèque pour manipuler et formater des dates et heures."
-          ["Day.js"]="Une alternative légère à Moment.js pour manipuler les dates et heures."
-          ["date-fns"]="Une bibliothèque moderne pour manipuler les dates avec une API simple."
-          ["Luxon"]="Une bibliothèque pour gérer les dates et heures, basée sur le module Intl de JavaScript."
-          ["Chrono"]="Une bibliothèque pour l'analyse des dates et heures dans le texte."
-          ["Formik"]="Une bibliothèque pour la gestion des formulaires dans les applications React."
-          ["React Hook Form"]="Une bibliothèque pour la gestion des formulaires dans React, avec une API simple et une faible consommation de ressources."
-          ["Final Form"]="Une bibliothèque pour la gestion des formulaires avec une API simple et extensible."
-          ["React Final Form"]="Une version de Final Form pour React."
-          ["React JSON Schema Form"]="Une bibliothèque pour générer des formulaires à partir de schémas JSON."
-          ["Monaco Editor"]="L'éditeur de code de Microsoft, utilisé dans Visual Studio Code."
-          ["CodeMirror"]="Un éditeur de texte adaptable pour le navigateur, avec de nombreuses fonctionnalités."
-          ["Ace Editor"]="Un éditeur de code qui peut être intégré dans les applications web."
-          ["Draft.js"]="Une bibliothèque pour la gestion des éditeurs de texte enrichi dans React."
-          ["Quill"]="Un éditeur de texte riche avec une API extensible."
-          ["TinyMCE"]="Un éditeur de texte riche pour le web, qui supporte les plugins et la personnalisation."
-          ["SimpleMDE"]="Un éditeur Markdown simple et extensible pour le web."
-          ["Mark Text"]="Un éditeur Markdown open-source avec une interface utilisateur moderne."
-          ["Chart.js"]="Une bibliothèque pour créer des graphiques interactifs en JavaScript."
-          ["D3.js"]="Une bibliothèque pour manipuler des documents basés sur des données avec HTML, SVG, et CSS."
-          ["Highcharts"]="Une bibliothèque pour créer des graphiques interactifs et dynamiques."
-          ["ApexCharts"]="Une bibliothèque de graphiques modernes avec une API simple."
-          ["ECharts"]="Une bibliothèque de graphiques puissante et flexible pour le web."
-          ["Plotly.js"]="Une bibliothèque pour créer des graphiques interactifs et de haute qualité."
-          ["Three.js"]="Une bibliothèque pour créer et afficher des graphiques 3D en JavaScript."
-          ["jQuery"]="Une bibliothèque populaire pour simplifier le développement JavaScript."
-          ["Preact"]="Une bibliothèque pour construire des interfaces utilisateur avec une API similaire à React."
-          ["Backbone.js"]="Une bibliothèque qui fournit une structure aux applications web en utilisant des modèles avec une liaison clé-valeur."
-          ["Ember.js"]="Un framework JavaScript ambitieux pour créer des applications web."
-          ["Mithril"]="Un framework JavaScript léger pour construire des interfaces utilisateur."
-          ["Aurelia"]="Un framework JavaScript moderne pour construire des applications web."
-          ["Webpack"]="Un module bundler pour les applications JavaScript modernes."
-          ["Rollup"]="Un module bundler pour les projets JavaScript qui se concentre sur la sortie optimisée."
-          ["Parcel"]="Un bundler web zéro configuration qui supporte de nombreux formats de fichiers."
-          ["Vite"]="Un outil de construction rapide pour les projets modernes avec une configuration minimale."
-          ["ESLint"]="Un linter pour identifier et corriger les problèmes dans le code JavaScript."
-          ["Prettier"]="Un formateur de code pour garder un style de code cohérent."
-          ["Apollo Client"]="Une bibliothèque pour la gestion des données GraphQL dans les applications JavaScript."
-          ["Fetch API"]="Une API moderne pour faire des requêtes HTTP dans le navigateur."
-          ["Superagent"]="Une bibliothèque légère pour faire des requêtes HTTP."
-          ["Express"]="Un framework web pour Node.js qui facilite la création d'applications web et APIs."
-          ["NestJS"]="Un framework pour construire des applications serveur avec Node.js, basé sur TypeScript."
-          ["Koa"]="Un framework web pour Node.js conçu par les créateurs d'Express."
-          ["RxJS"]="Une bibliothèque pour la programmation réactive en JavaScript."
-          ["Redux"]="Une bibliothèque pour la gestion d'état dans les applications JavaScript."
-          ["Redux-Saga"]="Une bibliothèque pour gérer les effets secondaires dans Redux."
-          ["Immer"]="Une bibliothèque pour manipuler les états immuables dans JavaScript."
-          ["Zustand"]="Une bibliothèque pour la gestion d'état simple et flexible dans les applications React."
-          ["MobX"]="Une bibliothèque pour la gestion d'état réactive et transparente."
+          ["Lodash"]="A modern utility library for working with arrays, objects, etc."
+          ["Axios"]="A promise-based HTTP client for the browser and Node.js."
+          ["Moment.js"]="A library for parsing, validating, manipulating, and formatting dates."
+          ["Day.js"]="A lightweight alternative to Moment.js for date manipulation."
+          ["date-fns"]="Modern JavaScript date utility library with a simple API."
+          ["Luxon"]="A library for working with dates and times, built on top of the Intl API."
+          ["Chrono"]="A natural language date parser in JavaScript."
+          ["Formik"]="A library for managing form state and validation in React."
+          ["React Hook Form"]="A performant, flexible, and extensible form library for React."
+          ["Final Form"]="A library for managing form state with a simple API."
+          ["React Final Form"]="A React binding for Final Form."
+          ["React JSON Schema Form"]="A library for generating forms from JSON schemas."
+          ["Monaco Editor"]="The code editor used in Visual Studio Code."
+          ["CodeMirror"]="A versatile text editor implemented in JavaScript."
+          ["Ace Editor"]="A code editor written in JavaScript."
+          ["Draft.js"]="A framework for building rich text editors in React."
+          ["Quill"]="A modern rich text editor with a clean API."
+          ["TinyMCE"]="A powerful rich text editor that is customizable and extensible."
+          ["SimpleMDE"]="A simple, embeddable Markdown editor with a focus on usability."
+          ["Mark Text"]="A minimalist Markdown editor with a focus on simplicity."
+          ["Chart.js"]="A library for creating interactive charts and graphs."
+          ["D3.js"]="A JavaScript library for producing dynamic, interactive data visualizations."
+          ["Highcharts"]="A charting library that makes interactive charts easy to add."
+          ["ApexCharts"]="A modern charting library that is easy to use."
+          ["ECharts"]="A powerful, interactive charting library."
+          ["Plotly.js"]="A graphing library that supports a wide range of chart types."
+          ["Three.js"]="A JavaScript library for creating 3D graphics in the browser."
+          ["jQuery"]="A fast, small, and feature-rich JavaScript library."
+          ["Preact"]="A fast 3kB alternative to React with the same modern API."
+          ["Backbone.js"]="Provides the minimal structure needed for web applications."
+          ["Ember.js"]="An opinionated framework for building ambitious web applications."
+          ["Mithril"]="A modern client-side JavaScript framework for building Single Page Applications."
+          ["Aurelia"]="A modern framework for building powerful applications."
+          ["Webpack"]="A module bundler for modern JavaScript applications."
+          ["Rollup"]="A module bundler for JavaScript that compiles small pieces of code into a larger piece."
+          ["Parcel"]="A zero-configuration web application bundler."
+          ["Vite"]="A next-generation frontend tooling with a focus on speed."
+          ["ESLint"]="A tool for identifying and fixing problems in JavaScript code."
+          ["Prettier"]="An opinionated code formatter that enforces a consistent style."
+          ["Apollo Client"]="A comprehensive state management library for JavaScript that enables you to manage both local and remote data with GraphQL."
+          ["Fetch API"]="A modern replacement for XMLHttpRequest to make HTTP requests."
+          ["Superagent"]="A small progressive HTTP request library."
+          ["Express"]="A fast, unopinionated, minimalist web framework for Node.js."
+          ["NestJS"]="A framework for building efficient, reliable, and scalable server-side applications."
+          ["Koa"]="A new web framework designed by the team behind Express."
+          ["RxJS"]="A library for reactive programming using observables."
+          ["Redux"]="A predictable state container for JavaScript apps."
+          ["Redux-Saga"]="A library for managing side effects in Redux applications."
+          ["Immer"]="A library for working with immutable state in a more convenient way."
+          ["Zustand"]="A small, fast state management library for React."
+          ["MobX"]="A library that makes state management simple and scalable by transparently applying functional reactive programming."
         )
 
-        # Choisir une bibliothèque aléatoire
         library_names=("${!libraries[@]}")
         random_library=${library_names[$((RANDOM % ${#library_names[@]}))]}
         random_description=${libraries[$random_library]}
@@ -82,11 +80,6 @@ jobs:
 
     - name: Update README.md
       run: |
-        # Variables
-        RANDOM_LIBRARY=${{ env.RANDOM_LIBRARY }}
-        RANDOM_DESCRIPTION=${{ env.RANDOM_DESCRIPTION }}
-
-        # Créer ou écraser le README.md avec le contenu mis à jour
         cat <<EOF > README.md
 # My GitHub Profile
 
@@ -123,7 +116,7 @@ jobs:
 ## Random JavaScript Library
 Here is a random JavaScript library that you might find useful:
 
-**${RANDOM_LIBRARY}**
+**${{ env.RANDOM_LIBRARY }}**
 
-${RANDOM_DESCRIPTION}
+${{ env.RANDOM_DESCRIPTION }}
 EOF
