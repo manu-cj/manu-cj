@@ -1,62 +1,125 @@
-name: Update README.md with Random Library
+name: Update README
 
 on:
   schedule:
     - cron: '0 0 * * *' # Exécuter tous les jours à minuit UTC
-  workflow_dispatch:
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '18'
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '14'
 
-    - name: Install dependencies
-      run: npm install
+      - name: Install dependencies
+        run: npm install
 
-    - name: Update README.md with a random library
-      run: |
-        # Define a list of libraries
-        libraries=(
-          "jQuery - Library that simplifies HTML document traversal and manipulation, event handling, and animation."
-          "React - Library for building user interfaces."
-          "Lodash - Utility library that provides modular methods for common programming tasks."
-          "Moment.js - Library for parsing, validating, manipulating, and formatting dates."
-          "Axios - Promise-based HTTP client for making requests."
-          "Three.js - Library for creating 3D graphics on the web."
-          "D3.js - Library for producing dynamic, interactive data visualizations."
-          "Anime.js - JavaScript animation library with a simple API."
-          "Chart.js - Simple yet flexible JavaScript charting library."
-          "GrapesJS - Open-source web builder framework."
-          "GreenSock (GSAP) - Library for high-performance animations."
-          "Redux - Library for managing and centralizing application state."
-          "Vuex - State management pattern + library for Vue.js applications."
-          "Express - Web application framework for Node.js."
-          "Socket.io - Library for real-time web applications."
-          "PixiJS - 2D rendering library for the web."
-          "HandBrake.js - JavaScript library for video encoding."
-          "Alpine.js - Minimal framework for composing JavaScript behavior in your HTML."
-          "Popper.js - Library for managing poppers (tooltips, popovers)."
-          "Jest - JavaScript testing framework."
-          "Prettier - Code formatter for consistent style."
-          "TypeScript - Superset of JavaScript with static types."
-          "Webpack - Module bundler for JavaScript applications."
-          "Parcel - Blazing fast, zero configuration web application bundler."
-          "Gulp - Toolkit for automating time-consuming tasks in your development workflow."
-        )
-        
-        # Choose a random library from the list
-        random_library=${libraries[$((RANDOM % ${#libraries[@]}))]}
-        
-        # Generate the README.md content with the random library
-        cat <<EOF > README.md
+      - name: Choose a random JavaScript library
+        id: choose-library
+        run: |
+          # Liste des librairies JavaScript (75 librairies)
+          libraries=(
+            "axios - Client HTTP basé sur les promesses pour le navigateur et node.js"
+            "lodash - Utilitaires modernes pour le JavaScript"
+            "moment - Manipulation des dates et des heures"
+            "chart.js - Bibliothèque de graphiques pour le web"
+            "react - Bibliothèque pour construire des interfaces utilisateur"
+            "vue - Framework JavaScript progressif pour créer des interfaces utilisateur"
+            "angular - Framework pour des applications web dynamiques"
+            "d3 - Librairie pour la manipulation des documents basés sur des données"
+            "three.js - Bibliothèque pour créer des graphiques 3D"
+            "next.js - Framework React pour des applications web server-side"
+            "express - Framework web pour Node.js"
+            "redux - Conteneur d'état prévisible pour les applications JavaScript"
+            "rxjs - Bibliothèque pour la programmation réactive avec des observables"
+            "jQuery - Bibliothèque rapide, concise et riche en fonctionnalités"
+            "axios - Client HTTP basé sur les promesses pour le navigateur et node.js"
+            "typescript - Sur-ensemble de JavaScript avec typage statique"
+            "redux-saga - Gestion des effets secondaires avec Redux"
+            "formik - Gestion des formulaires pour React"
+            "chartist - Librairie de graphiques responsive"
+            "highcharts - Librairie de graphiques interactive"
+            "leaflet - Bibliothèque JavaScript pour des cartes interactives"
+            "mapbox-gl-js - Librairie pour des cartes vectorielles"
+            "openlayers - Librairie pour les cartes"
+            "esri-leaflet - Extension pour Leaflet avec ESRI"
+            "moment - Librairie pour les dates et heures"
+            "date-fns - Librairie pour les dates et heures"
+            "luxon - Librairie pour les dates et heures"
+            "dayjs - Librairie pour les dates et heures"
+            "chrono - Librairie pour le parsing des dates"
+            "timeago.js - Librairie pour les dates relatives"
+            "js-joda - Librairie pour les dates et heures"
+            "react-dates - Composants de sélection de date pour React"
+            "react-calendar - Composant calendrier pour React"
+            "fullcalendar - Composant calendrier pour les applications web"
+            "react-datepicker - Sélecteur de date pour React"
+            "flatpickr - Sélecteur de date et heure"
+            "pikaday - Sélecteur de date"
+            "airbnb-react-dates - Composants de sélection de date pour React"
+            "react-day-picker - Composant de calendrier pour React"
+            "react-time-picker - Sélecteur de temps pour React"
+            "react-date-range - Sélecteur de plage de dates pour React"
+            "react-month-picker - Sélecteur de mois pour React"
+            "react-year-picker - Sélecteur d'année pour React"
+            "react-dates - Sélecteur de date pour React"
+            "react-calendar-heatmap - Carte thermique de calendrier pour React"
+            "react-event-calendar - Composant calendrier d'événements pour React"
+            "react-week-calendar - Calendrier hebdomadaire pour React"
+            "react-big-calendar - Calendrier pour React"
+            "react-d3-tree - Arbre D3 pour React"
+            "react-flow - Bibliothèque de diagrammes de flux pour React"
+            "react-graph-vis - Visualisation de graphes pour React"
+            "react-plotly.js - Graphiques interactifs pour React"
+            "react-chartjs-2 - Graphiques pour React"
+            "react-metrics-graphics - Graphiques pour React"
+            "react-data-grid - Tableaux de données pour React"
+            "react-table - Tableaux de données pour React"
+            "react-virtualized - Tableaux et listes pour React"
+            "react-window - Liste virtuelle pour React"
+            "react-query - Gestion des requêtes de données pour React"
+            "react-redux - Intégration de Redux avec React"
+            "redux-thunk - Middleware Redux pour les fonctions asynchrones"
+            "redux-toolkit - Toolkit pour Redux"
+            "react-hooks-form - Gestion des formulaires avec les hooks"
+            "final-form - Gestion des formulaires pour React"
+            "react-final-form - Gestion des formulaires pour React"
+            "react-hook-form - Gestion des formulaires avec les hooks"
+            "react-jsonschema-form - Formulaires basés sur JSON Schema pour React"
+            "react-json-view - Visualiseur de JSON pour React"
+            "react-codemirror2 - Intégration de CodeMirror pour React"
+            "react-ace - Intégration d'ACE pour React"
+            "react-monaco-editor - Intégration de Monaco Editor pour React"
+            "react-summernote - Éditeur de texte WYSIWYG pour React"
+            "react-quill - Éditeur de texte WYSIWYG pour React"
+            "draft-js - Framework pour éditeur de texte pour React"
+            "tinymce - Éditeur de texte WYSIWYG"
+            "ckeditor4 - Éditeur de texte WYSIWYG"
+            "ckeditor5 - Éditeur de texte WYSIWYG"
+            "trumbowyg - Éditeur de texte WYSIWYG"
+            "simplemde - Éditeur Markdown pour le web"
+            "react-mde - Éditeur Markdown pour React"
+            "simplemde-markdown-editor - Éditeur Markdown pour le web"
+            "react-markdown-editor-lite - Éditeur Markdown pour React"
+            "react-markdown - Analyseur Markdown pour React"
+          )
+          # Choisir une librairie au hasard
+          random_library="${libraries[$RANDOM % ${#libraries[@]}]}"
+          echo "random_library=$random_library" >> $GITHUB_ENV
+
+      - name: Update README.md
+        run: |
+          # Variables
+          RANDOM_LIBRARY="${{ env.random_library }}"
+
+          # Ajouter ou mettre à jour le contenu du README.md
+          cat <<EOL > README.md
 <meta name="description" content="GitHub profile in blue color">
 <meta name="keywords" content="Full Stack Developer, GitHub Stats, GitHub Profile, JavaScript, TypeScript, React, Nodejs, HTML5, CSS3, PHP, MySQL, MongoDB"/>
 
@@ -147,6 +210,5 @@ jobs:
 
 <p align="center">Here is a random JavaScript library that you might find useful:</p>
 
-<p align="center"><b>${random_library}</b></p>
-
-EOF
+<p align="center"><b>${RANDOM_LIBRARY}</b></p>
+EOL
