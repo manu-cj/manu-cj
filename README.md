@@ -83,7 +83,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **LiveServer**: Un serveur de développement local avec rechargement automatique.
+ **[Redux](https://redux.js.org/)**: Une bibliothèque pour gérer l'état de l'application JavaScript.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
