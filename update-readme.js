@@ -1,7 +1,8 @@
 const fs = require('fs');
-const path = 'README.md';
+const path = require('path'); // Assurez-vous que ce module est importé correctement
 
 const readmePath = path.join(__dirname, '..', 'README.md');
+
 // Liste des bibliothèques JavaScript avec descriptions
 const libraries = [
   { name: "Axios", description: "Une bibliothèque pour faire des requêtes HTTP." },
@@ -144,15 +145,9 @@ function updateReadme() {
 <!-- END_LIBRARY_SECTION -->`;
   });
 
-  // Si la section de bibliothèque n'existe pas encore, l'ajouter
-  if (!librarySectionPattern.test(content)) {
-    const newLibrary = getRandomLibrary();
-    newContent += `\n\n<!-- START_LIBRARY_SECTION -->\n- **${newLibrary.name}**: ${newLibrary.description}\n<!-- END_LIBRARY_SECTION -->`;
-  }
-
-  // Écrire les modifications dans le README
+  // Écrire le nouveau contenu dans le README
   fs.writeFileSync(readmePath, newContent, 'utf8');
 }
 
-// Exécuter la mise à jour
+// Exécuter la fonction de mise à jour
 updateReadme();
