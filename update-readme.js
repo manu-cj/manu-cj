@@ -203,19 +203,30 @@ function getCurrentDateFormatted() {
 // Fonction pour générer le contenu de l'agenda pour le jour actuel
 function generateDayAgenda(day) {
     let agendaContent = '';
+    let found = false; // Indicateur pour vérifier si le jour a été trouvé
+
+    // Parcourir chaque semaine dans l'agenda
     for (const [week, dates] of Object.entries(agenda)) {
+        // Parcourir chaque période dans la semaine
         for (const [period, days] of Object.entries(dates)) {
+            // Vérifier si le jour est présent dans la période
             if (days[day]) {
                 agendaContent += `### ${day}\n`;
                 days[day].forEach(task => {
                     agendaContent += `- ${task.time} (${task.duration}): ${task.task}\n`;
                 });
                 agendaContent += '\n';
+                found = true; // Jour trouvé
+                break; // Sortir de la boucle des jours
             }
         }
+        if (found) break; // Sortir de la boucle des semaines si le jour est trouvé
     }
-    return agendaContent || 'Aucun agenda disponible pour ce jour.';
+
+    // Retourner le contenu de l'agenda ou un message par défaut si le jour n'est pas trouvé
+    return found ? agendaContent : 'Aucun agenda disponible pour ce jour.';
 }
+
 
 // Fonction pour mettre à jour le README
 function updateReadme() {
