@@ -83,7 +83,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Vue.js](https://vuejs.org/)**: Un framework pour construire des interfaces utilisateur et des applications monopages.
+ **[TSDoc](https://tsdoc.org/)**: Un outil pour documenter les projets TypeScript avec des commentaires JSDoc.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
