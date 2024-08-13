@@ -97,5 +97,5 @@
 
 
 <!-- START_AGENDA_SECTION -->
-Aucun agenda disponible pour ce jour.
+
 <!-- END_AGENDA_SECTION -->
