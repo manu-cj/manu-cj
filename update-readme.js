@@ -105,7 +105,7 @@ const libraries = [
 // Définir l'agenda
 const agenda = {
      "Semaine 1": {
-        "13 août - 20 août": {
+        "13 août - 19 août": {
             "Mardi 13 août": [
                 {
                     "time": "9h - 12h30",
@@ -125,18 +125,18 @@ const agenda = {
             ],
             "Mercredi 14 août": [
                 {
-                    "time": "9h - 13h30",
-                    "duration": "4h30",
+                    "time": "9h - 12h30",
+                    "duration": "3h30",
                     "task": "Révision et pratique de la présentation du tech talk : Ajustement des slides et du discours."
                 },
                 {
-                    "time": "13h30 - 14h",
-                    "duration": "30m",
-                    "task": "Présentation du tech talk."
+                    "time": "12h30 - 13h30",
+                    "duration": "1h",
+                    "task": "Pause déjeuner."
                 },
                 {
-                    "time": "14h - 17h",
-                    "duration": "3h",
+                    "time": "13h30 - 17h",
+                    "duration": "3h30",
                     "task": "Mise à jour du portfolio : Ajout de projets récents et complétion de la section 'À propos'."
                 }
             ],
@@ -304,27 +304,47 @@ const agenda = {
             ],
             "Samedi 24 août": [
                 {
-                    "time": "Pas de travail",
-                    "duration": "N/A",
-                    "task": "Congés : Repos et détente."
+                    "time": "9h - 12h30",
+                    "duration": "3h30",
+                    "task": "Recherche de stages : Candidatures et suivis."
+                },
+                {
+                    "time": "12h30 - 13h30",
+                    "duration": "1h",
+                    "task": "Pause déjeuner."
+                },
+                {
+                    "time": "13h30 - 17h",
+                    "duration": "3h30",
+                    "task": "Travail sur le projet Svelte : Révision et amélioration du code."
                 }
             ],
             "Dimanche 25 août": [
                 {
-                    "time": "Pas de travail",
-                    "duration": "N/A",
-                    "task": "Congés : Repos et détente."
+                    "time": "9h - 12h30",
+                    "duration": "3h30",
+                    "task": "Apprentissage de Node.js : Révision des concepts et préparation pour les projets futurs."
+                },
+                {
+                    "time": "12h30 - 13h30",
+                    "duration": "1h",
+                    "task": "Pause déjeuner."
+                },
+                {
+                    "time": "13h30 - 17h",
+                    "duration": "3h30",
+                    "task": "Travail sur le projet Svelte : Révision et préparation pour le déploiement."
                 }
             ]
         }
     },
     "Semaine 3": {
-        "28 août - 1er septembre": {
-            "Mercredi 28 août": [
+        "26 août - 1er septembre": {
+            "Lundi 26 août": [
                 {
                     "time": "9h - 12h30",
                     "duration": "3h30",
-                    "task": "Révision du projet Svelte : Ajustements finaux et amélioration du design."
+                    "task": "Travail sur le projet Svelte : Ajustements finaux et amélioration du design."
                 },
                 {
                     "time": "12h30 - 13h30",
@@ -337,11 +357,11 @@ const agenda = {
                     "task": "Finalisation de l'apprentissage de Node.js : Préparation au déploiement et révision des concepts clés."
                 }
             ],
-            "Jeudi 29 août": [
+            "Mardi 27 août": [
                 {
                     "time": "9h - 12h30",
                     "duration": "3h30",
-                    "task": "Préparation de la démonstration pour le workshop : Vérification du bon fonctionnement du projet."
+                    "task": "Travail sur le projet Svelte : Préparation pour le déploiement final et tests."
                 },
                 {
                     "time": "12h30 - 13h30",
@@ -351,14 +371,48 @@ const agenda = {
                 {
                     "time": "13h30 - 17h",
                     "duration": "3h30",
-                    "task": "Préparation de la démonstration pour le workshop : Création du script de démonstration et préparation du matériel."
+                    "task": "Recherche de stages : Suivis et envoi de candidatures."
+                }
+            ],
+            "Mercredi 28 août": [
+                {
+                    "time": "9h - 12h30",
+                    "duration": "3h30",
+                    "task": "Préparation du workshop sur Svelte : Création des slides et des démonstrations."
+                },
+                {
+                    "time": "12h30 - 13h30",
+                    "duration": "1h",
+                    "task": "Pause déjeuner."
+                },
+                {
+                    "time": "13h30 - 17h",
+                    "duration": "3h30",
+                    "task": "Finalisation du workshop : Revue des démonstrations et répétition de la présentation."
+                }
+            ],
+            "Jeudi 29 août": [
+                {
+                    "time": "9h - 12h30",
+                    "duration": "3h30",
+                    "task": "Préparation et répétition finale du workshop sur Svelte."
+                },
+                {
+                    "time": "12h30 - 13h30",
+                    "duration": "1h",
+                    "task": "Pause déjeuner."
+                },
+                {
+                    "time": "13h30 - 17h",
+                    "duration": "3h30",
+                    "task": "Finalisation du tech talk : Ajustement des slides et du discours."
                 }
             ],
             "Vendredi 30 août": [
                 {
                     "time": "9h - 12h30",
                     "duration": "3h30",
-                    "task": "Répétition de la démonstration du workshop : Révision du script et ajustement du discours."
+                    "task": "Préparation finale du workshop sur Svelte : Vérification des matériels et des démonstrations."
                 },
                 {
                     "time": "12h30 - 13h30",
@@ -368,21 +422,41 @@ const agenda = {
                 {
                     "time": "13h30 - 17h",
                     "duration": "3h30",
-                    "task": "Finalisation des préparations pour le workshop : Vérification des aspects techniques et organisationnels."
+                    "task": "Travail sur le projet Svelte : Révision des derniers détails avant la présentation."
                 }
             ],
             "Samedi 31 août": [
                 {
-                    "time": "9h - 12h",
-                    "duration": "3h",
-                    "task": "Participation au workshop : Présentation du projet et démonstration."
+                    "time": "9h - 12h30",
+                    "duration": "3h30",
+                    "task": "Révision finale des projets : Préparation et mise à jour des projets pour la présentation."
+                },
+                {
+                    "time": "12h30 - 13h30",
+                    "duration": "1h",
+                    "task": "Pause déjeuner."
+                },
+                {
+                    "time": "13h30 - 17h",
+                    "duration": "3h30",
+                    "task": "Préparation des candidatures de stage : Derniers suivis et ajustements."
                 }
             ],
             "Dimanche 1er septembre": [
                 {
-                    "time": "Pas de travail",
-                    "duration": "N/A",
-                    "task": "Congés : Repos et détente."
+                    "time": "9h - 12h30",
+                    "duration": "3h30",
+                    "task": "Revue finale des projets et préparation pour la présentation du workshop sur Svelte."
+                },
+                {
+                    "time": "12h30 - 13h30",
+                    "duration": "1h",
+                    "task": "Pause déjeuner."
+                },
+                {
+                    "time": "13h30 - 17h",
+                    "duration": "3h30",
+                    "task": "Préparation pour le début du mois : Planification des prochaines étapes et ajustements des objectifs."
                 }
             ]
         }
