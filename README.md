@@ -83,7 +83,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Next.js](https://nextjs.org/)**: Un framework pour React qui permet le rendu côté serveur et la génération de sites statiques.
+ **[Cordova](https://cordova.apache.org/)**: Un framework pour créer des applications mobiles avec HTML, CSS, et JavaScript.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -98,9 +98,9 @@
 <div align="center">
  <!-- START_AGENDA_SECTION -->
 <h3>Mardi 13 août
-</h3>- 9h - 12h30 (3h30): Travail intensif sur la préparation du tech talk (slides, exemples de code, répétition de la présentation)
-- 12h30 - 13h30 (1h): Pause déjeuner
-- 13h30 - 17h (3h30): Travail intensif sur la préparation du tech talk
+</h3><br></br> 9h - 12h30 (3h30): Travail intensif sur la préparation du tech talk (slides, exemples de code, répétition de la présentation)
+<br></br> 12h30 - 13h30 (1h): Pause déjeuner
+<br></br> 13h30 - 17h (3h30): Travail intensif sur la préparation du tech talk
 
 
 <!-- END_AGENDA_SECTION -->
