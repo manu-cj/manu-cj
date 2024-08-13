@@ -83,7 +83,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Jest](https://jestjs.io/)**: Un framework de test JavaScript avec un focus sur la simplicité.
+ **[Koa](https://koajs.com/)**: Un framework web pour Node.js conçu pour être un moteur de middleware plus moderne.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -97,10 +97,5 @@
 
 
 <!-- START_AGENDA_SECTION -->
-### Mardi 13 août
-- 9h - 12h30 (3h30): Travail intensif sur la préparation du tech talk (slides, exemples de code, répétition de la présentation)
-- 12h30 - 13h30 (1h): Pause déjeuner
-- 13h30 - 17h (3h30): Travail intensif sur la préparation du tech talk
-
-
+Aucun agenda disponible pour ce jour.
 <!-- END_AGENDA_SECTION -->
