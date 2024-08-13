@@ -83,7 +83,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Redux](https://redux.js.org/)**: Une bibliothèque pour gérer l'état de l'application JavaScript.
+ **[Vue.js](https://vuejs.org/)**: Un framework pour construire des interfaces utilisateur et des applications monopages.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
