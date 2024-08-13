@@ -83,7 +83,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Ant Design](https://ant.design/)**: Une bibliothèque de composants UI pour React.
+ **[Jest](https://jestjs.io/)**: Un framework de test JavaScript avec un focus sur la simplicité.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -97,5 +97,10 @@
 
 
 <!-- START_AGENDA_SECTION -->
-Aucun agenda disponible pour ce jour.
+### Mardi 13 août
+- 9h - 12h30 (3h30): Travail intensif sur la préparation du tech talk (slides, exemples de code, répétition de la présentation)
+- 12h30 - 13h30 (1h): Pause déjeuner
+- 13h30 - 17h (3h30): Travail intensif sur la préparation du tech talk
+
+
 <!-- END_AGENDA_SECTION -->
