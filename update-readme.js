@@ -249,7 +249,7 @@ function updateReadme() {
 
     // Ajouter l'agenda pour le jour actuel au README
     const agendaSectionPattern = /<!-- START_AGENDA_SECTION -->[\s\S]*?<!-- END_AGENDA_SECTION -->/;
-    const newAgendaContent = generateDayAgenda(currentDay);
+    const newAgendaContent = generateDayAgenda("Mardi 13 août");
     newContent = newContent.replace(agendaSectionPattern, (match) => {
         return `<!-- START_AGENDA_SECTION -->
 ${newAgendaContent}
