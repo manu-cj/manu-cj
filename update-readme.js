@@ -194,10 +194,30 @@ function getRandomLibrary() {
 }
 
 // Fonction pour obtenir la date au format 'Jour Mois' (ex: 'Mardi 13 août')
+// Fonction pour obtenir la date au format 'Jour Date Mois' (ex: 'mardi 13 août')
 function formatDate(date) {
-    const options = { weekday: 'long', day: 'numeric', month: 'long' };
-    return date.toLocaleDateString('fr-FR', options);
+    // Tableau des mois en français avec la première lettre en minuscule
+    const months = [
+        "janvier", "février", "mars", "avril", "mai", "juin", 
+        "juillet", "août", "septembre", "octobre", "novembre", "décembre"
+    ];
+
+    // Options pour le format de jour et de date
+    const dayOptions = { weekday: 'long', day: 'numeric' };
+    const dayName = date.toLocaleDateString('fr-FR', dayOptions);
+    
+    // Récupérer le jour de la semaine en français
+    const dayOfWeek = dayName.split(' ')[0].toLowerCase();
+
+    // Récupérer le jour du mois
+    const dayOfMonth = date.getDate();
+    
+    // Récupérer le mois en français
+    const month = months[date.getMonth()];
+
+    return `${dayOfWeek} ${dayOfMonth} ${month}`;
 }
+
 
 // Fonction pour générer le contenu de l'agenda pour une date donnée
 function generateDayAgenda(day) {
