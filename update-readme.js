@@ -187,30 +187,7 @@ const agenda = {
         }
     }
 };
-const fs = require('fs');  // Ajoutez cette ligne pour importer le module fs
-const path = require('path');
 
-const readmePath = path.join(__dirname, 'README.md');
-
-// Liste des bibliothèques JavaScript avec descriptions
-const libraries = [
-  // ... (toute la liste de bibliothèques comme avant)
-];
-
-// Définir l'agenda
-const agenda = {
-    "Semaine 1": {
-        "13 août - 20 août": {
-            "Mardi 13 août": [
-                { time: "9h - 12h30", duration: "3h30", task: "Travail intensif sur la préparation du tech talk (slides, exemples de code, répétition de la présentation)" },
-                { time: "12h30 - 13h30", duration: "1h", task: "Pause déjeuner" },
-                { time: "13h30 - 17h", duration: "3h30", task: "Travail intensif sur la préparation du tech talk" }
-            ],
-            // ... (le reste de la semaine 1)
-        }
-    },
-    // ... (le reste des semaines)
-};
 
 // Fonction pour obtenir la date au format 'Jour Mois' (ex: 'Mardi 13 août')
 function formatDate(date) {
