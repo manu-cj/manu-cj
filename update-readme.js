@@ -193,7 +193,8 @@ function getRandomLibrary() {
     const randomIndex = Math.floor(Math.random() * libraries.length);
     return libraries[randomIndex];
 }
-// Fonction pour obtenir la date actuelle au format 'Jour Mois Année' (ex: 'Mardi 13 août')
+
+// Fonction pour obtenir la date actuelle au format 'Jour Mois' (ex: 'Mardi 13 août')
 function getCurrentDateFormatted() {
     const today = new Date();
     const options = { weekday: 'long', day: 'numeric', month: 'long' };
@@ -203,30 +204,26 @@ function getCurrentDateFormatted() {
 // Fonction pour générer le contenu de l'agenda pour le jour actuel
 function generateDayAgenda(day) {
     let agendaContent = '';
-    let found = false; // Indicateur pour vérifier si le jour a été trouvé
 
     // Parcourir chaque semaine dans l'agenda
-    for (const [week, dates] of Object.entries(agenda)) {
+    for (const week in agenda) {
         // Parcourir chaque période dans la semaine
-        for (const [period, days] of Object.entries(dates)) {
+        for (const period in agenda[week]) {
             // Vérifier si le jour est présent dans la période
-            if (days[day]) {
+            if (agenda[week][period][day]) {
                 agendaContent += `### ${day}\n`;
-                days[day].forEach(task => {
+                agenda[week][period][day].forEach(task => {
                     agendaContent += `- ${task.time} (${task.duration}): ${task.task}\n`;
                 });
                 agendaContent += '\n';
-                found = true; // Jour trouvé
-                break; // Sortir de la boucle des jours
+                return agendaContent; // Sortir dès qu'on a trouvé la section
             }
         }
-        if (found) break; // Sortir de la boucle des semaines si le jour est trouvé
     }
 
-    // Retourner le contenu de l'agenda ou un message par défaut si le jour n'est pas trouvé
-    return found ? agendaContent : 'Aucun agenda disponible pour ce jour.';
+    // Retourner un message si le jour n'est pas trouvé
+    return 'Aucun agenda disponible pour ce jour.';
 }
-
 
 // Fonction pour mettre à jour le README
 function updateReadme() {
@@ -242,7 +239,6 @@ function updateReadme() {
     const librarySectionPattern = /<!-- START_LIBRARY_SECTION -->[\s\S]*?<!-- END_LIBRARY_SECTION -->/;
     const newLibrary = getRandomLibrary();
     let newContent = content.replace(librarySectionPattern, (match) => {
-        // Remplacer l'ancienne bibliothèque par la nouvelle avec un lien
         return `<!-- START_LIBRARY_SECTION -->
  **[${newLibrary.name}](${newLibrary.link})**: ${newLibrary.description}
 <!-- END_LIBRARY_SECTION -->`;
@@ -255,7 +251,6 @@ function updateReadme() {
     const agendaSectionPattern = /<!-- START_AGENDA_SECTION -->[\s\S]*?<!-- END_AGENDA_SECTION -->/;
     const newAgendaContent = generateDayAgenda(currentDay);
     newContent = newContent.replace(agendaSectionPattern, (match) => {
-        // Remplacer l'ancienne section d'agenda par la nouvelle
         return `<!-- START_AGENDA_SECTION -->
 ${newAgendaContent}
 <!-- END_AGENDA_SECTION -->`;
