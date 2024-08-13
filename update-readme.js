@@ -187,6 +187,12 @@ const agenda = {
         }
     }
 };
+
+
+function getRandomLibrary() {
+    const randomIndex = Math.floor(Math.random() * libraries.length);
+    return libraries[randomIndex];
+}
 // Fonction pour obtenir la date actuelle au format 'Jour Mois Année' (ex: 'Mardi 13 août')
 function getCurrentDateFormatted() {
     const today = new Date();
