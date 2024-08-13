@@ -83,7 +83,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Jasmine](https://jasmine.github.io/)**: Un framework de test comportemental pour JavaScript.
+ **[Underscore](https://underscorejs.org/)**: Une bibliothèque utilitaire qui fournit des fonctions de programmation fonctionnelle.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -103,18 +103,15 @@
 - 9h - 12h30 (3h30): Travail intensif sur la préparation du tech talk (slides, exemples de code, répétition de la présentation)
 - 12h30 - 13h30 (1h): Pause déjeuner
 - 13h30 - 17h (3h30): Travail intensif sur la préparation du tech talk
-#### Mercredi 14 août
-- 9h - 13h30 (4h30): Révision finale de la présentation
-- 13h30 - 14h (30 minutes): Présentation du tech talk
-- 14h - 17h (3h): Remplissage du contenu du portfolio (projets, expériences, à propos)
-#### Jeudi 15 août - Vendredi 16 août
-- 9h - 12h30 (3h30): Finalisation du contenu du portfolio
-- 12h30 - 13h30 (1h): Pause déjeuner
-- 13h30 - 17h (3h30): Introduction à Svelte et début du projet
-#### Samedi 17 août - Dimanche 18 août
-- 9h - 12h30 (3h30): Développement du projet Svelte
-- 12h30 - 13h30 (1h): Pause déjeuner
-- 13h30 - 17h (3h30): Introduction à Node.js (bases, installation, premiers scripts)
+
+## Semaine 2
+### 19 août - 25 août
+
+## Semaine 3
+### 28 août - 1er septembre
+
+## Semaine 4
+### 2 septembre - 8 septembre
 
 
 <!-- END_AGENDA_SECTION -->
