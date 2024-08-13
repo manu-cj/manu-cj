@@ -101,10 +101,58 @@ const libraries = [
   { name: "Storybook", description: "Un outil pour construire et tester des composants UI de manière isolée.", link: "https://storybook.js.org/" }
 ];
 
+// Définir l'agenda
+const agenda = {
+    "Semaine 1": {
+        "13 août - 20 août": {
+            "Mardi 13 août": [
+                { time: "9h - 12h30", duration: "3h30", task: "Travail intensif sur la préparation du tech talk (slides, exemples de code, répétition de la présentation)" },
+                { time: "12h30 - 13h30", duration: "1h", task: "Pause déjeuner" },
+                { time: "13h30 - 17h", duration: "3h30", task: "Travail intensif sur la préparation du tech talk" }
+            ],
+            "Mercredi 14 août": [
+                { time: "9h - 13h30", duration: "4h30", task: "Révision finale de la présentation" },
+                { time: "13h30 - 14h", duration: "30 minutes", task: "Présentation du tech talk" },
+                { time: "14h - 17h", duration: "3h", task: "Remplissage du contenu du portfolio (projets, expériences, à propos)" }
+            ],
+            "Jeudi 15 août - Vendredi 16 août": [
+                { time: "9h - 12h30", duration: "3h30", task: "Finalisation du contenu du portfolio" },
+                { time: "12h30 - 13h30", duration: "1h", task: "Pause déjeuner" },
+                { time: "13h30 - 17h", duration: "3h30", task: "Introduction à Svelte et début du projet" }
+            ],
+            "Samedi 17 août - Dimanche 18 août": [
+                { time: "9h - 12h30", duration: "3h30", task: "Développement du projet Svelte" },
+                { time: "12h30 - 13h30", duration: "1h", task: "Pause déjeuner" },
+                { time: "13h30 - 17h", duration: "3h30", task: "Introduction à Node.js (bases, installation, premiers scripts)" }
+            ]
+        }
+    },
+    // ... (les autres semaines)
+};
+
 // Fonction pour sélectionner une bibliothèque au hasard
 function getRandomLibrary() {
   const index = Math.floor(Math.random() * libraries.length);
   return libraries[index];
+}
+
+// Fonction pour générer une chaîne de caractères pour l'agenda
+function generateAgendaSection() {
+    let agendaContent = '';
+    for (const [week, dates] of Object.entries(agenda)) {
+        agendaContent += `## ${week}\n`;
+        for (const [period, days] of Object.entries(dates)) {
+            agendaContent += `### ${period}\n`;
+            for (const [day, tasks] of Object.entries(days)) {
+                agendaContent += `#### ${day}\n`;
+                tasks.forEach(task => {
+                    agendaContent += `- ${task.time} (${task.duration}): ${task.task}\n`;
+                });
+            }
+            agendaContent += '\n';
+        }
+    }
+    return agendaContent;
 }
 
 function updateReadme() {
@@ -126,15 +174,29 @@ function updateReadme() {
 <!-- END_LIBRARY_SECTION -->`;
   });
 
+  // Ajouter l'agenda au README
+  const agendaSectionPattern = /<!-- START_AGENDA_SECTION -->[\s\S]*?<!-- END_AGENDA_SECTION -->/;
+  const newAgendaContent = generateAgendaSection();
+  newContent = newContent.replace(agendaSectionPattern, (match) => {
+    // Remplacer l'ancienne section d'agenda par la nouvelle
+    return `<!-- START_AGENDA_SECTION -->
+${newAgendaContent}
+<!-- END_AGENDA_SECTION -->`;
+  });
+
   // Si aucune section de bibliothèque n'est trouvée, ajoutez-en une nouvelle
   if (!librarySectionPattern.test(content)) {
     newContent += `\n<!-- START_LIBRARY_SECTION -->\n **[${newLibrary.name}](${newLibrary.link})**: ${newLibrary.description}\n<!-- END_LIBRARY_SECTION -->`;
   }
 
+  // Si aucune section d'agenda n'est trouvée, ajoutez-en une nouvelle
+  if (!agendaSectionPattern.test(content)) {
+    newContent += `\n<!-- START_AGENDA_SECTION -->\n${newAgendaContent}\n<!-- END_AGENDA_SECTION -->`;
+  }
+
   // Écrire le nouveau contenu dans le README
   fs.writeFileSync(readmePath, newContent, 'utf8');
 }
-
 
 // Exécuter la fonction de mise à jour
 updateReadme();
