@@ -83,7 +83,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Quasar](https://quasar.dev/)**: Un framework pour développer des applications Vue.js avec une approche multiplateforme.
+ **[Next.js](https://nextjs.org/)**: Un framework pour React qui permet le rendu côté serveur et la génération de sites statiques.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
