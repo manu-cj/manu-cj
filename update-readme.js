@@ -193,31 +193,16 @@ function getRandomLibrary() {
     return libraries[randomIndex];
 }
 
-// Fonction pour obtenir la date au format 'Jour Mois' (ex: 'Mardi 13 août')
 // Fonction pour obtenir la date au format 'Jour Date Mois' (ex: 'mardi 13 août')
 function formatDate(date) {
-    // Tableau des mois en français avec la première lettre en minuscule
     const months = [
         "janvier", "février", "mars", "avril", "mai", "juin", 
         "juillet", "août", "septembre", "octobre", "novembre", "décembre"
     ];
-
-    // Options pour le format de jour et de date
-    const dayOptions = { weekday: 'long', day: 'numeric' };
-    const dayName = date.toLocaleDateString('fr-FR', dayOptions);
-    
-    // Récupérer le jour de la semaine en français
-    const dayOfWeek = dayName.split(' ')[0].toLowerCase();
-
-    // Récupérer le jour du mois
-    const dayOfMonth = date.getDate();
-    
-    // Récupérer le mois en français
-    const month = months[date.getMonth()];
-
-    return `${dayOfWeek} ${dayOfMonth} ${month}`;
+    const options = { weekday: 'long', day: 'numeric', month: 'long' };
+    const dayName = date.toLocaleDateString('fr-FR', options);
+    return dayName.toLowerCase(); // Assurez-vous que cela correspond à votre format de date dans l'agenda
 }
-
 
 // Fonction pour générer le contenu de l'agenda pour une date donnée
 function generateDayAgenda(day) {
@@ -225,9 +210,7 @@ function generateDayAgenda(day) {
 
     // Parcourir chaque semaine dans l'agenda
     for (const week in agenda) {
-        // Parcourir chaque période dans la semaine
         for (const period in agenda[week]) {
-            // Vérifier si le jour est présent dans la période
             if (agenda[week][period][day]) {
                 agendaContent += `### ${day}\n`;
                 agenda[week][period][day].forEach(task => {
@@ -238,8 +221,6 @@ function generateDayAgenda(day) {
             }
         }
     }
-
-    // Retourner un message si le jour n'est pas trouvé
     return 'Aucun agenda disponible pour ce jour.';
 }
 
@@ -263,7 +244,7 @@ function updateReadme() {
     });
 
     // Obtenir la date actuelle et formater
-    const currentDay = formatDate(new Date()); // Formatage de la date actuelle
+    const currentDay = formatDate(new Date());
 
     // Ajouter l'agenda pour le jour actuel au README
     const agendaSectionPattern = /<!-- START_AGENDA_SECTION -->[\s\S]*?<!-- END_AGENDA_SECTION -->/;
