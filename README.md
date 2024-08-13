@@ -83,7 +83,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Webpack Encore](https://symfony.com/doc/current/frontend/encore/installation.html)**: Un wrapper de Webpack pour Symfony.
+ **[Ant Design](https://ant.design/)**: Une bibliothèque de composants UI pour React.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
