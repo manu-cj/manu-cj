@@ -83,7 +83,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Svelte](https://svelte.dev/)**: Un framework pour construire des interfaces utilisateur réactives sans le coût de la bibliothèque virtuelle DOM.
+ **[Storybook](https://storybook.js.org/)**: Un outil pour construire et tester des composants UI de manière isolée.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -97,5 +97,5 @@
 
 
 <!-- START_AGENDA_SECTION -->
-
+Aucun agenda disponible pour ce jour.
 <!-- END_AGENDA_SECTION -->
