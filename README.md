@@ -83,7 +83,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Redux](https://redux.js.org/)**: Une bibliothèque pour gérer l'état de l'application JavaScript.
+ **[TSDoc](https://tsdoc.org/)**: Un outil pour documenter les projets TypeScript avec des commentaires JSDoc.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
