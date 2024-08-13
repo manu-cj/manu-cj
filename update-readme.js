@@ -224,7 +224,7 @@ function generateDayAgenda(day) {
             if (agenda[week][period][day]) {
                 agendaContent += `<h3>${day}\n</h3>` ;
                 agenda[week][period][day].forEach(task => {
-                    agendaContent += `- ${task.time} (${task.duration}): ${task.task}\n`;
+                    agendaContent += `<br></br> ${task.time} (${task.duration}): ${task.task}\n`;
                 });
                 agendaContent += '\n';
                 return agendaContent; // Sortir dès qu'on a trouvé la section
