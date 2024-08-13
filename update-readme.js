@@ -104,108 +104,108 @@ const libraries = [
 
 // Définir l'agenda
 const agenda = {
-    "Semaine 1": {
+     "Semaine 1": {
         "13 août - 20 août": {
             "Mardi 13 août": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Préparez le tech talk : Créez les slides, ajoutez les principaux points de discussion et les exemples de code."
+                    "time": "9h - 12h30",
+                    "duration": "3h30",
+                    "task": "Préparation du tech talk : Création des slides, ajout des points clés et exemples de code."
                 },
                 {
-                    time: "12h30 - 13h30",
-                    duration: "1h",
-                    task: "Pause déjeuner."
+                    "time": "12h30 - 13h30",
+                    "duration": "1h",
+                    "task": "Pause déjeuner."
                 },
                 {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Continuez à travailler sur le tech talk : Affinez les slides et répétez la présentation."
+                    "time": "13h30 - 17h",
+                    "duration": "3h30",
+                    "task": "Affinement du tech talk : Révision des slides et répétition de la présentation."
                 }
             ],
             "Mercredi 14 août": [
                 {
-                    time: "9h - 13h30",
-                    duration: "4h30",
-                    task: "Révisez la présentation du tech talk : Pratiquez votre discours et ajustez les slides."
+                    "time": "9h - 13h30",
+                    "duration": "4h30",
+                    "task": "Révision et pratique de la présentation du tech talk : Ajustement des slides et du discours."
                 },
                 {
-                    time: "13h30 - 14h",
-                    duration: "30 minutes",
-                    task: "Présentez le tech talk."
+                    "time": "13h30 - 14h",
+                    "duration": "30m",
+                    "task": "Présentation du tech talk."
                 },
                 {
-                    time: "14h - 17h",
-                    duration: "3h",
-                    task: "Mettez à jour le portfolio : Ajoutez des projets récents et complétez la section 'À propos'."
+                    "time": "14h - 17h",
+                    "duration": "3h",
+                    "task": "Mise à jour du portfolio : Ajout de projets récents et complétion de la section 'À propos'."
                 }
             ],
             "Jeudi 15 août": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Finalisez le contenu du portfolio : Vérifiez la mise en page et corrigez les erreurs."
+                    "time": "9h - 12h30",
+                    "duration": "3h30",
+                    "task": "Finalisation du portfolio : Vérification de la mise en page et correction des erreurs."
                 },
                 {
-                    time: "12h30 - 13h30",
-                    duration: "1h",
-                    task: "Pause déjeuner."
+                    "time": "12h30 - 13h30",
+                    "duration": "1h",
+                    "task": "Pause déjeuner."
                 },
                 {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Initiez-vous à Svelte : Créez un projet initial et apprenez les bases."
+                    "time": "13h30 - 17h",
+                    "duration": "3h30",
+                    "task": "Introduction à Svelte : Création d'un projet initial et apprentissage des bases."
                 }
             ],
             "Vendredi 16 août": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Continuez le développement du projet Svelte : Ajoutez des fonctionnalités et résolvez les problèmes."
+                    "time": "9h - 12h30",
+                    "duration": "3h30",
+                    "task": "Développement du projet Svelte : Ajout de fonctionnalités et résolution de problèmes."
                 },
                 {
-                    time: "12h30 - 13h30",
-                    duration: "1h",
-                    task: "Pause déjeuner."
+                    "time": "12h30 - 13h30",
+                    "duration": "1h",
+                    "task": "Pause déjeuner."
                 },
                 {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Approfondissez votre apprentissage de Svelte : Explorez des fonctionnalités avancées."
+                    "time": "13h30 - 17h",
+                    "duration": "3h30",
+                    "task": "Approfondissement des connaissances en Svelte : Exploration des fonctionnalités avancées."
                 }
             ],
             "Samedi 17 août": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Développez le projet Svelte : Implémentez des fonctionnalités supplémentaires et testez le projet."
+                    "time": "9h - 12h30",
+                    "duration": "3h30",
+                    "task": "Développement du projet Svelte : Implémentation de fonctionnalités supplémentaires et tests."
                 },
                 {
-                    time: "12h30 - 13h30",
-                    duration: "1h",
-                    task: "Pause déjeuner."
+                    "time": "12h30 - 13h30",
+                    "duration": "1h",
+                    "task": "Pause déjeuner."
                 },
                 {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Initiez-vous à Node.js : Installez Node.js et écrivez des scripts de base."
+                    "time": "13h30 - 17h",
+                    "duration": "3h30",
+                    "task": "Introduction à Node.js : Installation et écriture de scripts de base."
                 }
             ],
             "Dimanche 18 août": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Travaillez sur le projet Svelte : Révisez et améliorez le code."
+                    "time": "9h - 12h30",
+                    "duration": "3h30",
+                    "task": "Travail sur le projet Svelte : Révision et amélioration du code."
                 },
                 {
-                    time: "12h30 - 13h30",
-                    duration: "1h",
-                    task: "Pause déjeuner."
+                    "time": "12h30 - 13h30",
+                    "duration": "1h",
+                    "task": "Pause déjeuner."
                 },
                 {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Poursuivez l'apprentissage de Node.js : Explorez les fonctionnalités avancées."
+                    "time": "13h30 - 17h",
+                    "duration": "3h30",
+                    "task": "Apprentissage avancé de Node.js : Exploration des fonctionnalités avancées."
                 }
             ]
         }
@@ -214,113 +214,106 @@ const agenda = {
         "19 août - 25 août": {
             "Lundi 19 août": [
                 {
-                    time: "9h - 11h",
-                    duration: "2h",
-                    task: "Recherche de stages : Identifiez les opportunités intéressantes et préparez les candidatures."
+                    "time": "9h - 11h",
+                    "duration": "2h",
+                    "task": "Recherche de stages : Identification des opportunités et préparation des candidatures."
                 },
                 {
-                    time: "11h - 12h30",
-                    duration: "1h30",
-                    task: "Développez le projet Svelte : Travaillez sur les nouvelles fonctionnalités."
+                    "time": "11h - 12h30",
+                    "duration": "1h30",
+                    "task": "Développement du projet Svelte : Travail sur les nouvelles fonctionnalités."
                 },
                 {
-                    time: "12h30 - 13h30",
-                    duration: "1h",
-                    task: "Pause déjeuner."
+                    "time": "12h30 - 13h30",
+                    "duration": "1h",
+                    "task": "Pause déjeuner."
                 },
                 {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Apprenez Node.js : Explorez express, gérez les routes et les middlewares."
+                    "time": "13h30 - 17h",
+                    "duration": "3h30",
+                    "task": "Apprentissage de Node.js : Exploration d'Express, gestion des routes et des middlewares."
                 }
             ],
             "Mardi 20 août": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Développez le projet Svelte : Ajoutez des fonctionnalités supplémentaires et améliorez le design."
+                    "time": "9h - 12h30",
+                    "duration": "3h30",
+                    "task": "Développement du projet Svelte : Ajout de fonctionnalités et amélioration du design."
                 },
                 {
-                    time: "12h30 - 13h30",
-                    duration: "1h",
-                    task: "Pause déjeuner."
+                    "time": "12h30 - 13h30",
+                    "duration": "1h",
+                    "task": "Pause déjeuner."
                 },
                 {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Apprenez Node.js : Implémentez le CRUD et créez une API."
+                    "time": "13h30 - 17h",
+                    "duration": "3h30",
+                    "task": "Apprentissage de Node.js : Implémentation du CRUD et création d'une API."
                 }
             ],
             "Mercredi 21 août": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Développez le projet Svelte : Ajoutez de nouvelles fonctionnalités et corrigez les bugs."
+                    "time": "9h - 12h30",
+                    "duration": "3h30",
+                    "task": "Développement du projet Svelte : Ajout de nouvelles fonctionnalités et correction des bugs."
                 },
                 {
-                    time: "12h30 - 13h30",
-                    duration: "1h",
-                    task: "Pause déjeuner."
+                    "time": "12h30 - 13h30",
+                    "duration": "1h",
+                    "task": "Pause déjeuner."
                 },
                 {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Apprenez Node.js : Connectez-vous à une base de données et implémentez l'authentification."
+                    "time": "13h30 - 17h",
+                    "duration": "3h30",
+                    "task": "Apprentissage de Node.js : Connexion à une base de données et implémentation de l'authentification."
                 }
             ],
             "Jeudi 22 août": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Poursuivez le développement du projet Svelte : Révisez le code, améliorez la performance et ajustez le design."
+                    "time": "9h - 12h30",
+                    "duration": "3h30",
+                    "task": "Développement du projet Svelte : Révision du code, amélioration de la performance et ajustement du design."
                 },
                 {
-                    time: "12h30 - 13h30",
-                    duration: "1h",
-                    task: "Pause déjeuner."
+                    "time": "12h30 - 13h30",
+                    "duration": "1h",
+                    "task": "Pause déjeuner."
                 },
                 {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Développez avec Node.js : Implémentez des fonctionnalités avancées et préparez le déploiement."
+                    "time": "13h30 - 17h",
+                    "duration": "3h30",
+                    "task": "Développement avec Node.js : Implémentation des fonctionnalités avancées et préparation au déploiement."
                 }
             ],
             "Vendredi 23 août": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Finalisez les fonctionnalités principales du projet Svelte : Corrigez les bugs et testez les fonctionnalités."
+                    "time": "9h - 12h30",
+                    "duration": "3h30",
+                    "task": "Finalisation des fonctionnalités principales du projet Svelte : Correction des bugs et tests des fonctionnalités."
                 },
                 {
-                    time: "12h30 - 13h30",
-                    duration: "1h",
-                    task: "Pause déjeuner."
+                    "time": "12h30 - 13h30",
+                    "duration": "1h",
+                    "task": "Pause déjeuner."
                 },
                 {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Préparez le projet pour le déploiement : Revérifiez le code, préparez la documentation et testez les déploiements."
+                    "time": "13h30 - 17h",
+                    "duration": "3h30",
+                    "task": "Préparation au déploiement du projet : Revérification du code, documentation et tests de déploiement."
                 }
             ],
             "Samedi 24 août": [
                 {
-                    time: "Pas de travail",
-                    duration: "N/A",
-                    task: "Congés : Repos et détente."
+                    "time": "Pas de travail",
+                    "duration": "N/A",
+                    "task": "Congés : Repos et détente."
                 }
             ],
             "Dimanche 25 août": [
                 {
-                    time: "Pas de travail",
-                    duration: "N/A",
-                    task: "Congés : Repos et détente."
-                }
-            ],
-            "Lundi 26 août": [
-                {
-                    time: "Pas de travail",
-                    duration: "N/A",
-                    task: "Congés : Repos et détente."
+                    "time": "Pas de travail",
+                    "duration": "N/A",
+                    "task": "Congés : Repos et détente."
                 }
             ]
         }
@@ -329,87 +322,67 @@ const agenda = {
         "28 août - 1er septembre": {
             "Mercredi 28 août": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Révisez le projet Svelte : Effectuez des ajustements finaux et améliorez le design."
+                    "time": "9h - 12h30",
+                    "duration": "3h30",
+                    "task": "Révision du projet Svelte : Ajustements finaux et amélioration du design."
                 },
                 {
-                    time: "12h30 - 13h30",
-                    duration: "1h",
-                    task: "Pause déjeuner."
+                    "time": "12h30 - 13h30",
+                    "duration": "1h",
+                    "task": "Pause déjeuner."
                 },
                 {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Finalisez l'apprentissage de Node.js : Préparation pour le déploiement et révision des concepts clés."
+                    "time": "13h30 - 17h",
+                    "duration": "3h30",
+                    "task": "Finalisation de l'apprentissage de Node.js : Préparation au déploiement et révision des concepts clés."
                 }
             ],
             "Jeudi 29 août": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Préparez la démonstration pour le workshop : Assurez-vous que le projet fonctionne correctement."
+                    "time": "9h - 12h30",
+                    "duration": "3h30",
+                    "task": "Préparation de la démonstration pour le workshop : Vérification du bon fonctionnement du projet."
                 },
                 {
-                    time: "12h30 - 13h30",
-                    duration: "1h",
-                    task: "Pause déjeuner."
+                    "time": "12h30 - 13h30",
+                    "duration": "1h",
+                    "task": "Pause déjeuner."
                 },
                 {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Préparez la documentation pour le workshop : Créez des guides et des notes pour les participants."
+                    "time": "13h30 - 17h",
+                    "duration": "3h30",
+                    "task": "Préparation de la démonstration pour le workshop : Création du script de démonstration et préparation du matériel."
                 }
             ],
             "Vendredi 30 août": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Effectuez les derniers ajustements pour le workshop : Révisez le contenu et préparez les démonstrations finales."
+                    "time": "9h - 12h30",
+                    "duration": "3h30",
+                    "task": "Répétition de la démonstration du workshop : Révision du script et ajustement du discours."
                 },
                 {
-                    time: "12h30 - 13h30",
-                    duration: "1h",
-                    task: "Pause déjeuner."
+                    "time": "12h30 - 13h30",
+                    "duration": "1h",
+                    "task": "Pause déjeuner."
                 },
                 {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Testez la configuration du workshop : Assurez-vous que tout le matériel est prêt et fonctionnel."
+                    "time": "13h30 - 17h",
+                    "duration": "3h30",
+                    "task": "Finalisation des préparations pour le workshop : Vérification des aspects techniques et organisationnels."
                 }
             ],
             "Samedi 31 août": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Reposez-vous et préparez-vous pour la semaine suivante : Revérifiez les documents et les outils pour le workshop."
-                },
-                {
-                    time: "12h30 - 13h30",
-                    duration: "1h",
-                    task: "Pause déjeuner."
-                },
-                {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Continuez à vous préparer pour le workshop : Assurez-vous que tout est prêt et finalisez les détails."
+                    "time": "9h - 12h",
+                    "duration": "3h",
+                    "task": "Participation au workshop : Présentation du projet et démonstration."
                 }
             ],
             "Dimanche 1er septembre": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Reposez-vous et finalisez les derniers détails pour le workshop : Revérifiez les documents et les présentations."
-                },
-                {
-                    time: "12h30 - 13h30",
-                    duration: "1h",
-                    task: "Pause déjeuner."
-                },
-                {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Préparez-vous pour le workshop : Organisez les derniers aspects et vérifiez la configuration."
+                    "time": "Pas de travail",
+                    "duration": "N/A",
+                    "task": "Congés : Repos et détente."
                 }
             ]
         }
@@ -418,229 +391,204 @@ const agenda = {
         "2 septembre - 8 septembre": {
             "Lundi 2 septembre": [
                 {
-                    time: "9h - 11h",
-                    duration: "2h",
-                    task: "Recherche de stages : Identifiez les nouvelles opportunités et ajustez les candidatures."
+                    "time": "9h - 12h30",
+                    "duration": "3h30",
+                    "task": "Début du projet Node.js : Création d'une nouvelle application et mise en place de l'environnement de développement."
                 },
                 {
-                    time: "11h - 12h30",
-                    duration: "1h30",
-                    task: "Effectuez les derniers ajustements du projet Svelte : Révisez et finalisez les dernières améliorations."
+                    "time": "12h30 - 13h30",
+                    "duration": "1h",
+                    "task": "Pause déjeuner."
                 },
                 {
-                    time: "12h30 - 13h30",
-                    duration: "1h",
-                    task: "Pause déjeuner."
-                },
-                {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Révisez et testez le projet Svelte avec Node.js : Assurez-vous que l'intégration fonctionne correctement."
+                    "time": "13h30 - 17h",
+                    "duration": "3h30",
+                    "task": "Développement de la fonctionnalité de base du projet Node.js : Mise en place du serveur et des routes."
                 }
             ],
             "Mardi 3 septembre": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Préparez-vous pour le workshop du 13 septembre : Planifiez les séances et révisez le contenu."
+                    "time": "9h - 12h30",
+                    "duration": "3h30",
+                    "task": "Développement du projet Node.js : Intégration de la gestion des utilisateurs et des sessions."
                 },
                 {
-                    time: "12h30 - 13h30",
-                    duration: "1h",
-                    task: "Pause déjeuner."
+                    "time": "12h30 - 13h30",
+                    "duration": "1h",
+                    "task": "Pause déjeuner."
                 },
                 {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Développez et révisez les fonctionnalités : Assurez-vous que tout est prêt pour la présentation."
+                    "time": "13h30 - 17h",
+                    "duration": "3h30",
+                    "task": "Développement de la fonctionnalité de base du projet Node.js : Connexion à la base de données et gestion des données."
                 }
             ],
             "Mercredi 4 septembre": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Préparation pour le workshop : Finalisez les présentations et préparez les matériaux nécessaires."
+                    "time": "9h - 12h30",
+                    "duration": "3h30",
+                    "task": "Développement avancé du projet Node.js : Mise en place des API RESTful et des fonctionnalités avancées."
                 },
                 {
-                    time: "12h30 - 13h30",
-                    duration: "1h",
-                    task: "Pause déjeuner."
+                    "time": "12h30 - 13h30",
+                    "duration": "1h",
+                    "task": "Pause déjeuner."
                 },
                 {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Continuez à préparer le workshop : Assurez-vous que tout est en ordre et prêt pour la présentation."
+                    "time": "13h30 - 17h",
+                    "duration": "3h30",
+                    "task": "Test et débogage du projet Node.js : Révision du code, correction des erreurs et optimisation des performances."
                 }
             ],
             "Jeudi 5 septembre": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Finalisez les préparatifs pour le workshop : Revérifiez les présentations et la logistique."
+                    "time": "9h - 12h30",
+                    "duration": "3h30",
+                    "task": "Finalisation du projet Node.js : Préparation pour le déploiement et documentation du code."
                 },
                 {
-                    time: "12h30 - 13h30",
-                    duration: "1h",
-                    task: "Pause déjeuner."
+                    "time": "12h30 - 13h30",
+                    "duration": "1h",
+                    "task": "Pause déjeuner."
                 },
                 {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Revue finale des documents et matériel pour le workshop."
+                    "time": "13h30 - 17h",
+                    "duration": "3h30",
+                    "task": "Révision et amélioration des compétences en Node.js : Exploration des modules et des outils avancés."
                 }
             ],
             "Vendredi 6 septembre": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Finalisez les derniers détails pour le workshop : Vérifiez les outils et les documents."
+                    "time": "9h - 12h30",
+                    "duration": "3h30",
+                    "task": "Travail sur le projet personnel : Révision des fonctionnalités existantes et ajout de nouvelles fonctionnalités."
                 },
                 {
-                    time: "12h30 - 13h30",
-                    duration: "1h",
-                    task: "Pause déjeuner."
+                    "time": "12h30 - 13h30",
+                    "duration": "1h",
+                    "task": "Pause déjeuner."
                 },
                 {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Préparez-vous pour le week-end et la semaine suivante : Revérifiez les détails et relaxez-vous avant le workshop."
+                    "time": "13h30 - 17h",
+                    "duration": "3h30",
+                    "task": "Préparation du portfolio : Mise à jour des projets récents et amélioration de la présentation."
                 }
             ],
             "Samedi 7 septembre": [
                 {
-                    time: "Pas de travail",
-                    duration: "N/A",
-                    task: "Congés : Repos et détente."
+                    "time": "9h - 12h",
+                    "duration": "3h",
+                    "task": "Exploration de nouvelles technologies : Recherche et apprentissage de nouveaux outils et frameworks."
                 }
             ],
             "Dimanche 8 septembre": [
                 {
-                    time: "Pas de travail",
-                    duration: "N/A",
-                    task: "Congés : Repos et détente."
+                    "time": "Pas de travail",
+                    "duration": "N/A",
+                    "task": "Congés : Repos et détente."
                 }
             ]
         }
     },
-   "Semaine 5": {
+    "Semaine 5": {
         "9 septembre - 15 septembre": {
             "Lundi 9 septembre": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Préparez-vous pour le workshop sur Svelte : Revérifiez les matériaux et les détails logistiques."
+                    "time": "9h - 12h30",
+                    "duration": "3h30",
+                    "task": "Développement d'un projet personnel : Définition des objectifs et des fonctionnalités du projet."
                 },
                 {
-                    time: "12h30 - 13h30",
-                    duration: "1h",
-                    task: "Pause déjeuner."
+                    "time": "12h30 - 13h30",
+                    "duration": "1h",
+                    "task": "Pause déjeuner."
                 },
                 {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Continuez à finaliser les documents et les présentations pour le workshop sur Svelte."
+                    "time": "13h30 - 17h",
+                    "duration": "3h30",
+                    "task": "Développement initial du projet personnel : Mise en place de la structure de base et début de l'implémentation."
                 }
             ],
             "Mardi 10 septembre": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Préparation pour le workshop sur Svelte : Effectuez les derniers ajustements et testez les équipements."
+                    "time": "9h - 12h30",
+                    "duration": "3h30",
+                    "task": "Développement du projet personnel : Ajout de fonctionnalités et intégration des composants."
                 },
                 {
-                    time: "12h30 - 13h30",
-                    duration: "1h",
-                    task: "Pause déjeuner."
+                    "time": "12h30 - 13h30",
+                    "duration": "1h",
+                    "task": "Pause déjeuner."
                 },
                 {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Préparez les guides et les notes pour les participants au workshop sur Svelte."
+                    "time": "13h30 - 17h",
+                    "duration": "3h30",
+                    "task": "Développement du projet personnel : Mise en place de la gestion des données et des utilisateurs."
                 }
             ],
             "Mercredi 11 septembre": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Finalisez les détails pour le workshop sur Svelte : Assurez-vous que tout est prêt pour le grand jour."
+                    "time": "9h - 12h30",
+                    "duration": "3h30",
+                    "task": "Finalisation du projet personnel : Révision du code et tests des fonctionnalités."
                 },
                 {
-                    time: "12h30 - 13h30",
-                    duration: "1h",
-                    task: "Pause déjeuner."
+                    "time": "12h30 - 13h30",
+                    "duration": "1h",
+                    "task": "Pause déjeuner."
                 },
                 {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Revue finale du contenu et test des démonstrations pour le workshop sur Svelte."
+                    "time": "13h30 - 17h",
+                    "duration": "3h30",
+                    "task": "Préparation au déploiement du projet personnel : Documentation, tests et corrections finales."
                 }
             ],
             "Jeudi 12 septembre": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Préparation et répétition générale pour le workshop sur Svelte : Revérifiez tous les aspects techniques."
+                    "time": "9h - 12h30",
+                    "duration": "3h30",
+                    "task": "Revue et amélioration du portfolio : Ajout de nouvelles réalisations et optimisation de la présentation."
                 },
                 {
-                    time: "12h30 - 13h30",
-                    duration: "1h",
-                    task: "Pause déjeuner."
+                    "time": "12h30 - 13h30",
+                    "duration": "1h",
+                    "task": "Pause déjeuner."
                 },
                 {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Assurez-vous que toutes les préparations pour le workshop sur Svelte sont complètes et en ordre."
+                    "time": "13h30 - 17h",
+                    "duration": "3h30",
+                    "task": "Recherche de nouvelles opportunités : Exploration de nouvelles offres de stage ou d'emploi et préparation des candidatures."
                 }
             ],
             "Vendredi 13 septembre": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Workshop sur Svelte : Présentation et gestion des sessions avec les participants."
+                    "time": "9h - 12h30",
+                    "duration": "3h30",
+                    "task": "Préparation pour des entretiens : Révision des questions courantes et préparation des réponses."
                 },
                 {
-                    time: "12h30 - 13h30",
-                    duration: "1h",
-                    task: "Pause déjeuner."
+                    "time": "12h30 - 13h30",
+                    "duration": "1h",
+                    "task": "Pause déjeuner."
                 },
                 {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Poursuite du workshop sur Svelte : Assurez-vous de répondre aux questions et de finaliser les sessions."
+                    "time": "13h30 - 17h",
+                    "duration": "3h30",
+                    "task": "Préparation d'un projet pour des entretiens : Démonstration de compétences techniques et création d'une présentation."
                 }
             ],
             "Samedi 14 septembre": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Analysez les retours du workshop sur Svelte : Examinez les commentaires pour en tirer des enseignements."
-                },
-                {
-                    time: "12h30 - 13h30",
-                    duration: "1h",
-                    task: "Pause déjeuner."
-                },
-                {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Révisez les retours du workshop et planifiez les améliorations nécessaires pour les futurs workshops."
+                    "time": "9h - 12h",
+                    "duration": "3h",
+                    "task": "Participation à des événements de réseautage : Rencontres avec des professionnels et exploration des opportunités."
                 }
             ],
             "Dimanche 15 septembre": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Revue et planification : Analysez les retours du workshop sur Svelte et ajustez les plans pour la semaine suivante."
-                },
-                {
-                    time: "12h30 - 13h30",
-                    duration: "1h",
-                    task: "Pause déjeuner."
-                },
-                {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Préparez les tâches pour la semaine prochaine et révisez le planning."
+                    "time": "Pas de travail",
+                    "duration": "N/A",
+                    "task": "Congés : Repos et détente."
                 }
             ]
         }
@@ -649,121 +597,101 @@ const agenda = {
         "16 septembre - 22 septembre": {
             "Lundi 16 septembre": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Introduction à Angular : Installez Angular et créez votre premier projet."
+                    "time": "9h - 12h30",
+                    "duration": "3h30",
+                    "task": "Développement d'un projet de groupe : Collaboration avec d'autres développeurs et mise en place des objectifs du projet."
                 },
                 {
-                    time: "12h30 - 13h30",
-                    duration: "1h",
-                    task: "Pause déjeuner."
+                    "time": "12h30 - 13h30",
+                    "duration": "1h",
+                    "task": "Pause déjeuner."
                 },
                 {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Apprenez les bases d'Angular : Comprenez les concepts clés et la structure des projets."
+                    "time": "13h30 - 17h",
+                    "duration": "3h30",
+                    "task": "Développement du projet de groupe : Répartition des tâches et début de l'implémentation des fonctionnalités."
                 }
             ],
             "Mardi 17 septembre": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Continuez l'apprentissage d'Angular : Explorez les composants, les directives et les services."
+                    "time": "9h - 12h30",
+                    "duration": "3h30",
+                    "task": "Développement du projet de groupe : Continuation du travail sur les fonctionnalités et intégration des composants."
                 },
                 {
-                    time: "12h30 - 13h30",
-                    duration: "1h",
-                    task: "Pause déjeuner."
+                    "time": "12h30 - 13h30",
+                    "duration": "1h",
+                    "task": "Pause déjeuner."
                 },
                 {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Développez une application Angular de base : Implémentez des fonctionnalités simples et testez-les."
+                    "time": "13h30 - 17h",
+                    "duration": "3h30",
+                    "task": "Développement du projet de groupe : Révision et ajustement des fonctionnalités en fonction des feedbacks."
                 }
             ],
             "Mercredi 18 septembre": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Approfondissez vos connaissances en Angular : Travaillez sur les formulaires et la gestion des états."
+                    "time": "9h - 12h30",
+                    "duration": "3h30",
+                    "task": "Finalisation du projet de groupe : Tests, corrections et préparation pour la présentation."
                 },
                 {
-                    time: "12h30 - 13h30",
-                    duration: "1h",
-                    task: "Pause déjeuner."
+                    "time": "12h30 - 13h30",
+                    "duration": "1h",
+                    "task": "Pause déjeuner."
                 },
                 {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Développez des fonctionnalités plus complexes dans l'application Angular."
+                    "time": "13h30 - 17h",
+                    "duration": "3h30",
+                    "task": "Présentation du projet de groupe : Préparation des slides et répétition de la présentation."
                 }
             ],
             "Jeudi 19 septembre": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Continuez à travailler sur l'application Angular : Implémentez des fonctionnalités supplémentaires et ajustez le design."
+                    "time": "9h - 12h30",
+                    "duration": "3h30",
+                    "task": "Travail sur un projet de développement personnel : Exploration de nouvelles technologies et intégration dans le projet."
                 },
                 {
-                    time: "12h30 - 13h30",
-                    duration: "1h",
-                    task: "Pause déjeuner."
+                    "time": "12h30 - 13h30",
+                    "duration": "1h",
+                    "task": "Pause déjeuner."
                 },
                 {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Apprenez à gérer les routes et les modules dans Angular."
+                    "time": "13h30 - 17h",
+                    "duration": "3h30",
+                    "task": "Tests et débogage du projet de développement personnel : Révision du code et correction des erreurs."
                 }
             ],
             "Vendredi 20 septembre": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Intégrez des services et des API dans l'application Angular : Testez les appels API et gérez les réponses."
+                    "time": "9h - 12h30",
+                    "duration": "3h30",
+                    "task": "Révision des compétences acquises : Exploration des concepts avancés et approfondissement des connaissances."
                 },
                 {
-                    time: "12h30 - 13h30",
-                    duration: "1h",
-                    task: "Pause déjeuner."
+                    "time": "12h30 - 13h30",
+                    "duration": "1h",
+                    "task": "Pause déjeuner."
                 },
                 {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Optimisez et testez l'application Angular : Assurez-vous que tout fonctionne correctement."
+                    "time": "13h30 - 17h",
+                    "duration": "3h30",
+                    "task": "Mise à jour du portfolio : Ajout des nouveaux projets et révision de la présentation."
                 }
             ],
             "Samedi 21 septembre": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Finalisez l'application Angular : Corrigez les bugs restants et améliorez le design."
-                },
-                {
-                    time: "12h30 - 13h30",
-                    duration: "1h",
-                    task: "Pause déjeuner."
-                },
-                {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Préparez-vous pour le déploiement de l'application Angular : Revérifiez le code et la configuration."
+                    "time": "9h - 12h",
+                    "duration": "3h",
+                    "task": "Participation à un meetup technologique : Réseautage et apprentissage de nouvelles tendances."
                 }
             ],
             "Dimanche 22 septembre": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Finalisation de l'application Angular : Préparez tout pour la présentation de la semaine prochaine."
-                },
-                {
-                    time: "12h30 - 13h30",
-                    duration: "1h",
-                    task: "Pause déjeuner."
-                },
-                {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Planifiez les prochaines étapes : Préparez-vous pour la semaine suivante et ajustez le planning si nécessaire."
+                    "time": "Pas de travail",
+                    "duration": "N/A",
+                    "task": "Congés : Repos et détente."
                 }
             ]
         }
