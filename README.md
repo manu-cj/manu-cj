@@ -83,7 +83,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Karma](https://karma-runner.github.io/)**: Un test runner pour les tests unitaires dans les navigateurs.
+ **[Rollup](https://rollupjs.org/)**: Un bundler de modules JavaScript pour des projets modernes.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -98,9 +98,9 @@
 <div align="center">
  <!-- START_AGENDA_SECTION -->
 <h3>Mardi 13 août
-</h3><div align="left">9h - 12h30 (3h30): Travail intensif sur la préparation du tech talk (slides, exemples de code, répétition de la présentation)
-</div><div align="left">12h30 - 13h30 (1h): Pause déjeuner
-</div><div align="left">13h30 - 17h (3h30): Travail intensif sur la préparation du tech talk
+</h3><div align="left">9h - 12h30 (3h30): Préparation du tech talk : Création des slides, ajout des points clés et exemples de code.
+</div><div align="left">12h30 - 13h30 (1h): Pause déjeuner.
+</div><div align="left">13h30 - 17h (3h30): Affinement du tech talk : Révision des slides et répétition de la présentation.
 </div>
 
 <!-- END_AGENDA_SECTION -->
