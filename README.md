@@ -69,6 +69,9 @@
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=manu-cj&theme=react&langs_count=6&layout=compact&title_color=007acc&icon_color=007acc&text_color=007acc&bg_color=00000000&border_radius=15&border_color=00000000&hide=jupyter%20notebook" height="200px" />
 </div>
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=manu-cj&theme=react&langs_count=6&layout=compact&title_color=007acc&icon_color=007acc&text_color=007acc&bg_color=00000000&border_radius=15&border_color=00000000&hide=jupyter%20notebook" height="200px" />
+</div>
 <br>
 <div align="center">
  <a href="https://www.linkedin.com/in/manu-cj" target="_blank">
