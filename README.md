@@ -83,7 +83,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Cordova](https://cordova.apache.org/)**: Un framework pour créer des applications mobiles avec HTML, CSS, et JavaScript.
+ **[Karma](https://karma-runner.github.io/)**: Un test runner pour les tests unitaires dans les navigateurs.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -98,10 +98,10 @@
 <div align="center">
  <!-- START_AGENDA_SECTION -->
 <h3>Mardi 13 août
-</h3><br></br> 9h - 12h30 (3h30): Travail intensif sur la préparation du tech talk (slides, exemples de code, répétition de la présentation)
-<br></br> 12h30 - 13h30 (1h): Pause déjeuner
-<br></br> 13h30 - 17h (3h30): Travail intensif sur la préparation du tech talk
-
+</h3><div align="left">9h - 12h30 (3h30): Travail intensif sur la préparation du tech talk (slides, exemples de code, répétition de la présentation)
+</div><div align="left">12h30 - 13h30 (1h): Pause déjeuner
+</div><div align="left">13h30 - 17h (3h30): Travail intensif sur la préparation du tech talk
+</div>
 
 <!-- END_AGENDA_SECTION -->
 </div>
