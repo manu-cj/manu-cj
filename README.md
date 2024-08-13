@@ -83,7 +83,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[TSDoc](https://tsdoc.org/)**: Un outil pour documenter les projets TypeScript avec des commentaires JSDoc.
+ **[Quasar](https://quasar.dev/)**: Un framework pour développer des applications Vue.js avec une approche multiplateforme.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -97,8 +97,8 @@
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-### Mardi 13 août
-- 9h - 12h30 (3h30): Travail intensif sur la préparation du tech talk (slides, exemples de code, répétition de la présentation)
+<h3>Mardi 13 août
+</h3>- 9h - 12h30 (3h30): Travail intensif sur la préparation du tech talk (slides, exemples de code, répétition de la présentation)
 - 12h30 - 13h30 (1h): Pause déjeuner
 - 13h30 - 17h (3h30): Travail intensif sur la préparation du tech talk
 

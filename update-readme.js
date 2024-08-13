@@ -222,7 +222,7 @@ function generateDayAgenda(day) {
     for (const week in agenda) {
         for (const period in agenda[week]) {
             if (agenda[week][period][day]) {
-                agendaContent += `### ${day}\n`;
+                agendaContent += `<h3>${day}\n</h3>` ;
                 agenda[week][period][day].forEach(task => {
                     agendaContent += `- ${task.time} (${task.duration}): ${task.task}\n`;
                 });
