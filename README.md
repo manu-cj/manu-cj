@@ -95,8 +95,8 @@
 
 
 
-
-<!-- START_AGENDA_SECTION -->
+<div align="center">
+ <!-- START_AGENDA_SECTION -->
 ### Mardi 13 août
 - 9h - 12h30 (3h30): Travail intensif sur la préparation du tech talk (slides, exemples de code, répétition de la présentation)
 - 12h30 - 13h30 (1h): Pause déjeuner
@@ -104,3 +104,5 @@
 
 
 <!-- END_AGENDA_SECTION -->
+</div>
+
