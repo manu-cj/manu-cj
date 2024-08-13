@@ -199,10 +199,20 @@ function formatDate(date) {
         "janvier", "février", "mars", "avril", "mai", "juin", 
         "juillet", "août", "septembre", "octobre", "novembre", "décembre"
     ];
-    const options = { weekday: 'long', day: 'numeric', month: 'long' };
-    const dayName = date.toLocaleDateString('fr-FR', options);
-    return dayName.toLowerCase(); // Assurez-vous que cela correspond à votre format de date dans l'agenda
+
+    const dayOptions = { weekday: 'long', day: 'numeric' };
+    const dayName = date.toLocaleDateString('fr-FR', dayOptions);
+
+    let dayOfWeek = dayName.split(' ')[0]; // 'mardi'
+    dayOfWeek = dayOfWeek.charAt(0).toUpperCase() + dayOfWeek.slice(1).toLowerCase(); // 'Mardi'
+
+    const dayOfMonth = date.getDate(); // 13
+    const month = months[date.getMonth()]; // 'août'
+
+    return `${dayOfWeek} ${dayOfMonth} ${month}`; // 'Mardi 13 août'
 }
+
+
 
 // Fonction pour générer le contenu de l'agenda pour une date donnée
 function generateDayAgenda(day) {
@@ -268,6 +278,13 @@ ${newAgendaContent}
     // Écrire le nouveau contenu dans le README
     fs.writeFileSync(readmePath, newContent, 'utf8');
 }
+
+const testDate = formatDate(new Date());
+console.log('Date actuelle formatée:', testDate);
+
+const dayAgenda = generateDayAgenda(testDate);
+console.log('Contenu de l’agenda pour aujourd’hui:\n', dayAgenda);
+
 
 // Exécuter la fonction de mise à jour
 updateReadme();

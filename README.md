@@ -83,7 +83,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Storybook](https://storybook.js.org/)**: Un outil pour construire et tester des composants UI de manière isolée.
+ **[Redux](https://redux.js.org/)**: Une bibliothèque pour gérer l'état de l'application JavaScript.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -97,5 +97,10 @@
 
 
 <!-- START_AGENDA_SECTION -->
-Aucun agenda disponible pour ce jour.
+### Mardi 13 août
+- 9h - 12h30 (3h30): Travail intensif sur la préparation du tech talk (slides, exemples de code, répétition de la présentation)
+- 12h30 - 13h30 (1h): Pause déjeuner
+- 13h30 - 17h (3h30): Travail intensif sur la préparation du tech talk
+
+
 <!-- END_AGENDA_SECTION -->
