@@ -187,21 +187,38 @@ const agenda = {
         }
     }
 };
+const fs = require('fs');  // Ajoutez cette ligne pour importer le module fs
+const path = require('path');
 
+const readmePath = path.join(__dirname, 'README.md');
 
-function getRandomLibrary() {
-    const randomIndex = Math.floor(Math.random() * libraries.length);
-    return libraries[randomIndex];
-}
+// Liste des bibliothèques JavaScript avec descriptions
+const libraries = [
+  // ... (toute la liste de bibliothèques comme avant)
+];
 
-// Fonction pour obtenir la date actuelle au format 'Jour Mois' (ex: 'Mardi 13 août')
-function getCurrentDateFormatted() {
-    const today = new Date();
+// Définir l'agenda
+const agenda = {
+    "Semaine 1": {
+        "13 août - 20 août": {
+            "Mardi 13 août": [
+                { time: "9h - 12h30", duration: "3h30", task: "Travail intensif sur la préparation du tech talk (slides, exemples de code, répétition de la présentation)" },
+                { time: "12h30 - 13h30", duration: "1h", task: "Pause déjeuner" },
+                { time: "13h30 - 17h", duration: "3h30", task: "Travail intensif sur la préparation du tech talk" }
+            ],
+            // ... (le reste de la semaine 1)
+        }
+    },
+    // ... (le reste des semaines)
+};
+
+// Fonction pour obtenir la date au format 'Jour Mois' (ex: 'Mardi 13 août')
+function formatDate(date) {
     const options = { weekday: 'long', day: 'numeric', month: 'long' };
-    return today.toLocaleDateString('fr-FR', options);
+    return date.toLocaleDateString('fr-FR', options);
 }
 
-// Fonction pour générer le contenu de l'agenda pour le jour actuel
+// Fonction pour générer le contenu de l'agenda pour une date donnée
 function generateDayAgenda(day) {
     let agendaContent = '';
 
@@ -245,11 +262,11 @@ function updateReadme() {
     });
 
     // Obtenir la date actuelle et formater
-    const currentDay = getCurrentDateFormatted();
+    const currentDay = formatDate(new Date()); // Formatage de la date actuelle
 
     // Ajouter l'agenda pour le jour actuel au README
     const agendaSectionPattern = /<!-- START_AGENDA_SECTION -->[\s\S]*?<!-- END_AGENDA_SECTION -->/;
-    const newAgendaContent = generateDayAgenda("Mardi 13 août");
+    const newAgendaContent = generateDayAgenda(currentDay);
     newContent = newContent.replace(agendaSectionPattern, (match) => {
         return `<!-- START_AGENDA_SECTION -->
 ${newAgendaContent}
