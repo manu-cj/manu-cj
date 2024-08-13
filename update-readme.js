@@ -188,6 +188,10 @@ const agenda = {
     }
 };
 
+function getRandomLibrary() {
+    const randomIndex = Math.floor(Math.random() * libraries.length);
+    return libraries[randomIndex];
+}
 
 // Fonction pour obtenir la date au format 'Jour Mois' (ex: 'Mardi 13 août')
 function formatDate(date) {
