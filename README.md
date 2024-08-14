@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Electron](https://www.electronjs.org/)**: Un framework pour créer des applications desktop avec JavaScript, HTML, et CSS.
+ **[jQuery](https://jquery.com/)**: Une bibliothèque pour simplifier la manipulation du DOM et les requêtes AJAX.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -100,10 +100,10 @@
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Mardi 13 août
-</h3><div align="left">9h - 12h30 : Préparation du tech talk : Création des slides, ajout des points clés et exemples de code.
+<h3>Mercredi 14 août
+</h3><div align="left">9h - 12h30 : Révision et pratique de la présentation du tech talk : Ajustement des slides et du discours.
 </div><div align="left">12h30 - 13h30 : Pause déjeuner.
-</div><div align="left">13h30 - 17h : Affinement du tech talk : Révision des slides et répétition de la présentation.
+</div><div align="left">13h30 - 17h : Mise à jour du portfolio : Ajout de projets récents et complétion de la section 'À propos'.
 </div>
 
 <!-- END_AGENDA_SECTION -->
