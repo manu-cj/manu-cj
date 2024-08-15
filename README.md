@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[jQuery](https://jquery.com/)**: Une bibliothèque pour simplifier la manipulation du DOM et les requêtes AJAX.
+ **[Gatsby](https://www.gatsbyjs.com/)**: Un générateur de sites statiques basé sur React.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -100,10 +100,10 @@
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Mercredi 14 août
-</h3><div align="left">9h - 12h30 : Révision et pratique de la présentation du tech talk : Ajustement des slides et du discours.
+<h3>Jeudi 15 août
+</h3><div align="left">9h - 12h30 : Finalisation du portfolio : Vérification de la mise en page et correction des erreurs.
 </div><div align="left">12h30 - 13h30 : Pause déjeuner.
-</div><div align="left">13h30 - 17h : Mise à jour du portfolio : Ajout de projets récents et complétion de la section 'À propos'.
+</div><div align="left">13h30 - 17h : Introduction à Svelte : Création d'un projet initial et apprentissage des bases.
 </div>
 
 <!-- END_AGENDA_SECTION -->
