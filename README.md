@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Gatsby](https://www.gatsbyjs.com/)**: Un générateur de sites statiques basé sur React.
+ **[Next.js](https://nextjs.org/)**: Un framework pour React qui permet le rendu côté serveur et la génération de sites statiques.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -100,10 +100,10 @@
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Jeudi 15 août
-</h3><div align="left">9h - 12h30 : Finalisation du portfolio : Vérification de la mise en page et correction des erreurs.
+<h3>Vendredi 16 août
+</h3><div align="left">9h - 12h30 : Développement du projet Svelte : Ajout de fonctionnalités et résolution de problèmes.
 </div><div align="left">12h30 - 13h30 : Pause déjeuner.
-</div><div align="left">13h30 - 17h : Introduction à Svelte : Création d'un projet initial et apprentissage des bases.
+</div><div align="left">13h30 - 17h : Approfondissement des connaissances en Svelte : Exploration des fonctionnalités avancées.
 </div>
 
 <!-- END_AGENDA_SECTION -->
