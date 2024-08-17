@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Next.js](https://nextjs.org/)**: Un framework pour React qui permet le rendu côté serveur et la génération de sites statiques.
+ **[Material-UI](https://mui.com/)**: Une bibliothèque de composants UI pour React avec le design Material.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -100,10 +100,10 @@
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Vendredi 16 août
-</h3><div align="left">9h - 12h30 : Développement du projet Svelte : Ajout de fonctionnalités et résolution de problèmes.
-</div><div align="left">12h30 - 13h30 : Pause déjeuner.
-</div><div align="left">13h30 - 17h : Approfondissement des connaissances en Svelte : Exploration des fonctionnalités avancées.
+<h3>Samedi 17 août
+</h3><div align="center">9h - 12h30 : Développement du projet Svelte : Implémentation de fonctionnalités supplémentaires et tests.
+</div><div align="center">12h30 - 13h30 : Pause déjeuner.
+</div><div align="center">13h30 - 17h : Introduction à Node.js : Installation et écriture de scripts de base.
 </div>
 
 <!-- END_AGENDA_SECTION -->
