@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Material-UI](https://mui.com/)**: Une bibliothèque de composants UI pour React avec le design Material.
+ **[Ant Design](https://ant.design/)**: Une bibliothèque de composants UI pour React.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
