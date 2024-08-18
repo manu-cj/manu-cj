@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Ant Design](https://ant.design/)**: Une bibliothèque de composants UI pour React.
+ **[Lerna](https://lerna.js.org/)**: Un outil pour gérer les monorepos JavaScript.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -100,10 +100,10 @@
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Samedi 17 août
-</h3><div align="center">9h - 12h30 : Développement du projet Svelte : Implémentation de fonctionnalités supplémentaires et tests.
+<h3>Dimanche 18 août
+</h3><div align="center">9h - 12h30 : Travail sur le projet Svelte : Révision et amélioration du code.
 </div><div align="center">12h30 - 13h30 : Pause déjeuner.
-</div><div align="center">13h30 - 17h : Introduction à Node.js : Installation et écriture de scripts de base.
+</div><div align="center">13h30 - 17h : Apprentissage avancé de Node.js : Exploration des fonctionnalités avancées.
 </div>
 
 <!-- END_AGENDA_SECTION -->
