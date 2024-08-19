@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Lerna](https://lerna.js.org/)**: Un outil pour gérer les monorepos JavaScript.
+ **[PM2](https://pm2.keymetrics.io/)**: Un gestionnaire de processus pour les applications Node.js.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -100,10 +100,11 @@
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Dimanche 18 août
-</h3><div align="center">9h - 12h30 : Travail sur le projet Svelte : Révision et amélioration du code.
+<h3>Lundi 19 août
+</h3><div align="center">9h - 11h : Recherche de stages : Identification des opportunités et préparation des candidatures.
+</div><div align="center">11h - 12h30 : Développement du projet Svelte : Travail sur les nouvelles fonctionnalités.
 </div><div align="center">12h30 - 13h30 : Pause déjeuner.
-</div><div align="center">13h30 - 17h : Apprentissage avancé de Node.js : Exploration des fonctionnalités avancées.
+</div><div align="center">13h30 - 17h : Apprentissage de Node.js : Exploration d'Express, gestion des routes et des middlewares.
 </div>
 
 <!-- END_AGENDA_SECTION -->
