@@ -542,16 +542,20 @@ function formatDate(date) {
 
 
 // Fonction pour générer le contenu de l'agenda pour une date donnée
-function generateDayAgenda(day) {
+
+function generateDayAgenda(date) {
     let agendaContent = '';
+
+    // Convertir la date en format "Jour Date Mois" (ex: "Mercredi 21 août")
+    const formattedDate = formatDate(date);
 
     // Parcourir chaque semaine dans l'agenda
     for (const week in agenda) {
         for (const period in agenda[week]) {
-            if (agenda[week][period][day]) {
-                agendaContent += `<h3>${day}\n</h3>` ;
-                agenda[week][period][day].forEach(task => {
-                    agendaContent += `<div align="center">${task.time} : ${task.task}\n</div>`;
+            if (agenda[week][period][formattedDate]) {
+                agendaContent += `<h3>${formattedDate}</h3>`;
+                agenda[week][period][formattedDate].forEach(task => {
+                    agendaContent += `<div align="center">${task.time} : ${task.task}</div>`;
                 });
                 agendaContent += '\n';
                 return agendaContent; // Sortir dès qu'on a trouvé la section
