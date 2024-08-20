@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Meteor](https://www.meteor.com/)**: Un framework pour construire des applications web et mobiles en temps réel.
+ **[Eslint](https://eslint.org/)**: Un linter JavaScript pour identifier et signaler les problèmes de code.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
