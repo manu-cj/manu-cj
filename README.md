@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Axios](https://axios-http.com/)**: Une bibliothèque pour faire des requêtes HTTP.
+ **[Meteor](https://www.meteor.com/)**: Un framework pour construire des applications web et mobiles en temps réel.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
