@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[TSDoc](https://tsdoc.org/)**: Un outil pour documenter les projets TypeScript avec des commentaires JSDoc.
+ **[Axios](https://axios-http.com/)**: Une bibliothèque pour faire des requêtes HTTP.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -100,12 +100,7 @@
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Mardi 20 août
-</h3><div align="center">9h - 12h30 : Développement du projet Svelte : Ajout de fonctionnalités et amélioration du design.
-</div><div align="center">12h30 - 13h30 : Pause déjeuner.
-</div><div align="center">13h30 - 17h : Apprentissage de Node.js : Implémentation du CRUD et création d'une API.
-</div>
-
+Aucun agenda disponible pour ce jour.
 <!-- END_AGENDA_SECTION -->
 </div>
 
