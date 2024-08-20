@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Eslint](https://eslint.org/)**: Un linter JavaScript pour identifier et signaler les problèmes de code.
+ **[Chart.js](https://www.chartjs.org/)**: Une bibliothèque pour créer des graphiques animés et interactifs.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
