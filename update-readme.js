@@ -104,406 +104,414 @@ const libraries = [
 
 // Définir l'agenda
 const agenda = {
-     "Semaine 1 (21 - 27 août)": {
-    "Mercredi 21 août": [
-      {
-        time: "9h - 11h",
-        duration: "2h",
-        task: "Recherche de stage : Préparation de CV et lettres de motivation."
-      },
-      {
-        time: "11h - 12h30",
-        duration: "1h30",
-        task: "Svelte : Introduction aux concepts de base - Création de composants, gestion des props."
-      },
-      {
-        time: "13h30 - 15h30",
-        duration: "2h",
-        task: "Node.js : Développement des opérations CRUD - Création des routes pour Create, Read, Update, Delete."
-      },
-      {
-        time: "15h30 - 17h",
-        duration: "1h30",
-        task: "Node.js : Validation des données et gestion des erreurs dans les opérations CRUD."
-      }
-    ],
-    "Jeudi 22 août": [
-      {
-        time: "9h - 12h30",
-        duration: "3h30",
-        task: "Node.js : Sécurisation des API - Mise en place de l'authentification (JWT) et des autorisations."
-      },
-      {
-        time: "13h30 - 15h30",
-        duration: "2h",
-        task: "Svelte : Composants dynamiques et gestion de l'état local."
-      },
-      {
-        time: "15h30 - 17h",
-        duration: "1h30",
-        task: "Node.js : Optimisation des requêtes MongoDB et gestion des index."
-      }
-    ],
-    "Vendredi 23 août": [
-      {
-        time: "9h - 11h",
-        duration: "2h",
-        task: "Recherche de stage : Suivi des candidatures et ajustement des documents."
-      },
-      {
-        time: "11h - 12h30",
-        duration: "1h30",
-        task: "Node.js : Intégration des fonctionnalités de recherche et filtrage dans l'application CRUD."
-      },
-      {
-        time: "13h30 - 15h30",
-        duration: "2h",
-        task: "Svelte : Utilisation des stores pour gérer l'état global."
-      },
-      {
-        time: "15h30 - 17h",
-        duration: "1h30",
-        task: "Node.js : Gestion des fichiers et des uploads."
-      }
-    ],
-    "Samedi 24 août": [
-      {
-        time: "9h - 12h30",
-        duration: "3h30",
-        task: "MongoDB : Pratique avancée du CRUD - Gestion des relations entre collections."
-      },
-      {
-        time: "13h30 - 15h30",
-        duration: "2h",
-        task: "Svelte : Création d'une petite application avec des composants et gestion d'état simple."
-      },
-      {
-        time: "15h30 - 17h",
-        duration: "1h30",
-        task: "Node.js : Intégration des fonctionnalités de recherche et filtrage dans l'application CRUD."
-      }
-    ],
-    "Dimanche 25 août": [
-      {
-        time: "Congé",
-        duration: "Journée entière",
-        task: "Congé"
-      }
-    ],
-    "Lundi 26 août": [
-      {
-        time: "Congé",
-        duration: "Journée entière",
-        task: "Congé"
-      }
-    ],
-    "Mardi 27 août": [
-      {
-        time: "Congé",
-        duration: "Journée entière",
-        task: "Congé"
-      }
-    ]
-  },
-  "Semaine 2 (28 août - 3 septembre)": {
-    "Mercredi 28 août": [
-      {
-        time: "9h - 11h",
-        duration: "2h",
-        task: "Recherche de stage : Suivi des candidatures et ajustement des documents."
-      },
-      {
-        time: "11h - 12h30",
-        duration: "1h30",
-        task: "Svelte : Introduction aux animations et transitions."
-      },
-      {
-        time: "13h30 - 15h30",
-        duration: "2h",
-        task: "Node.js : Création d'API RESTful avec des opérations CRUD avancées."
-      },
-      {
-        time: "15h30 - 17h",
-        duration: "1h30",
-        task: "Svelte : Amélioration des animations et transitions dans l'application."
-      }
-    ],
-    "Jeudi 29 août": [
-      {
-        time: "9h - 12h30",
-        duration: "3h30",
-        task: "Svelte : Gestion des formulaires et validation des entrées."
-      },
-      {
-        time: "13h30 - 15h30",
-        duration: "2h",
-        task: "Node.js : Révision et optimisation des opérations CRUD avec MongoDB."
-      },
-      {
-        time: "15h30 - 17h",
-        duration: "1h30",
-        task: "Svelte : Préparation pour la présentation du mini-projet."
-      }
-    ],
-    "Vendredi 30 août": [
-      {
-        time: "9h - 12h30",
-        duration: "3h30",
-        task: "Node.js : Sécurisation des API - Gestion des autorisations et authentification avancée."
-      },
-      {
-        time: "13h30 - 15h30",
-        duration: "2h",
-        task: "Svelte : Techniques avancées de gestion de l'état et des effets secondaires."
-      },
-      {
-        time: "15h30 - 17h",
-        duration: "1h30",
-        task: "Node.js : Ajouter des fonctionnalités avancées au CRUD - Gestion des fichiers et des uploads."
-      }
-    ],
-    "Samedi 31 août": [
-      {
-        time: "9h - 12h30",
-        duration: "3h30",
-        task: "Svelte : Déploiement d'une application Svelte sur Vercel ou Netlify."
-      },
-      {
-        time: "13h30 - 15h30",
-        duration: "2h",
-        task: "Node.js : Déploiement de l'application CRUD avec MongoDB sur Heroku ou un autre service."
-      },
-      {
-        time: "15h30 - 17h",
-        duration: "1h30",
-        task: "Svelte : Révision et amélioration de l'application déployée."
-      }
-    ],
-    "Dimanche 1er septembre": [
-      {
-        time: "9h - 12h30",
-        duration: "3h30",
-        task: "Revue des concepts abordés en Svelte et Node.js, préparation d'un mini-projet combinant les deux technologies."
-      }
-    ],
-    "Lundi 2 septembre": [
-      {
-        time: "9h - 12h30",
-        duration: "3h30",
-        task: "Développement du mini-projet : Mise en place de la structure et des composants Svelte."
-      },
-      {
-        time: "13h30 - 15h30",
-        duration: "2h",
-        task: "Node.js : Intégration des fonctionnalités CRUD dans le mini-projet."
-      },
-      {
-        time: "15h30 - 17h",
-        duration: "1h30",
-        task: "Svelte : Création des routes et intégration des données depuis Node.js."
-      }
-    ],
-    "Mardi 3 septembre": [
-      {
-        time: "9h - 12h30",
-        duration: "3h30",
-        task: "Développement du mini-projet : Finalisation des fonctionnalités, tests et débogage."
-      },
-      {
-        time: "13h30 - 15h30",
-        duration: "2h",
-        task: "Node.js : Tests d'intégration et débogage des fonctionnalités CRUD."
-      },
-      {
-        time: "15h30 - 17h",
-        duration: "1h30",
-        task: "Svelte : Documentation et préparation de la présentation du mini-projet."
-      }
-    ]
-  },
-  "Semaine 3 (4 - 10 septembre)": {
-    "Mercredi 4 septembre": [
-      {
-        time: "9h - 11h",
-        duration: "2h",
-        task: "Recherche de stage : Derniers ajustements et envoi de candidatures."
-      },
-      {
-        time: "11h - 12h30",
-        duration: "1h30",
-        task: "Node.js : Préparation pour la présentation du projet - Révision des points clés."
-      },
-      {
-        time: "13h30 - 17h",
-        duration: "3h30",
-        task: "Svelte : Préparation de la présentation pour le workshop - Révision des diapositives et des démonstrations."
-      }
-    ],
-    "Jeudi 5 septembre": [
-      {
-        time: "9h - 12h30",
-        duration: "3h30",
-        task: "Svelte : Analyse et amélioration de l'interface utilisateur, revue des meilleures pratiques."
-      },
-      {
-        time: "13h30 - 15h30",
-        duration: "2h",
-        task: "Node.js : Analyse et amélioration des performances du backend."
-      },
-      {
-        time: "15h30 - 17h",
-        duration: "1h30",
-        task: "Svelte : Révision des tests et validation finale de l'application."
-      }
-    ],
-    "Vendredi 6 septembre": [
-      {
-        time: "9h - 12h30",
-        duration: "3h30",
-        task: "Node.js : Introduction à la gestion des tâches asynchrones avec des queues (ex. Bull.js)."
-      },
-      {
-        time: "13h30 - 15h30",
-        duration: "2h",
-        task: "Svelte : Mise en place de l'authentification utilisateur dans une application complète."
-      },
-      {
-        time: "15h30 - 17h",
-        duration: "1h30",
-        task: "Node.js : Analyse des performances et optimisation des routes API."
-      }
-    ],
-    "Samedi 7 septembre": [
-      {
-        time: "9h - 12h30",
-        duration: "3h30",
-        task: "Svelte : Déploiement et gestion des environnements (développement, test, production)."
-      },
-      {
-        time: "13h30 - 15h30",
-        duration: "2h",
-        task: "Node.js : Intégration avec des services tiers (API externes, services de paiement, etc.)."
-      },
-      {
-        time: "15h30 - 17h",
-        duration: "1h30",
-        task: "Svelte : Amélioration de la performance et des interactions utilisateur dans l'application."
-      }
-    ],
-    "Dimanche 8 septembre": [
-      {
-        time: "9h - 12h30",
-        duration: "3h30",
-        task: "Revue des concepts abordés en Svelte et Node.js, réflexion sur les projets futurs."
-      }
-    ],
-    "Lundi 9 septembre": [
-      {
-        time: "9h - 12h30",
-        duration: "3h30",
-        task: "Node.js : Mise en place de la documentation API avec Swagger."
-      },
-      {
-        time: "13h30 - 15h30",
-        duration: "2h",
-        task: "Svelte : Création d'un projet de démonstration combinant les fonctionnalités apprises."
-      },
-      {
-        time: "15h30 - 17h",
-        duration: "1h30",
-        task: "Node.js : Tests et validation des fonctionnalités du projet."
-      }
-    ],
-    "Mardi 10 septembre": [
-      {
-        time: "9h - 12h30",
-        duration: "3h30",
-        task: "Svelte : Implémentation des meilleures pratiques et révision des concepts avancés."
-      },
-      {
-        time: "13h30 - 15h30",
-        duration: "2h",
-        task: "Node.js : Revue et amélioration du projet, ajout de fonctionnalités si nécessaire."
-      },
-      {
-        time: "15h30 - 17h",
-        duration: "1h30",
-        task: "Svelte : Documentation et présentation du projet."
-      }
-    ]
-  },
-  "Semaine 4 (11 - 15 septembre)": {
-    "Mercredi 11 septembre": [
-      {
-        time: "9h - 11h",
-        duration: "2h",
-        task: "Recherche de stage : Derniers ajustements et envoi de candidatures."
-      },
-      {
-        time: "11h - 12h30",
-        duration: "1h30",
-        task: "Node.js : Préparation pour la présentation du projet - Révision des points clés."
-      },
-      {
-        time: "13h30 - 17h",
-        duration: "3h30",
-        task: "Svelte : Préparation de la présentation pour le workshop - Révision des diapositives et des démonstrations."
-      }
-    ],
-    "Jeudi 12 septembre": [
-      {
-        time: "9h - 12h30",
-        duration: "3h30",
-        task: "Svelte : Analyse et amélioration de l'interface utilisateur, revue des meilleures pratiques."
-      },
-      {
-        time: "13h30 - 15h30",
-        duration: "2h",
-        task: "Node.js : Analyse et amélioration des performances du backend."
-      },
-      {
-        time: "15h30 - 17h",
-        duration: "1h30",
-        task: "Svelte : Révision des tests et validation finale de l'application."
-      }
-    ],
-    "Vendredi 13 septembre": [
-      {
-        time: "9h - 12h30",
-        duration: "3h30",
-        task: "Node.js : Déploiement du projet final sur un serveur de production."
-      },
-      {
-        time: "13h30 - 17h",
-        duration: "3h30",
-        task: "Svelte : Présentation du workshop - Préparation et présentation aux participants."
-      }
-    ],
-    "Samedi 14 septembre": [
-      {
-        time: "9h - 12h30",
-        duration: "3h30",
-        task: "Revue finale des projets Node.js et Svelte - Documentation et rapport."
-      },
-      {
-        time: "13h30 - 15h30",
-        duration: "2h",
-        task: "Préparation pour les prochaines étapes de développement ou d'apprentissage."
-      },
-      {
-        time: "15h30 - 17h",
-        duration: "1h30",
-        task: "Discussion et planification des objectifs futurs."
-      }
-    ],
-    "Dimanche 15 septembre": [
-      {
-        time: "Congé",
-        duration: "Journée entière",
-        task: "Congé"
-      }
-    ]
-  }
+     "Semaine 1": {
+        "21 août - 27 août": {
+            "Mercredi 21 août": [
+                {
+                    time: "9h - 11h",
+                    duration: "2h",
+                    task: "Recherche de stage : Préparation de CV et lettres de motivation."
+                },
+                {
+                    time: "11h - 12h30",
+                    duration: "1h30",
+                    task: "Svelte : Introduction aux concepts de base - Création de composants, gestion des props."
+                },
+                {
+                    time: "13h30 - 15h30",
+                    duration: "2h",
+                    task: "Node.js : Développement des opérations CRUD - Création des routes pour Create, Read, Update, Delete."
+                },
+                {
+                    time: "15h30 - 17h",
+                    duration: "1h30",
+                    task: "Node.js : Validation des données et gestion des erreurs dans les opérations CRUD."
+                }
+            ],
+            "Jeudi 22 août": [
+                {
+                    time: "9h - 12h30",
+                    duration: "3h30",
+                    task: "Node.js : Sécurisation des API - Mise en place de l'authentification (JWT) et des autorisations."
+                },
+                {
+                    time: "13h30 - 15h30",
+                    duration: "2h",
+                    task: "Svelte : Composants dynamiques et gestion de l'état local."
+                },
+                {
+                    time: "15h30 - 17h",
+                    duration: "1h30",
+                    task: "Node.js : Optimisation des requêtes MongoDB et gestion des index."
+                }
+            ],
+            "Vendredi 23 août": [
+                {
+                    time: "9h - 11h",
+                    duration: "2h",
+                    task: "Recherche de stage : Suivi des candidatures et ajustement des documents."
+                },
+                {
+                    time: "11h - 12h30",
+                    duration: "1h30",
+                    task: "Node.js : Intégration des fonctionnalités de recherche et filtrage dans l'application CRUD."
+                },
+                {
+                    time: "13h30 - 15h30",
+                    duration: "2h",
+                    task: "Svelte : Utilisation des stores pour gérer l'état global."
+                },
+                {
+                    time: "15h30 - 17h",
+                    duration: "1h30",
+                    task: "Node.js : Gestion des fichiers et des uploads."
+                }
+            ],
+            "Samedi 24 août": [
+                {
+                    time: "9h - 12h30",
+                    duration: "3h30",
+                    task: "MongoDB : Pratique avancée du CRUD - Gestion des relations entre collections."
+                },
+                {
+                    time: "13h30 - 15h30",
+                    duration: "2h",
+                    task: "Svelte : Création d'une petite application avec des composants et gestion d'état simple."
+                },
+                {
+                    time: "15h30 - 17h",
+                    duration: "1h30",
+                    task: "Node.js : Intégration des fonctionnalités de recherche et filtrage dans l'application CRUD."
+                }
+            ],
+            "Dimanche 25 août": [
+                {
+                    time: "Congé",
+                    duration: "Journée entière",
+                    task: "Congé"
+                }
+            ],
+            "Lundi 26 août": [
+                {
+                    time: "Congé",
+                    duration: "Journée entière",
+                    task: "Congé"
+                }
+            ],
+            "Mardi 27 août": [
+                {
+                    time: "Congé",
+                    duration: "Journée entière",
+                    task: "Congé"
+                }
+            ]
+        }
+    },
+    "Semaine 2": {
+        "28 août - 3 septembre": {
+            "Mercredi 28 août": [
+                {
+                    time: "9h - 11h",
+                    duration: "2h",
+                    task: "Recherche de stage : Suivi des candidatures et ajustement des documents."
+                },
+                {
+                    time: "11h - 12h30",
+                    duration: "1h30",
+                    task: "Svelte : Introduction aux animations et transitions."
+                },
+                {
+                    time: "13h30 - 15h30",
+                    duration: "2h",
+                    task: "Node.js : Création d'API RESTful avec des opérations CRUD avancées."
+                },
+                {
+                    time: "15h30 - 17h",
+                    duration: "1h30",
+                    task: "Svelte : Amélioration des animations et transitions dans l'application."
+                }
+            ],
+            "Jeudi 29 août": [
+                {
+                    time: "9h - 12h30",
+                    duration: "3h30",
+                    task: "Svelte : Gestion des formulaires et validation des entrées."
+                },
+                {
+                    time: "13h30 - 15h30",
+                    duration: "2h",
+                    task: "Node.js : Révision et optimisation des opérations CRUD avec MongoDB."
+                },
+                {
+                    time: "15h30 - 17h",
+                    duration: "1h30",
+                    task: "Svelte : Préparation pour la présentation du mini-projet."
+                }
+            ],
+            "Vendredi 30 août": [
+                {
+                    time: "9h - 12h30",
+                    duration: "3h30",
+                    task: "Node.js : Sécurisation des API - Gestion des autorisations et authentification avancée."
+                },
+                {
+                    time: "13h30 - 15h30",
+                    duration: "2h",
+                    task: "Svelte : Techniques avancées de gestion de l'état et des effets secondaires."
+                },
+                {
+                    time: "15h30 - 17h",
+                    duration: "1h30",
+                    task: "Node.js : Ajouter des fonctionnalités avancées au CRUD - Gestion des fichiers et des uploads."
+                }
+            ],
+            "Samedi 31 août": [
+                {
+                    time: "9h - 12h30",
+                    duration: "3h30",
+                    task: "Svelte : Déploiement d'une application Svelte sur Vercel ou Netlify."
+                },
+                {
+                    time: "13h30 - 15h30",
+                    duration: "2h",
+                    task: "Node.js : Déploiement de l'application CRUD avec MongoDB sur Heroku ou un autre service."
+                },
+                {
+                    time: "15h30 - 17h",
+                    duration: "1h30",
+                    task: "Svelte : Révision et amélioration de l'application déployée."
+                }
+            ],
+            "Dimanche 1er septembre": [
+                {
+                    time: "9h - 12h30",
+                    duration: "3h30",
+                    task: "Revue des concepts abordés en Svelte et Node.js, préparation d'un mini-projet combinant les deux technologies."
+                }
+            ],
+            "Lundi 2 septembre": [
+                {
+                    time: "9h - 12h30",
+                    duration: "3h30",
+                    task: "Développement du mini-projet : Mise en place de la structure et des composants Svelte."
+                },
+                {
+                    time: "13h30 - 15h30",
+                    duration: "2h",
+                    task: "Node.js : Intégration des fonctionnalités CRUD dans le mini-projet."
+                },
+                {
+                    time: "15h30 - 17h",
+                    duration: "1h30",
+                    task: "Svelte : Création des routes et intégration des données depuis Node.js."
+                }
+            ],
+            "Mardi 3 septembre": [
+                {
+                    time: "9h - 12h30",
+                    duration: "3h30",
+                    task: "Développement du mini-projet : Finalisation des fonctionnalités, tests et débogage."
+                },
+                {
+                    time: "13h30 - 15h30",
+                    duration: "2h",
+                    task: "Node.js : Tests d'intégration et débogage des fonctionnalités CRUD."
+                },
+                {
+                    time: "15h30 - 17h",
+                    duration: "1h30",
+                    task: "Svelte : Documentation et préparation de la présentation du mini-projet."
+                }
+            ]
+        }
+    },
+    "Semaine 3": {
+        "4 septembre - 10 septembre": {
+            "Mercredi 4 septembre": [
+                {
+                    time: "9h - 11h",
+                    duration: "2h",
+                    task: "Recherche de stage : Derniers ajustements et envoi de candidatures."
+                },
+                {
+                    time: "11h - 12h30",
+                    duration: "1h30",
+                    task: "Node.js : Préparation pour la présentation du projet - Révision des points clés."
+                },
+                {
+                    time: "13h30 - 17h",
+                    duration: "3h30",
+                    task: "Svelte : Préparation de la présentation pour le workshop - Révision des diapositives et des démonstrations."
+                }
+            ],
+            "Jeudi 5 septembre": [
+                {
+                    time: "9h - 12h30",
+                    duration: "3h30",
+                    task: "Svelte : Analyse et amélioration de l'interface utilisateur, revue des meilleures pratiques."
+                },
+                {
+                    time: "13h30 - 15h30",
+                    duration: "2h",
+                    task: "Node.js : Analyse et amélioration des performances du backend."
+                },
+                {
+                    time: "15h30 - 17h",
+                    duration: "1h30",
+                    task: "Svelte : Révision des tests et validation finale de l'application."
+                }
+            ],
+            "Vendredi 6 septembre": [
+                {
+                    time: "9h - 12h30",
+                    duration: "3h30",
+                    task: "Node.js : Introduction à la gestion des tâches asynchrones avec des queues (ex. Bull.js)."
+                },
+                {
+                    time: "13h30 - 15h30",
+                    duration: "2h",
+                    task: "Svelte : Mise en place de l'authentification utilisateur dans une application complète."
+                },
+                {
+                    time: "15h30 - 17h",
+                    duration: "1h30",
+                    task: "Node.js : Analyse des performances et optimisation des routes API."
+                }
+            ],
+            "Samedi 7 septembre": [
+                {
+                    time: "9h - 12h30",
+                    duration: "3h30",
+                    task: "Svelte : Déploiement et gestion des environnements (développement, test, production)."
+                },
+                {
+                    time: "13h30 - 15h30",
+                    duration: "2h",
+                    task: "Node.js : Intégration avec des services tiers (API externes, services de paiement, etc.)."
+                },
+                {
+                    time: "15h30 - 17h",
+                    duration: "1h30",
+                    task: "Svelte : Amélioration de la performance et des interactions utilisateur dans l'application."
+                }
+            ],
+            "Dimanche 8 septembre": [
+                {
+                    time: "9h - 12h30",
+                    duration: "3h30",
+                    task: "Revue des concepts abordés en Svelte et Node.js, réflexion sur les projets futurs."
+                }
+            ],
+            "Lundi 9 septembre": [
+                {
+                    time: "9h - 12h30",
+                    duration: "3h30",
+                    task: "Node.js : Mise en place de la documentation API avec Swagger."
+                },
+                {
+                    time: "13h30 - 15h30",
+                    duration: "2h",
+                    task: "Svelte : Création d'un projet de démonstration combinant les fonctionnalités apprises."
+                },
+                {
+                    time: "15h30 - 17h",
+                    duration: "1h30",
+                    task: "Node.js : Tests et validation des fonctionnalités du projet."
+                }
+            ],
+            "Mardi 10 septembre": [
+                {
+                    time: "9h - 12h30",
+                    duration: "3h30",
+                    task: "Svelte : Implémentation des meilleures pratiques et révision des concepts avancés."
+                },
+                {
+                    time: "13h30 - 15h30",
+                    duration: "2h",
+                    task: "Node.js : Revue et amélioration du projet, ajout de fonctionnalités si nécessaire."
+                },
+                {
+                    time: "15h30 - 17h",
+                    duration: "1h30",
+                    task: "Svelte : Documentation et présentation du projet."
+                }
+            ]
+        }
+    },
+    "Semaine 4": {
+        "11 septembre - 15 septembre": {
+            "Mercredi 11 septembre": [
+                {
+                    time: "9h - 11h",
+                    duration: "2h",
+                    task: "Recherche de stage : Derniers ajustements et envoi de candidatures."
+                },
+                {
+                    time: "11h - 12h30",
+                    duration: "1h30",
+                    task: "Node.js : Préparation pour la présentation du projet - Révision des points clés."
+                },
+                {
+                    time: "13h30 - 17h",
+                    duration: "3h30",
+                    task: "Svelte : Préparation de la présentation pour le workshop - Révision des diapositives et des démonstrations."
+                }
+            ],
+            "Jeudi 12 septembre": [
+                {
+                    time: "9h - 12h30",
+                    duration: "3h30",
+                    task: "Svelte : Analyse et amélioration de l'interface utilisateur, revue des meilleures pratiques."
+                },
+                {
+                    time: "13h30 - 15h30",
+                    duration: "2h",
+                    task: "Node.js : Analyse et amélioration des performances du backend."
+                },
+                {
+                    time: "15h30 - 17h",
+                    duration: "1h30",
+                    task: "Svelte : Révision des tests et validation finale de l'application."
+                }
+            ],
+            "Vendredi 13 septembre": [
+                {
+                    time: "9h - 12h30",
+                    duration: "3h30",
+                    task: "Node.js : Déploiement du projet final sur un serveur de production."
+                },
+                {
+                    time: "13h30 - 17h",
+                    duration: "3h30",
+                    task: "Svelte : Présentation du workshop - Préparation et présentation aux participants."
+                }
+            ],
+            "Samedi 14 septembre": [
+                {
+                    time: "9h - 12h30",
+                    duration: "3h30",
+                    task: "Revue finale des projets Node.js et Svelte - Documentation et rapport."
+                },
+                {
+                    time: "13h30 - 15h30",
+                    duration: "2h",
+                    task: "Préparation pour les prochaines étapes de développement ou d'apprentissage."
+                },
+                {
+                    time: "15h30 - 17h",
+                    duration: "1h30",
+                    task: "Discussion et planification des objectifs futurs."
+                }
+            ],
+            "Dimanche 15 septembre": [
+                {
+                    time: "Congé",
+                    duration: "Journée entière",
+                    task: "Congé"
+                }
+            ]
+        }
+    }
 };
 
 
