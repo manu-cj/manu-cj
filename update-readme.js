@@ -106,6 +106,23 @@ const libraries = [
 const agenda = {
      "Semaine 1": {
         "21 août - 27 août": {
+          "Mardi 20 août": [
+                {
+                    time: "9h - 12h30",
+                    duration: "2h",
+                    task: "Node.js : Création de la structure du projet Hogward-chalenge."
+                },
+                {
+                    time: "13h30 - 15h30",
+                    duration: "2h",
+                    task: "Node.js : Création d'API RESTful avec des opérations CRUD avancées."
+                },
+                {
+                    time: "15h30 - 17h",
+                    duration: "1h30",
+                    task: "Node.js : Gestion du controller avec le package Joi."
+                }
+            ],
             "Mercredi 21 août": [
                 {
                     time: "9h - 11h",
