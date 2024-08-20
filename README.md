@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Chart.js](https://www.chartjs.org/)**: Une bibliothèque pour créer des graphiques animés et interactifs.
+ **[Quasar](https://quasar.dev/)**: Un framework pour développer des applications Vue.js avec une approche multiplateforme.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -100,7 +100,12 @@
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-Aucun agenda disponible pour ce jour.
+<h3>Mardi 20 août
+</h3><div align="center">9h - 12h30 : Node.js : Création de la structure du projet Hogward-chalenge.
+</div><div align="center">13h30 - 15h30 : Node.js : Création d'API RESTful avec des opérations CRUD avancées.
+</div><div align="center">15h30 - 17h : Node.js : Gestion du controller avec le package Joi.
+</div>
+
 <!-- END_AGENDA_SECTION -->
 </div>
 
