@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Quasar](https://quasar.dev/)**: Un framework pour développer des applications Vue.js avec une approche multiplateforme.
+ **[Angular](https://angular.io/)**: Un framework pour construire des applications web dynamiques.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -100,10 +100,11 @@
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Mardi 20 août
-</h3><div align="center">9h - 12h30 : Node.js : Création de la structure du projet Hogward-chalenge.
-</div><div align="center">13h30 - 15h30 : Node.js : Création d'API RESTful avec des opérations CRUD avancées.
-</div><div align="center">15h30 - 17h : Node.js : Gestion du controller avec le package Joi.
+<h3>Mercredi 21 août
+</h3><div align="center">9h - 11h : Recherche de stage : Préparation de CV et lettres de motivation.
+</div><div align="center">11h - 12h30 : Svelte : Introduction aux concepts de base - Création de composants, gestion des props.
+</div><div align="center">13h30 - 15h30 : Node.js : Développement des opérations CRUD - Création des routes pour Create, Read, Update, Delete.
+</div><div align="center">15h30 - 17h : Node.js : Validation des données et gestion des erreurs dans les opérations CRUD.
 </div>
 
 <!-- END_AGENDA_SECTION -->
