@@ -125,14 +125,9 @@ const agenda = {
             ],
             "Mercredi 21 août": [
                 {
-                    time: "9h - 11h",
-                    duration: "2h",
+                    time: "9h - 12h30",
+                    duration: "3h30",
                     task: "Recherche de stage : Préparation de CV et lettres de motivation."
-                },
-                {
-                    time: "11h - 12h30",
-                    duration: "1h30",
-                    task: "Svelte : Introduction aux concepts de base - Création de composants, gestion des props."
                 },
                 {
                     time: "13h30 - 15h30",
@@ -163,10 +158,10 @@ const agenda = {
                 }
             ],
             "Vendredi 23 août": [
-                {
+              {
                     time: "9h - 11h",
                     duration: "2h",
-                    task: "Recherche de stage : Suivi des candidatures et ajustement des documents."
+                    task: "Svelte : Introduction aux concepts de base - Création de composants, gestion des props."
                 },
                 {
                     time: "11h - 12h30",
@@ -181,7 +176,7 @@ const agenda = {
                 {
                     time: "15h30 - 17h",
                     duration: "1h30",
-                    task: "Node.js : Gestion des fichiers et des uploads."
+                    task: "Node.js : Développement des opérations CRUD - Création des routes pour Create, Read, Update, Delete."
                 }
             ],
             "Samedi 24 août": [
@@ -190,16 +185,6 @@ const agenda = {
                     duration: "3h30",
                     task: "MongoDB : Pratique avancée du CRUD - Gestion des relations entre collections."
                 },
-                {
-                    time: "13h30 - 15h30",
-                    duration: "2h",
-                    task: "Svelte : Création d'une petite application avec des composants et gestion d'état simple."
-                },
-                {
-                    time: "15h30 - 17h",
-                    duration: "1h30",
-                    task: "Node.js : Intégration des fonctionnalités de recherche et filtrage dans l'application CRUD."
-                }
             ],
             "Dimanche 25 août": [
                 {
