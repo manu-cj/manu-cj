@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Tauri](https://tauri.app/)**: Un framework pour créer des applications desktop légères avec des technologies web.
+ **[Cypress](https://www.cypress.io/)**: Un framework de test end-to-end pour les applications web.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -100,11 +100,10 @@
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Mercredi 21 août
-</h3><div align="center">9h - 11h : Recherche de stage : Préparation de CV et lettres de motivation.
-</div><div align="center">11h - 12h30 : Svelte : Introduction aux concepts de base - Création de composants, gestion des props.
-</div><div align="center">13h30 - 15h30 : Node.js : Développement des opérations CRUD - Création des routes pour Create, Read, Update, Delete.
-</div><div align="center">15h30 - 17h : Node.js : Validation des données et gestion des erreurs dans les opérations CRUD.
+<h3>Jeudi 22 août
+</h3><div align="center">9h - 12h30 : Node.js : Sécurisation des API - Mise en place de l'authentification (JWT) et des autorisations.
+</div><div align="center">13h30 - 15h30 : Svelte : Composants dynamiques et gestion de l'état local.
+</div><div align="center">15h30 - 17h : Node.js : Optimisation des requêtes MongoDB et gestion des index.
 </div>
 
 <!-- END_AGENDA_SECTION -->
