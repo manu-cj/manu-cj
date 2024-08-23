@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Cypress](https://www.cypress.io/)**: Un framework de test end-to-end pour les applications web.
+ **[Capacitor](https://capacitorjs.com/)**: Un framework pour créer des applications mobiles multiplateformes avec JavaScript.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -100,10 +100,11 @@
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Jeudi 22 août
-</h3><div align="center">9h - 12h30 : Node.js : Sécurisation des API - Mise en place de l'authentification (JWT) et des autorisations.
-</div><div align="center">13h30 - 15h30 : Svelte : Composants dynamiques et gestion de l'état local.
-</div><div align="center">15h30 - 17h : Node.js : Optimisation des requêtes MongoDB et gestion des index.
+<h3>Vendredi 23 août
+</h3><div align="center">9h - 11h : Svelte : Introduction aux concepts de base - Création de composants, gestion des props.
+</div><div align="center">11h - 12h30 : Node.js : Intégration des fonctionnalités de recherche et filtrage dans l'application CRUD.
+</div><div align="center">13h30 - 15h30 : Svelte : Utilisation des stores pour gérer l'état global.
+</div><div align="center">15h30 - 17h : Node.js : Développement des opérations CRUD - Création des routes pour Create, Read, Update, Delete.
 </div>
 
 <!-- END_AGENDA_SECTION -->
