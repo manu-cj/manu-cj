@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Capacitor](https://capacitorjs.com/)**: Un framework pour créer des applications mobiles multiplateformes avec JavaScript.
+ **[Expo](https://expo.dev/)**: Un outil pour développer des applications React Native rapidement.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -100,11 +100,8 @@
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Vendredi 23 août
-</h3><div align="center">9h - 11h : Svelte : Introduction aux concepts de base - Création de composants, gestion des props.
-</div><div align="center">11h - 12h30 : Node.js : Intégration des fonctionnalités de recherche et filtrage dans l'application CRUD.
-</div><div align="center">13h30 - 15h30 : Svelte : Utilisation des stores pour gérer l'état global.
-</div><div align="center">15h30 - 17h : Node.js : Développement des opérations CRUD - Création des routes pour Create, Read, Update, Delete.
+<h3>Samedi 24 août
+</h3><div align="center">9h - 12h30 : MongoDB : Pratique avancée du CRUD - Gestion des relations entre collections.
 </div>
 
 <!-- END_AGENDA_SECTION -->
