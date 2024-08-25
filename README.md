@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Expo](https://expo.dev/)**: Un outil pour développer des applications React Native rapidement.
+ **[Electron](https://www.electronjs.org/)**: Un framework pour créer des applications desktop avec JavaScript, HTML, et CSS.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -100,8 +100,8 @@
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Samedi 24 août
-</h3><div align="center">9h - 12h30 : MongoDB : Pratique avancée du CRUD - Gestion des relations entre collections.
+<h3>Dimanche 25 août
+</h3><div align="center">Congé : Congé
 </div>
 
 <!-- END_AGENDA_SECTION -->
