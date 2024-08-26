@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Electron](https://www.electronjs.org/)**: Un framework pour créer des applications desktop avec JavaScript, HTML, et CSS.
+ **[Aurelia](https://aurelia.io/)**: Un framework pour créer des applications web modernes et modulaires.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -100,7 +100,7 @@
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Dimanche 25 août
+<h3>Lundi 26 août
 </h3><div align="center">Congé : Congé
 </div>
 
