@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Aurelia](https://aurelia.io/)**: Un framework pour créer des applications web modernes et modulaires.
+ **[Bulma](https://bulma.io/)**: Un framework CSS moderne basé sur Flexbox.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -100,7 +100,7 @@
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Lundi 26 août
+<h3>Mardi 27 août
 </h3><div align="center">Congé : Congé
 </div>
 
