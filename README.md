@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Bulma](https://bulma.io/)**: Un framework CSS moderne basé sur Flexbox.
+ **[Yarn](https://yarnpkg.com/)**: Un gestionnaire de paquets rapide, fiable et sécurisé pour JavaScript.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -100,8 +100,11 @@
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Mardi 27 août
-</h3><div align="center">Congé : Congé
+<h3>Mercredi 28 août
+</h3><div align="center">9h - 11h : Recherche de stage : Suivi des candidatures et ajustement des documents.
+</div><div align="center">11h - 12h30 : Svelte : Introduction aux animations et transitions.
+</div><div align="center">13h30 - 15h30 : Node.js : Création d'API RESTful avec des opérations CRUD avancées.
+</div><div align="center">15h30 - 17h : Svelte : Amélioration des animations et transitions dans l'application.
 </div>
 
 <!-- END_AGENDA_SECTION -->
