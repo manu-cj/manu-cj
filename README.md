@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Yarn](https://yarnpkg.com/)**: Un gestionnaire de paquets rapide, fiable et sécurisé pour JavaScript.
+ **[Ember.js](https://emberjs.com/)**: Un framework pour créer des applications web ambitieuses.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -100,11 +100,10 @@
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Mercredi 28 août
-</h3><div align="center">9h - 11h : Recherche de stage : Suivi des candidatures et ajustement des documents.
-</div><div align="center">11h - 12h30 : Svelte : Introduction aux animations et transitions.
-</div><div align="center">13h30 - 15h30 : Node.js : Création d'API RESTful avec des opérations CRUD avancées.
-</div><div align="center">15h30 - 17h : Svelte : Amélioration des animations et transitions dans l'application.
+<h3>Jeudi 29 août
+</h3><div align="center">9h - 12h30 : Svelte : Gestion des formulaires et validation des entrées.
+</div><div align="center">13h30 - 15h30 : Node.js : Révision et optimisation des opérations CRUD avec MongoDB.
+</div><div align="center">15h30 - 17h : Svelte : Préparation pour la présentation du mini-projet.
 </div>
 
 <!-- END_AGENDA_SECTION -->
