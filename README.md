@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[GraphQL](https://graphql.org/)**: Un langage de requête pour les APIs.
+ **[Ember.js](https://emberjs.com/)**: Un framework pour créer des applications web ambitieuses.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -100,10 +100,10 @@
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Vendredi 30 août
-</h3><div align="center">9h - 12h30 : Node.js : Sécurisation des API - Gestion des autorisations et authentification avancée.
-</div><div align="center">13h30 - 15h30 : Svelte : Techniques avancées de gestion de l'état et des effets secondaires.
-</div><div align="center">15h30 - 17h : Node.js : Ajouter des fonctionnalités avancées au CRUD - Gestion des fichiers et des uploads.
+<h3>Samedi 31 août
+</h3><div align="center">9h - 12h30 : Svelte : Déploiement d'une application Svelte sur Vercel ou Netlify.
+</div><div align="center">13h30 - 15h30 : Node.js : Déploiement de l'application CRUD avec MongoDB sur Heroku ou un autre service.
+</div><div align="center">15h30 - 17h : Svelte : Révision et amélioration de l'application déployée.
 </div>
 
 <!-- END_AGENDA_SECTION -->
