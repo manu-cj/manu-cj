@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[React](https://reactjs.org/)**: Une bibliothèque pour construire des interfaces utilisateur interactives.
+ **[Vite](https://vitejs.dev/)**: Un outil de développement front-end rapide avec un hot module replacement performant.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -100,7 +100,12 @@
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-Aucun agenda disponible pour ce jour.
+<h3>Lundi 2 septembre
+</h3><div align="center">9h - 12h30 : Développement du mini-projet : Mise en place de la structure et des composants Svelte.
+</div><div align="center">13h30 - 15h30 : Node.js : Intégration des fonctionnalités CRUD dans le mini-projet.
+</div><div align="center">15h30 - 17h : Svelte : Création des routes et intégration des données depuis Node.js.
+</div>
+
 <!-- END_AGENDA_SECTION -->
 </div>
 
