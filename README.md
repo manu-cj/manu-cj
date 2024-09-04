@@ -45,7 +45,7 @@
     <td colspan="3" valign="top" style="border: 2px solid black; padding: 10px; background-color: #c9c9c9;">
        <br>
       <div align="center">
-       <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&duration=1000&pause=99000&center=true&vCenter=truerandom=false&reapeat=false&width=435&height=100&lines=For+the+next">
+       <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&duration=1000&pause=99000&center=true&vCenter=truerandom=false&reapeat=false&width=435&height=100&lines=interested">
       </div>
       <p align="center">
         <a href="https://skillicons.dev">
