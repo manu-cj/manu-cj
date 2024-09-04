@@ -49,7 +49,7 @@
       </div>
       <p align="center">
         <a href="https://skillicons.dev">
-          <img src="https://skillicons.dev/icons?i=svelte,angular,nodejs,mongodb" />
+          <img src="https://skillicons.dev/icons?i=svelte,angular,nodejs,mongodb,electron,nextjs,lua" />
         </a>
       </p>
     </td>
