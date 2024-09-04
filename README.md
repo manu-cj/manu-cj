@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[React Native](https://reactnative.dev/)**: Un framework pour construire des applications mobiles natives avec React.
+ **[Expo](https://expo.dev/)**: Un outil pour développer des applications React Native rapidement.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -100,10 +100,10 @@
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Mardi 3 septembre
-</h3><div align="center">9h - 12h30 : Développement du mini-projet : Finalisation des fonctionnalités, tests et débogage.
-</div><div align="center">13h30 - 15h30 : Node.js : Tests d'intégration et débogage des fonctionnalités CRUD.
-</div><div align="center">15h30 - 17h : Svelte : Documentation et préparation de la présentation du mini-projet.
+<h3>Mercredi 4 septembre
+</h3><div align="center">9h - 11h : Recherche de stage : Derniers ajustements et envoi de candidatures.
+</div><div align="center">11h - 12h30 : Node.js : Préparation pour la présentation du projet - Révision des points clés.
+</div><div align="center">13h30 - 17h : Svelte : Préparation de la présentation pour le workshop - Révision des diapositives et des démonstrations.
 </div>
 
 <!-- END_AGENDA_SECTION -->
