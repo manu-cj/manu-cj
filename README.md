@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Vue Router](https://router.vuejs.org/)**: Une bibliothèque pour la gestion des routes dans une application Vue.js.
+ **[Aurelia](https://aurelia.io/)**: Un framework pour créer des applications web modernes et modulaires.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -100,10 +100,10 @@
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Mercredi 4 septembre
-</h3><div align="center">9h - 11h : Recherche de stage : Derniers ajustements et envoi de candidatures.
-</div><div align="center">11h - 12h30 : Node.js : Préparation pour la présentation du projet - Révision des points clés.
-</div><div align="center">13h30 - 17h : Svelte : Préparation de la présentation pour le workshop - Révision des diapositives et des démonstrations.
+<h3>Jeudi 5 septembre
+</h3><div align="center">9h - 12h30 : Svelte : Analyse et amélioration de l'interface utilisateur, revue des meilleures pratiques.
+</div><div align="center">13h30 - 15h30 : Node.js : Analyse et amélioration des performances du backend.
+</div><div align="center">15h30 - 17h : Svelte : Révision des tests et validation finale de l'application.
 </div>
 
 <!-- END_AGENDA_SECTION -->
