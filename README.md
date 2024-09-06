@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Yarn](https://yarnpkg.com/)**: Un gestionnaire de paquets rapide, fiable et sécurisé pour JavaScript.
+ **[Sinon](https://sinonjs.org/)**: Une bibliothèque pour les spies, mocks, et stubs dans les tests JavaScript.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
