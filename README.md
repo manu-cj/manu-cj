@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Aurelia](https://aurelia.io/)**: Un framework pour créer des applications web modernes et modulaires.
+ **[Yarn](https://yarnpkg.com/)**: Un gestionnaire de paquets rapide, fiable et sécurisé pour JavaScript.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -100,10 +100,10 @@
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Jeudi 5 septembre
-</h3><div align="center">9h - 12h30 : Svelte : Analyse et amélioration de l'interface utilisateur, revue des meilleures pratiques.
-</div><div align="center">13h30 - 15h30 : Node.js : Analyse et amélioration des performances du backend.
-</div><div align="center">15h30 - 17h : Svelte : Révision des tests et validation finale de l'application.
+<h3>Vendredi 6 septembre
+</h3><div align="center">9h - 12h30 : Node.js : Introduction à la gestion des tâches asynchrones avec des queues (ex. Bull.js).
+</div><div align="center">13h30 - 15h30 : Svelte : Mise en place de l'authentification utilisateur dans une application complète.
+</div><div align="center">15h30 - 17h : Node.js : Analyse des performances et optimisation des routes API.
 </div>
 
 <!-- END_AGENDA_SECTION -->
