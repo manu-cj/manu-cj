@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[NestJS](https://nestjs.com/)**: Un framework pour construire des applications server-side en utilisant TypeScript.
+ **[Material-UI](https://mui.com/)**: Une bibliothèque de composants UI pour React avec le design Material.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
