@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Sinon](https://sinonjs.org/)**: Une bibliothèque pour les spies, mocks, et stubs dans les tests JavaScript.
+ **[Axios](https://axios-http.com/)**: Une bibliothèque pour faire des requêtes HTTP.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -100,10 +100,10 @@
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Vendredi 6 septembre
-</h3><div align="center">9h - 12h30 : Node.js : Introduction à la gestion des tâches asynchrones avec des queues (ex. Bull.js).
-</div><div align="center">13h30 - 15h30 : Svelte : Mise en place de l'authentification utilisateur dans une application complète.
-</div><div align="center">15h30 - 17h : Node.js : Analyse des performances et optimisation des routes API.
+<h3>Samedi 7 septembre
+</h3><div align="center">9h - 12h30 : Svelte : Déploiement et gestion des environnements (développement, test, production).
+</div><div align="center">13h30 - 15h30 : Node.js : Intégration avec des services tiers (API externes, services de paiement, etc.).
+</div><div align="center">15h30 - 17h : Svelte : Amélioration de la performance et des interactions utilisateur dans l'application.
 </div>
 
 <!-- END_AGENDA_SECTION -->
