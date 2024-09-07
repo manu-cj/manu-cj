@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Axios](https://axios-http.com/)**: Une bibliothèque pour faire des requêtes HTTP.
+ **[NestJS](https://nestjs.com/)**: Un framework pour construire des applications server-side en utilisant TypeScript.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
