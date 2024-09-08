@@ -18,7 +18,7 @@
        <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=40&duration=2000&pause=99000&center=true&vCenter=truerandom=false&reapeat=false&width=435&height=100&lines=Frontend">
       <p align="center">
         <a href="https://skillicons.dev">
-          <img src="https://skillicons.dev/icons?i=html,sass,js,vue,react,ts" />
+          <img src="https://skillicons.dev/icons?i=html,sass,js,vue,react,svelte,ts" />
         </a>
       </p>
     </td>
@@ -27,7 +27,7 @@
        <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=40&duration=2000&pause=99000&center=true&vCenter=truerandom=false&reapeat=false&width=435&height=100&lines=Backend">
       <p align="center">
         <a href="https://skillicons.dev">
-          <img src="https://skillicons.dev/icons?i=php,docker,mysql" />
+          <img src="https://skillicons.dev/icons?i=nodejs,mongodb,php,mysql" />
         </a>
       </p>
     </td>
@@ -36,7 +36,7 @@
        <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=40&duration=2000&pause=99000&center=true&vCenter=truerandom=false&reapeat=false&width=435&height=100&lines=Tools">
       <p align="center">
         <a href="https://skillicons.dev">
-          <img src="https://skillicons.dev/icons?i=git,linux" />
+          <img src="https://skillicons.dev/icons?i=git,docker,linux" />
         </a>
       </p>
     </td>
@@ -49,7 +49,7 @@
       </div>
       <p align="center">
         <a href="https://skillicons.dev">
-          <img src="https://skillicons.dev/icons?i=svelte,angular,nodejs,mongodb,electron,nextjs,lua" />
+          <img src="https://skillicons.dev/icons?i=angular,electron,nextjs,lua" />
         </a>
       </p>
     </td>
