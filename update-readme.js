@@ -147,7 +147,14 @@ const libraries = [
 // Définir l'agenda
 const agenda = {
     "Semaine 1": {
-        "9 septembre - 15 septembre": {
+        "8 septembre - 15 septembre": {
+            "Dimanche 8 septembre": [
+                {
+                    time: "13h30 - 15h30",
+                    duration: "2h",
+                    task: "Veille technologique et réflexion sur les projets futurs."
+                }
+            ],
             "Lundi 9 septembre": [
                 {
                     time: "9h - 12h30",
@@ -313,6 +320,7 @@ const agenda = {
         }
     }
 };
+
 
 
 function getRandomLibrary() {
