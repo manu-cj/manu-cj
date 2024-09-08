@@ -100,7 +100,10 @@
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-Aucun agenda disponible pour ce jour.
+<h3>Dimanche 8 septembre
+</h3><div align="center">13h30 - 15h30 : Veille technologique et réflexion sur les projets futurs.
+</div>
+
 <!-- END_AGENDA_SECTION -->
 </div>
 
