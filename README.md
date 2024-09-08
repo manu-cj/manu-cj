@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Webpack Encore](https://symfony.com/doc/current/frontend/encore/installation.html)**: Un wrapper de Webpack pour Symfony.
+ **[GraphQL](https://graphql.org/)**: Un langage de requête pour les APIs.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -100,10 +100,7 @@
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Dimanche 8 septembre
-</h3><div align="center">9h - 12h30 : Revue des concepts abordés en Svelte et Node.js, réflexion sur les projets futurs.
-</div>
-
+Aucun agenda disponible pour ce jour.
 <!-- END_AGENDA_SECTION -->
 </div>
 
