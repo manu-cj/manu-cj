@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Chance.js](https://chancejs.com/)**: Une bibliothèque pour générer des données aléatoires.
+ **[Webpack Encore](https://symfony.com/doc/current/frontend/encore/installation.html)**: Un wrapper de Webpack pour Symfony.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -100,10 +100,8 @@
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Samedi 7 septembre
-</h3><div align="center">9h - 12h30 : Svelte : Déploiement et gestion des environnements (développement, test, production).
-</div><div align="center">13h30 - 15h30 : Node.js : Intégration avec des services tiers (API externes, services de paiement, etc.).
-</div><div align="center">15h30 - 17h : Svelte : Amélioration de la performance et des interactions utilisateur dans l'application.
+<h3>Dimanche 8 septembre
+</h3><div align="center">9h - 12h30 : Revue des concepts abordés en Svelte et Node.js, réflexion sur les projets futurs.
 </div>
 
 <!-- END_AGENDA_SECTION -->
