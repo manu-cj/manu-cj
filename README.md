@@ -97,9 +97,10 @@
   <img src="https://github.com/manu-cj/manu-cj/blob/output/github-contribution-grid-snake-dark.svg">
 </div>
 
-<h2 align="center">🕒 Répartition hebdomadaire du développement</h2>
+
 <div align="center">
  <!--START_SECTION:waka-->
+ <h2 align="center">🕒 Répartition hebdomadaire du développement</h2>
 <!--END_SECTION:waka-->
 </div>
 
