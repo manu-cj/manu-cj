@@ -100,7 +100,15 @@
 
 <div align="center">
  <!--START_SECTION:waka-->
- <h2 align="center">🕒 Répartition hebdomadaire du développement</h2>
+
+```JavaScript
+From: 08 September 2024 - To: 08 September 2024
+
+Total Time: 0 secs
+
+No activity tracked
+```
+
 <!--END_SECTION:waka-->
 </div>
 
