@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[GraphQL](https://graphql.org/)**: Un langage de requête pour les APIs.
+ **[Jest](https://jestjs.io/)**: Un framework de test JavaScript avec un focus sur la simplicité.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -100,8 +100,9 @@
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Dimanche 8 septembre
-</h3><div align="center">13h30 - 15h30 : Veille technologique et réflexion sur les projets futurs.
+<h3>Lundi 9 septembre
+</h3><div align="center">9h - 12h30 : Workshop Svelte : Finalisation du projet.
+</div><div align="center">13h30 - 17h : Workshop Svelte : Préparation de la présentation.
 </div>
 
 <!-- END_AGENDA_SECTION -->
