@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Jest](https://jestjs.io/)**: Un framework de test JavaScript avec un focus sur la simplicité.
+ **[Nx](https://nx.dev/)**: Un outil pour la gestion des monorepos JavaScript et TypeScript.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -118,9 +118,9 @@ TOML         0 secs          -------------------------   00.07 %
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Lundi 9 septembre
-</h3><div align="center">9h - 12h30 : Workshop Svelte : Finalisation du projet.
-</div><div align="center">13h30 - 17h : Workshop Svelte : Préparation de la présentation.
+<h3>Mardi 10 septembre
+</h3><div align="center">9h - 12h30 : Workshop Svelte : Création du questionnaire pour la présentation.
+</div><div align="center">13h30 - 17h : Workshop Svelte : Révisions et améliorations.
 </div>
 
 <!-- END_AGENDA_SECTION -->
