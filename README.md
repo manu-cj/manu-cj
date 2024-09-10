@@ -83,14 +83,14 @@
        <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=007acc&height=120&section=footer"/>
    </a> 
 
-<div align="center"><h3>Bibliothèque JavaScript du jours</h3>
+<div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
  **[Vitest](https://vitest.dev/)**: Un framework de test ultra rapide basé sur Vite.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
-<h2 align="center">My activity</h2>
+<h2 align="center">My activity 🧑🏼‍💻</h2>
 
 
 <div align="center">
