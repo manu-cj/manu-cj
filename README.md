@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Nx](https://nx.dev/)**: Un outil pour la gestion des monorepos JavaScript et TypeScript.
+ **[Vitest](https://vitest.dev/)**: Un framework de test ultra rapide basé sur Vite.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -118,7 +118,7 @@ JavaScript   20 mins         🟧🟧🟧🟧🟧⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 <a href="https://wakatime.com/@e81d490c-17bb-4b85-8611-87004287614f"><img src="https://wakatime.com/badge/user/e81d490c-17bb-4b85-8611-87004287614f.svg?style=plastic" alt="Total time coded since Sep 9 2024" /></a>
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Mardi 10 septembre
+<h3>Agenda du Mardi 10 septembre
 </h3><div align="center">9h - 12h30 : Workshop Svelte : Création du questionnaire pour la présentation.
 </div><div align="center">13h30 - 17h : Workshop Svelte : Révisions et améliorations.
 </div>
