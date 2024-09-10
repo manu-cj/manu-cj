@@ -99,6 +99,9 @@
 
 
 <div align="center">
+ <h3 style="font-size: 24px; font-weight: bold; color: #4A90E2; margin-bottom: 20px;">
+    📊 Weekly Coding Stats 🖥️
+  </h3>
  <!--START_SECTION:waka-->
 
 ```JavaScript, Svelte
