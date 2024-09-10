@@ -115,7 +115,7 @@ TOML         0 secs          ░░░░░░░░░░░░░░░░░
 
 <!--END_SECTION:waka-->
 </div>
-
+<a href="https://wakatime.com/@e81d490c-17bb-4b85-8611-87004287614f"><img src="https://wakatime.com/badge/user/e81d490c-17bb-4b85-8611-87004287614f.svg?style=plastic" alt="Total time coded since Sep 9 2024" /></a>
 <div align="center">
  <!-- START_AGENDA_SECTION -->
 <h3>Mardi 10 septembre
