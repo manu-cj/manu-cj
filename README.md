@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Vitest](https://vitest.dev/)**: Un framework de test ultra rapide basé sur Vite.
+ **[AOS (Animate On Scroll)](https://michalsnik.github.io/aos/)**: Une bibliothèque pour animer les éléments lors du défilement de la page.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -119,7 +119,7 @@ JavaScript   20 mins         🟧🟧🟧🟧🟧⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 <div align="center">
  <!-- START_AGENDA_SECTION -->
 <h3>Agenda du Mardi 10 septembre
-</h3><div align="center">9h - 12h30 : Workshop Svelte : Création du questionnaire pour la présentation.
+ 🗓️</h3><div align="center">9h - 12h30 : Workshop Svelte : Création du questionnaire pour la présentation.
 </div><div align="center">13h30 - 17h : Workshop Svelte : Révisions et améliorations.
 </div>
 
