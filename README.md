@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[AOS (Animate On Scroll)](https://michalsnik.github.io/aos/)**: Une bibliothèque pour animer les éléments lors du défilement de la page.
+ **[Gatsby](https://www.gatsbyjs.com/)**: Un générateur de sites statiques basé sur React.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -118,9 +118,10 @@ JavaScript   20 mins         🟧🟧🟧🟧🟧⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 <a href="https://wakatime.com/@e81d490c-17bb-4b85-8611-87004287614f"><img src="https://wakatime.com/badge/user/e81d490c-17bb-4b85-8611-87004287614f.svg?style=plastic" alt="Total time coded since Sep 9 2024" /></a>
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Mardi 10 septembre
- 🗓️</h3><div align="center">9h - 12h30 : Workshop Svelte : Création du questionnaire pour la présentation.
-</div><div align="center">13h30 - 17h : Workshop Svelte : Révisions et améliorations.
+<h3>Agenda du Mercredi 11 septembre
+ 🗓️</h3><div align="center">9h - 11h : Recherche de stage : Suivi des candidatures et ajustement des documents.
+</div><div align="center">11h - 12h30 : Workshop Svelte : Préparation de la présentation.
+</div><div align="center">13h30 - 17h : Projet Hogward-challenge : Développement du frontend.
 </div>
 
 <!-- END_AGENDA_SECTION -->
