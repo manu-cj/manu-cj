@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Husky](https://typicode.github.io/husky/#/)**: Un outil pour exécuter des hooks Git avant les commits et les pushes.
+ **[Angular Flex Layout](https://github.com/angular/flex-layout)**: Système de disposition flexible
 <!-- END_LIBRARY_SECTION -->
 </div>
 
