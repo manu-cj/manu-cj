@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[npm](https://www.npmjs.com/)**: Le gestionnaire de paquets par défaut pour Node.js.
+ **[Husky](https://typicode.github.io/husky/#/)**: Un outil pour exécuter des hooks Git avant les commits et les pushes.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -122,7 +122,7 @@ Vue.js       12 mins         ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
  <!-- START_AGENDA_SECTION -->
 <h3>Agenda du Mardi 17 septembre
  🗓️</h3><div align="center">9h - 12h30 : Projet Hogward-challenge : Amélioration du frontend.
-</div><div align="center">13h30 - 17h : Projet Hogward-challenge : Finalisation du frontend.
+</div><div align="center">13h30 - 17h : Projet Hogward-challenge : Poursuite du développement du frontend.
 </div>
 
 <!-- END_AGENDA_SECTION -->
