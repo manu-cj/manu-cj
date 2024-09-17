@@ -259,7 +259,7 @@ const agenda = {
                 {
                     time: "13h30 - 17h",
                     duration: "3h30",
-                    task: "Projet Hogward-challenge : Finalisation du frontend."
+                    task: "Projet Hogward-challenge : Poursuite du développement du frontend."
                 }
             ],
             "Mercredi 18 septembre": [
@@ -271,43 +271,43 @@ const agenda = {
                 {
                     time: "11h - 12h30",
                     duration: "1h30",
-                    task: "Projet Hogward-challenge : Tests du frontend."
+                    task: "Projet Hogward-challenge : Poursuite du développement du frontend."
                 },
                 {
                     time: "13h30 - 17h",
                     duration: "3h30",
-                    task: "Projet Hogward-challenge : Développement des routes API pour update."
+                    task: "Projet Hogward-challenge : Amélioration du frontend."
                 }
             ],
             "Jeudi 19 septembre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
-                    task: "Projet Hogward-challenge : Liaison des routes API update avec le frontend."
+                    task: "Projet Hogward-challenge : Amélioration du frontend."
                 },
                 {
                     time: "13h30 - 17h",
                     duration: "3h30",
-                    task: "Projet Hogward-challenge : Tests des routes API et intégration."
+                    task: "Projet Hogward-challenge : Poursuite du développement du frontend."
                 }
             ],
             "Vendredi 20 septembre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
-                    task: "Projet Hogward-challenge : Dernières vérifications et finalisation."
+                    task: "Projet Hogward-challenge : Développement des routes API pour update"
                 },
                 {
                     time: "13h30 - 17h",
                     duration: "3h30",
-                    task: "Projet Hogward-challenge : Améliorations finales."
+                    task: "Projet Hogward-challenge : Liaison des routes API update avec le frontend."
                 }
             ],
             "Samedi 21 septembre": [
                 {
                     time: "13h30 - 15h30",
                     duration: "2h",
-                    task: "Projet Hogward-challenge : Tests finaux et retours."
+                    task: "Projet Hogward-challenge : Tests finaux."
                 }
             ],
             "Dimanche 22 septembre": [
