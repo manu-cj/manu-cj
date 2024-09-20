@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[PicoCSS](https://picocss.com/)**: Un framework CSS minimaliste pour des interfaces légères et rapides.
+ **[Foundation](https://get.foundation/)**: Un framework CSS responsive pour les applications web.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -120,9 +120,9 @@ Vue.js       12 mins         ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 <a href="https://wakatime.com/@e81d490c-17bb-4b85-8611-87004287614f"><img src="https://wakatime.com/badge/user/e81d490c-17bb-4b85-8611-87004287614f.svg?style=plastic" alt="Total time coded since Sep 9 2024" /></a>
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Jeudi 19 septembre
- 🗓️</h3><div align="center">9h - 12h30 : Projet Hogward-challenge : Amélioration du frontend.
-</div><div align="center">13h30 - 17h : Projet Hogward-challenge : Poursuite du développement du frontend.
+<h3>Agenda du Vendredi 20 septembre
+ 🗓️</h3><div align="center">9h - 12h30 : Projet Hogward-challenge : Développement des routes API pour update
+</div><div align="center">13h30 - 17h : Projet Hogward-challenge : Liaison des routes API update avec le frontend.
 </div>
 
 <!-- END_AGENDA_SECTION -->
