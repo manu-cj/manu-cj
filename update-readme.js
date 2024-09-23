@@ -212,39 +212,32 @@ const libraries = [
 // Définir l'agenda
 const agenda = {
     "Semaine 1": {
-        "8 septembre - 15 septembre": {
-            "Dimanche 8 septembre": [
-                {
-                    time: "13h30 - 15h30",
-                    duration: "2h",
-                    task: "Veille technologique et réflexion sur les projets futurs."
-                }
-            ],
-            "Lundi 9 septembre": [
+        "23 septembre - 29 septembre": {
+            "Lundi 23 septembre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
-                    task: "Workshop Svelte : Finalisation du projet."
+                    task: "Développement backend : Implémentation des routes pour la suppression de message (Node.js)."
                 },
                 {
                     time: "13h30 - 17h",
                     duration: "3h30",
-                    task: "Workshop Svelte : Préparation de la présentation."
+                    task: "Développement frontend : Interface pour la suppression de message (Svelte)."
                 }
             ],
-            "Mardi 10 septembre": [
+            "Mardi 24 septembre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
-                    task: "Workshop Svelte : Création du questionnaire pour la présentation."
+                    task: "Développement backend : Routes pour la modification des données utilisateur (Node.js)."
                 },
                 {
                     time: "13h30 - 17h",
                     duration: "3h30",
-                    task: "Workshop Svelte : Révisions et améliorations."
+                    task: "Développement frontend : Formulaire de modification des données utilisateur (Svelte)."
                 }
             ],
-            "Mercredi 11 septembre": [
+            "Mercredi 25 septembre": [
                 {
                     time: "9h - 11h",
                     duration: "2h",
@@ -253,46 +246,46 @@ const agenda = {
                 {
                     time: "11h - 12h30",
                     duration: "1h30",
-                    task: "Workshop Svelte : Préparation de la présentation."
+                    task: "Liaison frontend/backend : Connexion des routes API pour suppression et modification (Node.js, Svelte)."
                 },
                 {
                     time: "13h30 - 17h",
                     duration: "3h30",
-                    task: "Projet Hogward-challenge : Développement du frontend."
+                    task: "Optimisations frontend : Améliorations UI et liaison avec le backend (Svelte)."
                 }
             ],
-            "Jeudi 12 septembre": [
+            "Jeudi 26 septembre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
-                    task: "Workshop Svelte : Révision finale du projet et du questionnaire."
+                    task: "Optimisation backend : Amélioration des performances des routes API (Node.js)."
                 },
                 {
                     time: "13h30 - 17h",
                     duration: "3h30",
-                    task: "Projet Hogward-challenge : Avancement du frontend."
+                    task: "Améliorations UI frontend : Optimisation de l'interface utilisateur (Svelte)."
                 }
             ],
-            "Vendredi 13 septembre": [
+            "Vendredi 27 septembre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
-                    task: "Workshop Svelte : Derniers préparatifs avant la présentation."
+                    task: "Finalisation backend : Ajustements finaux sur les routes API (Node.js)."
                 },
                 {
                     time: "13h30 - 17h",
                     duration: "3h30",
-                    task: "Workshop Svelte : Présentation du workshop."
+                    task: "Finalisation frontend : Ajustements d'interface utilisateur et liaison avec le backend (Svelte)."
                 }
             ],
-            "Samedi 14 septembre": [
+            "Samedi 28 septembre": [
                 {
                     time: "13h30 - 15h30",
                     duration: "2h",
-                    task: "Projet Hogward-challenge : Poursuite du développement du frontend."
+                    task: "Corrections mineures backend et frontend (Node.js, Svelte)."
                 }
             ],
-            "Dimanche 15 septembre": [
+            "Dimanche 29 septembre": [
                 {
                     time: "13h30 - 15h30",
                     duration: "2h",
@@ -302,32 +295,32 @@ const agenda = {
         }
     },
     "Semaine 2": {
-        "16 septembre - 22 septembre": {
-            "Lundi 16 septembre": [
+        "30 septembre - 6 octobre": {
+            "Lundi 30 septembre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
-                    task: "Projet Hogward-challenge : Intégration du frontend avec l'API."
+                    task: "Révision de React : Concepts de base et hooks."
                 },
                 {
                     time: "13h30 - 17h",
                     duration: "3h30",
-                    task: "Projet Hogward-challenge : Poursuite du développement du frontend."
+                    task: "Révision de TypeScript : Typage et interfaces."
                 }
             ],
-            "Mardi 17 septembre": [
+            "Mardi 1 octobre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
-                    task: "Projet Hogward-challenge : Amélioration du frontend."
+                    task: "Révision de Redux : Gestion d'état et middleware."
                 },
                 {
                     time: "13h30 - 17h",
                     duration: "3h30",
-                    task: "Projet Hogward-challenge : Poursuite du développement du frontend."
+                    task: "Mise en pratique de Redux avec un projet simple."
                 }
             ],
-            "Mercredi 18 septembre": [
+            "Mercredi 2 octobre": [
                 {
                     time: "9h - 11h",
                     duration: "2h",
@@ -336,55 +329,56 @@ const agenda = {
                 {
                     time: "11h - 12h30",
                     duration: "1h30",
-                    task: "Projet Hogward-challenge : Poursuite du développement du frontend."
+                    task: "Révision de React : Projets et intégration avec TypeScript."
                 },
                 {
                     time: "13h30 - 17h",
                     duration: "3h30",
-                    task: "Projet Hogward-challenge : Amélioration du frontend."
+                    task: "Révision de Redux : Projets avancés et meilleures pratiques."
                 }
             ],
-            "Jeudi 19 septembre": [
+            "Jeudi 3 octobre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
-                    task: "Projet Hogward-challenge : Amélioration du frontend."
+                    task: "Pratique de React : Développement d'une petite application."
                 },
                 {
                     time: "13h30 - 17h",
                     duration: "3h30",
-                    task: "Projet Hogward-challenge : Poursuite du développement du frontend."
+                    task: "Pratique de TypeScript : Application des concepts dans un projet."
                 }
             ],
-            "Vendredi 20 septembre": [
+            "Vendredi 4 octobre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
-                    task: "Projet Hogward-challenge : Développement des routes API pour update"
+                    task: "Pratique de Redux : Intégration avec l'application React."
                 },
                 {
                     time: "13h30 - 17h",
                     duration: "3h30",
-                    task: "Projet Hogward-challenge : Liaison des routes API update avec le frontend."
+                    task: "Finalisation du projet : Intégration de toutes les compétences."
                 }
             ],
-            "Samedi 21 septembre": [
+            "Samedi 5 octobre": [
                 {
                     time: "13h30 - 15h30",
                     duration: "2h",
-                    task: "Projet Hogward-challenge : Tests finaux."
+                    task: "Réflexion sur les projets futurs et mise à jour du code existant."
                 }
             ],
-            "Dimanche 22 septembre": [
+            "Dimanche 6 octobre": [
                 {
                     time: "13h30 - 15h30",
                     duration: "2h",
-                    task: "Veille technologique et réflexion sur les projets futurs."
+                    task: "Veille technologique et recherche de nouvelles ressources."
                 }
             ]
         }
     }
 };
+
 
 
 
