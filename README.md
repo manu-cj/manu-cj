@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Angular Material](https://material.angular.io/)**: Composants basés sur Material Design
+ **[SortableJS](https://github.com/SortableJS/Sortable)**: Bibliothèque de tri et de glisser-déposer
 <!-- END_LIBRARY_SECTION -->
 </div>
 
