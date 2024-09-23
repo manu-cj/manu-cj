@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[RxJS](https://rxjs.dev/)**: Une bibliothèque pour la programmation réactive utilisant des observables.
+ **[Angular Material](https://material.angular.io/)**: Composants basés sur Material Design
 <!-- END_LIBRARY_SECTION -->
 </div>
 
