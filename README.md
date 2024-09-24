@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[SortableJS](https://github.com/SortableJS/Sortable)**: Bibliothèque de tri et de glisser-déposer
+ **[Foundation](https://get.foundation/)**: Un framework CSS responsive pour les applications web.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -120,9 +120,9 @@ JSON         6 mins          ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 <a href="https://wakatime.com/@e81d490c-17bb-4b85-8611-87004287614f"><img src="https://wakatime.com/badge/user/e81d490c-17bb-4b85-8611-87004287614f.svg?style=plastic" alt="Total time coded since Sep 9 2024" /></a>
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Lundi 23 septembre
- 🗓️</h3><div align="center">9h - 12h30 : Développement backend : Implémentation des routes pour la suppression de message (Node.js).
-</div><div align="center">13h30 - 17h : Développement frontend : Interface pour la suppression de message (Svelte).
+<h3>Agenda du Mardi 24 septembre
+ 🗓️</h3><div align="center">9h - 12h30 : Développement backend : Routes pour la modification des données utilisateur (Node.js).
+</div><div align="center">13h30 - 17h : Développement frontend : Formulaire de modification des données utilisateur (Svelte).
 </div>
 
 <!-- END_AGENDA_SECTION -->
