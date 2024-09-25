@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Foundation](https://get.foundation/)**: Un framework CSS responsive pour les applications web.
+ **[Granim.js](https://sarcadass.github.io/granim.js/)**: Bibliothèque pour créer des gradients animés
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -120,9 +120,10 @@ JSON         6 mins          ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 <a href="https://wakatime.com/@e81d490c-17bb-4b85-8611-87004287614f"><img src="https://wakatime.com/badge/user/e81d490c-17bb-4b85-8611-87004287614f.svg?style=plastic" alt="Total time coded since Sep 9 2024" /></a>
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Mardi 24 septembre
- 🗓️</h3><div align="center">9h - 12h30 : Développement backend : Routes pour la modification des données utilisateur (Node.js).
-</div><div align="center">13h30 - 17h : Développement frontend : Formulaire de modification des données utilisateur (Svelte).
+<h3>Agenda du Mercredi 25 septembre
+ 🗓️</h3><div align="center">9h - 11h : Recherche de stage : Suivi des candidatures et ajustement des documents.
+</div><div align="center">11h - 12h30 : Liaison frontend/backend : Connexion des routes API pour suppression et modification (Node.js, Svelte).
+</div><div align="center">13h30 - 17h : Optimisations frontend : Améliorations UI et liaison avec le backend (Svelte).
 </div>
 
 <!-- END_AGENDA_SECTION -->
