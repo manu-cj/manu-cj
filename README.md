@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[DevExtreme Angular](https://js.devexpress.com/Documentation/Guide/Angular_Components/)**: Composants et widgets pour Angular
+ **[Svelte Fire](https://svelte-firebase.vercel.app/)**: Intégration Firebase
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -120,9 +120,8 @@ CSS           3 mins          ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 <a href="https://wakatime.com/@e81d490c-17bb-4b85-8611-87004287614f"><img src="https://wakatime.com/badge/user/e81d490c-17bb-4b85-8611-87004287614f.svg?style=plastic" alt="Total time coded since Sep 9 2024" /></a>
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Vendredi 27 septembre
- 🗓️</h3><div align="center">9h - 12h30 : Finalisation backend : Ajustements finaux sur les routes API (Node.js).
-</div><div align="center">13h30 - 17h : Finalisation frontend : Ajustements d'interface utilisateur et liaison avec le backend (Svelte).
+<h3>Agenda du Samedi 28 septembre
+ 🗓️</h3><div align="center">13h30 - 15h30 : Corrections mineures backend et frontend (Node.js, Svelte).
 </div>
 
 <!-- END_AGENDA_SECTION -->
