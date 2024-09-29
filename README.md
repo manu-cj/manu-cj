@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Svelte Fire](https://svelte-firebase.vercel.app/)**: Intégration Firebase
+ **[Less](https://lesscss.org/)**: Un préprocesseur CSS avec des fonctionnalités similaires à Sass.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -120,8 +120,8 @@ CSS           3 mins          ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 <a href="https://wakatime.com/@e81d490c-17bb-4b85-8611-87004287614f"><img src="https://wakatime.com/badge/user/e81d490c-17bb-4b85-8611-87004287614f.svg?style=plastic" alt="Total time coded since Sep 9 2024" /></a>
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Samedi 28 septembre
- 🗓️</h3><div align="center">13h30 - 15h30 : Corrections mineures backend et frontend (Node.js, Svelte).
+<h3>Agenda du Dimanche 29 septembre
+ 🗓️</h3><div align="center">13h30 - 15h30 : Veille technologique et réflexion sur les projets futurs.
 </div>
 
 <!-- END_AGENDA_SECTION -->
