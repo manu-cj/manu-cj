@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Less](https://lesscss.org/)**: Un préprocesseur CSS avec des fonctionnalités similaires à Sass.
+ **[Lerna](https://lerna.js.org/)**: Un outil pour gérer les monorepos JavaScript.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -120,8 +120,9 @@ Bash          5 mins          ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 <a href="https://wakatime.com/@e81d490c-17bb-4b85-8611-87004287614f"><img src="https://wakatime.com/badge/user/e81d490c-17bb-4b85-8611-87004287614f.svg?style=plastic" alt="Total time coded since Sep 9 2024" /></a>
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Dimanche 29 septembre
- 🗓️</h3><div align="center">13h30 - 15h30 : Veille technologique et réflexion sur les projets futurs.
+<h3>Agenda du Lundi 30 septembre
+ 🗓️</h3><div align="center">9h - 12h30 : Révision de React : Concepts de base et hooks.
+</div><div align="center">13h30 - 17h : Révision de TypeScript : Typage et interfaces.
 </div>
 
 <!-- END_AGENDA_SECTION -->
