@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Three.js](https://threejs.org/)**: Une bibliothèque pour créer des graphiques 3D sur le web.
+ **[Mocha](https://mochajs.org/)**: Un framework de test pour JavaScript.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -120,10 +120,9 @@ Bash         13 mins         ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 <a href="https://wakatime.com/@e81d490c-17bb-4b85-8611-87004287614f"><img src="https://wakatime.com/badge/user/e81d490c-17bb-4b85-8611-87004287614f.svg?style=plastic" alt="Total time coded since Sep 9 2024" /></a>
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Mercredi 2 octobre
- 🗓️</h3><div align="center">9h - 11h : Recherche de stage : Suivi des candidatures et ajustement des documents.
-</div><div align="center">11h - 12h30 : Révision de React : Projets et intégration avec TypeScript.
-</div><div align="center">13h30 - 17h : Révision de Redux : Projets avancés et meilleures pratiques.
+<h3>Agenda du Jeudi 3 octobre
+ 🗓️</h3><div align="center">9h - 12h30 : Pratique de React : Développement d'une petite application.
+</div><div align="center">13h30 - 17h : Pratique de TypeScript : Application des concepts dans un projet.
 </div>
 
 <!-- END_AGENDA_SECTION -->
