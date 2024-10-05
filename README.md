@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Algolia InstantSearch](https://www.algolia.com/doc/guides/building-search-ui/what-is-instantsearch/js/)**: Une bibliothèque pour implémenter une recherche instantanée.
+ **[Mustache.js](https://github.com/janl/mustache.js/)**: Moteur de template simple et sans logique
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -120,9 +120,8 @@ YAML         23 mins         🟧⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 <a href="https://wakatime.com/@e81d490c-17bb-4b85-8611-87004287614f"><img src="https://wakatime.com/badge/user/e81d490c-17bb-4b85-8611-87004287614f.svg?style=plastic" alt="Total time coded since Sep 9 2024" /></a>
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Vendredi 4 octobre
- 🗓️</h3><div align="center">9h - 12h30 : Pratique de Redux : Intégration avec l'application React.
-</div><div align="center">13h30 - 17h : Finalisation du projet : Intégration de toutes les compétences.
+<h3>Agenda du Samedi 5 octobre
+ 🗓️</h3><div align="center">13h30 - 15h30 : Réflexion sur les projets futurs et mise à jour du code existant.
 </div>
 
 <!-- END_AGENDA_SECTION -->
