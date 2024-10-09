@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Styled-components](https://styled-components.com/)**: Une bibliothèque pour le CSS-in-JS dans React.
+ **[Sass](https://sass-lang.com/)**: Un préprocesseur CSS avec une syntaxe avancée.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
