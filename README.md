@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Sass](https://sass-lang.com/)**: Un préprocesseur CSS avec une syntaxe avancée.
+ **[Next.js](https://nextjs.org/)**: Un framework pour React qui permet le rendu côté serveur et la génération de sites statiques.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
