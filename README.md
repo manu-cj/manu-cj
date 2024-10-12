@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[D3.js](https://d3js.org/)**: Une bibliothèque pour créer des graphiques dynamiques et interactifs.
+ **[dnd-kit](https://dndkit.com/)**: Kit de glisser-déposer pour React
 <!-- END_LIBRARY_SECTION -->
 </div>
 
