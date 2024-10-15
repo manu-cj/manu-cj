@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Sanitize](https://github.com/12rambau/sanitize)**: Bibliothèque de nettoyage de contenu
+ **[Moment.js](https://momentjs.com/)**: Une bibliothèque pour manipuler et afficher les dates et heures.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
