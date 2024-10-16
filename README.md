@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Moment.js](https://momentjs.com/)**: Une bibliothèque pour manipuler et afficher les dates et heures.
+ **[CamanJS](http://camanjs.com/)**: Éditeur d'images en JavaScript
 <!-- END_LIBRARY_SECTION -->
 </div>
 
