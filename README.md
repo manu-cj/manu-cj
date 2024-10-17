@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[CamanJS](http://camanjs.com/)**: Éditeur d'images en JavaScript
+ **[Vue.Draggable.Next](https://github.com/SortableJS/Vue.Draggable.Next)**: Drag and drop pour Vue 3
 <!-- END_LIBRARY_SECTION -->
 </div>
 
