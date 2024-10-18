@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Vue.Draggable.Next](https://github.com/SortableJS/Vue.Draggable.Next)**: Drag and drop pour Vue 3
+ **[Day.js](https://day.js.org/)**: Library lightweight pour manipuler les dates
 <!-- END_LIBRARY_SECTION -->
 </div>
 
