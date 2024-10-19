@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Day.js](https://day.js.org/)**: Library lightweight pour manipuler les dates
+ **[Locomotive Scroll](https://locomotivemtl.github.io/locomotive-scroll/)**: Bibliothèque pour créer des effets de défilement lisses
 <!-- END_LIBRARY_SECTION -->
 </div>
 
