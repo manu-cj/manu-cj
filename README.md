@@ -7,7 +7,7 @@
 </div>
    
 <img src="https://readme-typing-svg.herokuapp.com/?color=1BF7B3&size=35&center=true&weight=700&size=40&pause=1500&&vCenter=true&width=1000&lines=Hi,+I'm+Manu;I'm+a+Full+Stack+Js+Developer;Be+Welcome!+😁">
-
+<p> I'm Manu, a full-stack developer specialized in JavaScript technologies. I enjoy designing web applications with a solid architecture and ensuring that my code is clear and efficient. I find great motivation in learning new skills to continually improve my projects.</p>
 <br/>  
 <br/>  
 
