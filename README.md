@@ -1,6 +1,6 @@
 <meta name="description"
  content="GitHub profile in blue color">
-<meta name="keywords" content="Full Stack Developer, GitHub Stats, GitHub Profile, JavaScript, TypeScript, React, Nodejs, HTML5, CSS3, PHP, MySQL, MongoDB"/>
+<meta name="keywords" content="Full Stack Developer, GitHub Stats, GitHub Profile, JavaScript, TypeScript, React, Nodejs, HTML5, CSS3, PHP, MySQL, MongoDB, Python, Django"/>
 
 <div>
    <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=04e4e6&height=120&section=header"
@@ -18,7 +18,7 @@
        <img src="https://readme-typing-svg.herokuapp.com?color=5be2ff&font=Fira+Code&weight=700&size=40&duration=2000&pause=99000&center=true&vCenter=truerandom=false&reapeat=false&width=435&height=100&lines=Frontend">
       <p align="center">
         <a href="https://skillicons.dev">
-          <img src="https://skillicons.dev/icons?i=html,sass,js,vue,pinia,react,redux,svelte,ts" />
+          <img src="https://skillicons.dev/icons?i=tailwind,js,vue,react,svelte,ts" />
         </a>
       </p>
     </td>
@@ -27,16 +27,16 @@
        <img src="https://readme-typing-svg.herokuapp.com?color=5be2ff&font=Fira+Code&weight=700&size=40&duration=2000&pause=99000&center=true&vCenter=truerandom=false&reapeat=false&width=435&height=100&lines=Backend">
       <p align="center">
         <a href="https://skillicons.dev">
-          <img src="https://skillicons.dev/icons?i=nodejs,mongodb,php,mysql" />
+          <img src="https://skillicons.dev/icons?i=nodejs,php,django" />
         </a>
       </p>
     </td>
     <td valign="top" width="33%" style="border: 2px solid black; padding: 10px; background-color: #d9d9d9;">
        <br>
-       <img src="https://readme-typing-svg.herokuapp.com?color=5be2ff&font=Fira+Code&weight=700&size=40&duration=2000&pause=99000&center=true&vCenter=truerandom=false&reapeat=false&width=435&height=100&lines=Tools">
+       <img src="https://readme-typing-svg.herokuapp.com?color=5be2ff&font=Fira+Code&weight=700&size=40&duration=2000&pause=99000&center=true&vCenter=truerandom=false&reapeat=false&width=435&height=100&lines=DevOps+Tools">
       <p align="center">
         <a href="https://skillicons.dev">
-          <img src="https://skillicons.dev/icons?i=git,docker,linux" />
+          <img src="https://skillicons.dev/icons?i=git,docker,linux,mongodb,mysql,sqlite" />
         </a>
       </p>
     </td>
