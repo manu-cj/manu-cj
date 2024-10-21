@@ -322,87 +322,52 @@ const agenda = {
         "20 octobre - 26 octobre": {
             "Dimanche 20 octobre": [
                 {
-                    time: "13h - 15h",
+                    time: "10h30 - 12h30",
                     duration: "2h",
-                    task: "Installation de Django et création d'un projet de test."
-                },
-                {
-                    time: "15h - 17h",
-                    duration: "2h",
-                    task: "Création de modèles et migrations avec Django."
+                    task: "Installer Django. Créer un nouveau projet et comprendre la structure des fichiers."
                 }
             ],
             "Lundi 21 octobre": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Exploration des vues dans Django et création de vues simples."
-                },
-                {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Manipulation des templates Django : création et utilisation."
+                    time: "10h30 - 12h30",
+                    duration: "2h",
+                    task: "Créer une application dans le projet. Ajouter des modèles avec des champs simples."
                 }
             ],
             "Mardi 22 octobre": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Création de formulaires et validation avec Django."
-                },
-                {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Configuration des URL et routage dans Django."
+                    time: "10h30 - 12h30",
+                    duration: "2h",
+                    task: "Configurer l'admin de Django pour gérer les modèles. Ajouter des données via l'admin."
                 }
             ],
             "Mercredi 23 octobre": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Utilisation de l'ORM Django : requêtes et manipulations."
-                },
-                {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Création d'une API simple avec Django REST Framework."
+                    time: "10h30 - 12h30",
+                    duration: "2h",
+                    task: "Créer des vues simples pour afficher les données des modèles. Tester les vues avec des données."
                 }
             ],
             "Jeudi 24 octobre": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Tests de l'API Django avec Postman."
-                },
-                {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Exploration des signaux et middleware dans Django."
+                    time: "10h30 - 12h30",
+                    duration: "2h",
+                    task: "Configurer les URL pour les vues. Tester l'accès via le navigateur."
                 }
             ],
             "Vendredi 25 octobre": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Gestion de la sécurité et authentification dans Django."
-                },
-                {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Création de tests unitaires et fonctionnels avec Django."
+                    time: "10h30 - 12h30",
+                    duration: "2h",
+                    task: "Créer des formulaires pour ajouter/modifier des données. Tester les formulaires."
                 }
             ],
             "Samedi 26 octobre": [
                 {
-                    time: "13h - 15h",
+                    time: "10h30 - 12h30",
                     duration: "2h",
-                    task: "Révision des concepts Django et pratique des fonctionnalités."
+                    task: "Gérer les validations de formulaires et afficher les messages d'erreur."
                 },
-                {
-                    time: "15h - 17h",
-                    duration: "2h",
-                    task: "Mise à jour des connaissances avec de nouvelles ressources sur Django."
-                }
             ],
         }
     },
@@ -410,51 +375,76 @@ const agenda = {
         "27 octobre - 2 novembre": {
             "Dimanche 27 octobre": [
                 {
-                    time: "13h - 15h",
+                    time: "10h30 - 12h30",
                     duration: "2h",
-                    task: "Exploration des tâches asynchrones avec Celery dans Django."
+                    task: "Apprendre à utiliser l'ORM Django : effectuer des requêtes simples sur les modèles."
                 }
             ],
             "Lundi 28 octobre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
-                    task: "Planification des prochaines étapes d'apprentissage de Django."
+                    task: "Installer Django REST Framework. Créer une API simple pour les modèles."
+                },
+                {
+                    time: "13h30 - 17h",
+                    duration: "3h30",
+                    task: "Configurer des serializers pour les modèles. Tester l'API avec des données."
                 }
             ],
             "Mardi 29 octobre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
-                    task: "Exercices pratiques sur l'ORM et les vues dans Django."
+                    task: "Créer des vues pour l'API et configurer les URLs associées."
+                },
+                {
+                    time: "13h30 - 17h",
+                    duration: "3h30",
+                    task: "Tester l'API avec Postman : effectuer des requêtes GET, POST, PUT, DELETE."
                 }
             ],
             "Mercredi 30 octobre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
-                    task: "Exploration avancée de Django REST Framework."
+                    task: "Ajouter l'authentification par token à l'API."
+                },
+                {
+                    time: "13h30 - 17h",
+                    duration: "3h30",
+                    task: "Explorer les permissions dans l'API pour sécuriser les accès."
                 }
             ],
             "Jeudi 31 octobre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
-                    task: "Création d'une API plus complexe avec plusieurs endpoints dans Django."
+                    task: "Mettre en place des tests unitaires pour les modèles et les vues."
+                },
+                {
+                    time: "13h30 - 17h",
+                    duration: "3h30",
+                    task: "Gérer les fichiers statiques et médias dans Django."
                 }
             ],
             "Vendredi 1 novembre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
-                    task: "Discussion sur les meilleures pratiques et optimisation avec Django."
+                    task: "Configurer les notifications par e-mail dans Django."
+                },
+                {
+                    time: "13h30 - 17h",
+                    duration: "3h30",
+                    task: "Utiliser les templates pour rendre l'interface utilisateur dynamique."
                 }
             ],
             "Samedi 2 novembre": [
                 {
-                    time: "13h - 15h",
+                    time: "10h30 - 12h30",
                     duration: "2h",
-                    task: "Révision et évaluation des connaissances acquises sur Django."
+                    task: "Explorer des paquets tiers pour ajouter des fonctionnalités."
                 }
             ],
         }
@@ -463,56 +453,82 @@ const agenda = {
         "3 novembre - 9 novembre": {
             "Dimanche 3 novembre": [
                 {
-                    time: "13h - 15h",
+                    time: "10h30 - 12h30",
                     duration: "2h",
-                    task: "Exploration des API tierces et intégration avec Django."
+                    task: "Déployer l'application sur un serveur (ex : Heroku)."
                 }
             ],
             "Lundi 4 novembre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
-                    task: "Pratique de l'optimisation des performances de l'API Django."
+                    task: "Évaluer les compétences acquises et planifier les prochaines étapes."
+                },
+                {
+                    time: "13h30 - 17h",
+                    duration: "3h30",
+                    task: "Explorer des cas d'utilisation avancés de Django."
                 }
             ],
             "Mardi 5 novembre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
-                    task: "Évaluation des connaissances et retour sur les difficultés rencontrées avec Django."
+                    task: "Découvrir les signaux et leur utilisation dans Django."
+                },
+                {
+                    time: "13h30 - 17h",
+                    duration: "3h30",
+                    task: "Créer des tâches en arrière-plan avec Celery."
                 }
             ],
             "Mercredi 6 novembre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
-                    task: "Planification de la suite de l'apprentissage de Django."
+                    task: "Mettre en place la gestion des utilisateurs et des groupes."
+                },
+                {
+                    time: "13h30 - 17h",
+                    duration: "3h30",
+                    task: "Configurer les permissions avancées."
                 }
             ],
             "Jeudi 7 novembre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
-                    task: "Exploration des tendances récentes dans le développement avec Django."
+                    task: "Utiliser les migrations avancées pour gérer les modifications de modèle."
+                },
+                {
+                    time: "13h30 - 17h",
+                    duration: "3h30",
+                    task: "Mettre en place des tests de charge pour l'application."
                 }
             ],
             "Vendredi 8 novembre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
-                    task: "Finalisation de l'apprentissage de Django et réflexion sur les prochaines étapes."
+                    task: "Réviser les concepts clés de Django et identifier les domaines à approfondir."
+                },
+                {
+                    time: "13h30 - 17h",
+                    duration: "3h30",
+                    task: "Travailler sur la documentation du projet."
                 }
             ],
             "Samedi 9 novembre": [
                 {
-                    time: "13h - 15h",
+                    time: "10h30 - 12h30",
                     duration: "2h",
-                    task: "Mise à jour des connaissances sur Django et partage avec d'autres développeurs."
+                    task: "Réfléchir aux prochaines étapes pour continuer à améliorer les compétences en Django."
                 }
-            ],
+            ]
         }
     }
 };
+
 
 
 
