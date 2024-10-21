@@ -320,7 +320,7 @@ const libraries = [
 const agenda = {
     "Semaine 3": {
         "20 octobre - 26 octobre": {
-            "Samedi 20 octobre": [
+            "Dimanche 20 octobre": [
                 {
                     time: "13h - 15h",
                     duration: "2h",
@@ -332,19 +332,19 @@ const agenda = {
                     task: "Création de modèles et migrations avec Django."
                 }
             ],
-            "Dimanche 21 octobre": [
+            "Lundi 21 octobre": [
                 {
-                    time: "13h - 15h",
-                    duration: "2h",
+                    time: "9h - 12h30",
+                    duration: "3h30",
                     task: "Exploration des vues dans Django et création de vues simples."
                 },
                 {
-                    time: "15h - 17h",
-                    duration: "2h",
+                    time: "13h30 - 17h",
+                    duration: "3h30",
                     task: "Manipulation des templates Django : création et utilisation."
                 }
             ],
-            "Lundi 22 octobre": [
+            "Mardi 22 octobre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
@@ -356,7 +356,7 @@ const agenda = {
                     task: "Configuration des URL et routage dans Django."
                 }
             ],
-            "Mardi 23 octobre": [
+            "Mercredi 23 octobre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
@@ -368,7 +368,7 @@ const agenda = {
                     task: "Création d'une API simple avec Django REST Framework."
                 }
             ],
-            "Mercredi 24 octobre": [
+            "Jeudi 24 octobre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
@@ -380,7 +380,7 @@ const agenda = {
                     task: "Exploration des signaux et middleware dans Django."
                 }
             ],
-            "Jeudi 25 octobre": [
+            "Vendredi 25 octobre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
@@ -392,15 +392,15 @@ const agenda = {
                     task: "Création de tests unitaires et fonctionnels avec Django."
                 }
             ],
-            "Vendredi 26 octobre": [
+            "Samedi 26 octobre": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
+                    time: "13h - 15h",
+                    duration: "2h",
                     task: "Révision des concepts Django et pratique des fonctionnalités."
                 },
                 {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
+                    time: "15h - 17h",
+                    duration: "2h",
                     task: "Mise à jour des connaissances avec de nouvelles ressources sur Django."
                 }
             ],
@@ -408,52 +408,52 @@ const agenda = {
     },
     "Semaine 4": {
         "27 octobre - 2 novembre": {
-            "Samedi 27 octobre": [
+            "Dimanche 27 octobre": [
                 {
                     time: "13h - 15h",
                     duration: "2h",
                     task: "Exploration des tâches asynchrones avec Celery dans Django."
                 }
             ],
-            "Dimanche 28 octobre": [
+            "Lundi 28 octobre": [
                 {
-                    time: "13h - 15h",
-                    duration: "2h",
+                    time: "9h - 12h30",
+                    duration: "3h30",
                     task: "Planification des prochaines étapes d'apprentissage de Django."
                 }
             ],
-            "Lundi 29 octobre": [
+            "Mardi 29 octobre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
                     task: "Exercices pratiques sur l'ORM et les vues dans Django."
                 }
             ],
-            "Mardi 30 octobre": [
+            "Mercredi 30 octobre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
                     task: "Exploration avancée de Django REST Framework."
                 }
             ],
-            "Mercredi 31 octobre": [
+            "Jeudi 31 octobre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
                     task: "Création d'une API plus complexe avec plusieurs endpoints dans Django."
                 }
             ],
-            "Jeudi 1 novembre": [
+            "Vendredi 1 novembre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
                     task: "Discussion sur les meilleures pratiques et optimisation avec Django."
                 }
             ],
-            "Vendredi 2 novembre": [
+            "Samedi 2 novembre": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
+                    time: "13h - 15h",
+                    duration: "2h",
                     task: "Révision et évaluation des connaissances acquises sur Django."
                 }
             ],
@@ -461,58 +461,59 @@ const agenda = {
     },
     "Semaine 5": {
         "3 novembre - 9 novembre": {
-            "Samedi 3 novembre": [
+            "Dimanche 3 novembre": [
                 {
                     time: "13h - 15h",
                     duration: "2h",
                     task: "Exploration des API tierces et intégration avec Django."
                 }
             ],
-            "Dimanche 4 novembre": [
+            "Lundi 4 novembre": [
                 {
-                    time: "13h - 15h",
-                    duration: "2h",
+                    time: "9h - 12h30",
+                    duration: "3h30",
                     task: "Pratique de l'optimisation des performances de l'API Django."
                 }
             ],
-            "Lundi 5 novembre": [
+            "Mardi 5 novembre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
                     task: "Évaluation des connaissances et retour sur les difficultés rencontrées avec Django."
                 }
             ],
-            "Mardi 6 novembre": [
+            "Mercredi 6 novembre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
                     task: "Planification de la suite de l'apprentissage de Django."
                 }
             ],
-            "Mercredi 7 novembre": [
+            "Jeudi 7 novembre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
                     task: "Exploration des tendances récentes dans le développement avec Django."
                 }
             ],
-            "Jeudi 8 novembre": [
+            "Vendredi 8 novembre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
                     task: "Finalisation de l'apprentissage de Django et réflexion sur les prochaines étapes."
                 }
             ],
-            "Vendredi 9 novembre": [
+            "Samedi 9 novembre": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
+                    time: "13h - 15h",
+                    duration: "2h",
                     task: "Mise à jour des connaissances sur Django et partage avec d'autres développeurs."
                 }
             ],
         }
     }
 };
+
 
 
 
