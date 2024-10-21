@@ -318,173 +318,202 @@ const libraries = [
 
 // Définir l'agenda
 const agenda = {
-    "Semaine 1": {
-        "23 septembre - 29 septembre": {
-            "Lundi 23 septembre": [
+    "Semaine 3": {
+        "20 octobre - 26 octobre": {
+            "Samedi 20 octobre": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Développement backend : Implémentation des routes pour la suppression de message (Node.js)."
-                },
-                {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Développement frontend : Interface pour la suppression de message (Svelte)."
-                }
-            ],
-            "Mardi 24 septembre": [
-                {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Développement backend : Routes pour la modification des données utilisateur (Node.js)."
-                },
-                {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Développement frontend : Formulaire de modification des données utilisateur (Svelte)."
-                }
-            ],
-            "Mercredi 25 septembre": [
-                {
-                    time: "9h - 11h",
+                    time: "13h - 15h",
                     duration: "2h",
-                    task: "Recherche de stage : Suivi des candidatures et ajustement des documents."
+                    task: "Installation de Django et création d'un projet de test."
                 },
                 {
-                    time: "11h - 12h30",
-                    duration: "1h30",
-                    task: "Liaison frontend/backend : Connexion des routes API pour suppression et modification (Node.js, Svelte)."
-                },
-                {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Optimisations frontend : Améliorations UI et liaison avec le backend (Svelte)."
+                    time: "15h - 17h",
+                    duration: "2h",
+                    task: "Création de modèles et migrations avec Django."
                 }
             ],
-            "Jeudi 26 septembre": [
+            "Dimanche 21 octobre": [
+                {
+                    time: "13h - 15h",
+                    duration: "2h",
+                    task: "Exploration des vues dans Django et création de vues simples."
+                },
+                {
+                    time: "15h - 17h",
+                    duration: "2h",
+                    task: "Manipulation des templates Django : création et utilisation."
+                }
+            ],
+            "Lundi 22 octobre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
-                    task: "Optimisation backend : Amélioration des performances des routes API (Node.js)."
+                    task: "Création de formulaires et validation avec Django."
                 },
                 {
                     time: "13h30 - 17h",
                     duration: "3h30",
-                    task: "Améliorations UI frontend : Optimisation de l'interface utilisateur (Svelte)."
+                    task: "Configuration des URL et routage dans Django."
                 }
             ],
-            "Vendredi 27 septembre": [
+            "Mardi 23 octobre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
-                    task: "Finalisation backend : Ajustements finaux sur les routes API (Node.js)."
+                    task: "Utilisation de l'ORM Django : requêtes et manipulations."
                 },
                 {
                     time: "13h30 - 17h",
                     duration: "3h30",
-                    task: "Finalisation frontend : Ajustements d'interface utilisateur et liaison avec le backend (Svelte)."
+                    task: "Création d'une API simple avec Django REST Framework."
                 }
             ],
-            "Samedi 28 septembre": [
+            "Mercredi 24 octobre": [
                 {
-                    time: "13h30 - 15h30",
-                    duration: "2h",
-                    task: "Corrections mineures backend et frontend (Node.js, Svelte)."
+                    time: "9h - 12h30",
+                    duration: "3h30",
+                    task: "Tests de l'API Django avec Postman."
+                },
+                {
+                    time: "13h30 - 17h",
+                    duration: "3h30",
+                    task: "Exploration des signaux et middleware dans Django."
                 }
             ],
-            "Dimanche 29 septembre": [
+            "Jeudi 25 octobre": [
                 {
-                    time: "13h30 - 15h30",
-                    duration: "2h",
-                    task: "Veille technologique et réflexion sur les projets futurs."
+                    time: "9h - 12h30",
+                    duration: "3h30",
+                    task: "Gestion de la sécurité et authentification dans Django."
+                },
+                {
+                    time: "13h30 - 17h",
+                    duration: "3h30",
+                    task: "Création de tests unitaires et fonctionnels avec Django."
                 }
-            ]
+            ],
+            "Vendredi 26 octobre": [
+                {
+                    time: "9h - 12h30",
+                    duration: "3h30",
+                    task: "Révision des concepts Django et pratique des fonctionnalités."
+                },
+                {
+                    time: "13h30 - 17h",
+                    duration: "3h30",
+                    task: "Mise à jour des connaissances avec de nouvelles ressources sur Django."
+                }
+            ],
         }
     },
-    "Semaine 2": {
-        "30 septembre - 6 octobre": {
-            "Lundi 30 septembre": [
+    "Semaine 4": {
+        "27 octobre - 2 novembre": {
+            "Samedi 27 octobre": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Révision de React : Concepts de base et hooks."
-                },
-                {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Révision de TypeScript : Typage et interfaces."
-                }
-            ],
-            "Mardi 1 octobre": [
-                {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Révision de Redux : Gestion d'état et middleware."
-                },
-                {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Mise en pratique de Redux avec un projet simple."
-                }
-            ],
-            "Mercredi 2 octobre": [
-                {
-                    time: "9h - 11h",
+                    time: "13h - 15h",
                     duration: "2h",
-                    task: "Recherche de stage : Suivi des candidatures et ajustement des documents."
-                },
-                {
-                    time: "11h - 12h30",
-                    duration: "1h30",
-                    task: "Révision de React : Projets et intégration avec TypeScript."
-                },
-                {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Révision de Redux : Projets avancés et meilleures pratiques."
+                    task: "Exploration des tâches asynchrones avec Celery dans Django."
                 }
             ],
-            "Jeudi 3 octobre": [
+            "Dimanche 28 octobre": [
+                {
+                    time: "13h - 15h",
+                    duration: "2h",
+                    task: "Planification des prochaines étapes d'apprentissage de Django."
+                }
+            ],
+            "Lundi 29 octobre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
-                    task: "Pratique de React : Développement d'une petite application."
-                },
-                {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Pratique de TypeScript : Application des concepts dans un projet."
+                    task: "Exercices pratiques sur l'ORM et les vues dans Django."
                 }
             ],
-            "Vendredi 4 octobre": [
+            "Mardi 30 octobre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
-                    task: "Pratique de Redux : Intégration avec l'application React."
-                },
+                    task: "Exploration avancée de Django REST Framework."
+                }
+            ],
+            "Mercredi 31 octobre": [
                 {
-                    time: "13h30 - 17h",
+                    time: "9h - 12h30",
                     duration: "3h30",
-                    task: "Finalisation du projet : Intégration de toutes les compétences."
+                    task: "Création d'une API plus complexe avec plusieurs endpoints dans Django."
                 }
             ],
-            "Samedi 5 octobre": [
+            "Jeudi 1 novembre": [
                 {
-                    time: "13h30 - 15h30",
-                    duration: "2h",
-                    task: "Réflexion sur les projets futurs et mise à jour du code existant."
+                    time: "9h - 12h30",
+                    duration: "3h30",
+                    task: "Discussion sur les meilleures pratiques et optimisation avec Django."
                 }
             ],
-            "Dimanche 6 octobre": [
+            "Vendredi 2 novembre": [
                 {
-                    time: "13h30 - 15h30",
-                    duration: "2h",
-                    task: "Veille technologique et recherche de nouvelles ressources."
+                    time: "9h - 12h30",
+                    duration: "3h30",
+                    task: "Révision et évaluation des connaissances acquises sur Django."
                 }
-            ]
+            ],
+        }
+    },
+    "Semaine 5": {
+        "3 novembre - 9 novembre": {
+            "Samedi 3 novembre": [
+                {
+                    time: "13h - 15h",
+                    duration: "2h",
+                    task: "Exploration des API tierces et intégration avec Django."
+                }
+            ],
+            "Dimanche 4 novembre": [
+                {
+                    time: "13h - 15h",
+                    duration: "2h",
+                    task: "Pratique de l'optimisation des performances de l'API Django."
+                }
+            ],
+            "Lundi 5 novembre": [
+                {
+                    time: "9h - 12h30",
+                    duration: "3h30",
+                    task: "Évaluation des connaissances et retour sur les difficultés rencontrées avec Django."
+                }
+            ],
+            "Mardi 6 novembre": [
+                {
+                    time: "9h - 12h30",
+                    duration: "3h30",
+                    task: "Planification de la suite de l'apprentissage de Django."
+                }
+            ],
+            "Mercredi 7 novembre": [
+                {
+                    time: "9h - 12h30",
+                    duration: "3h30",
+                    task: "Exploration des tendances récentes dans le développement avec Django."
+                }
+            ],
+            "Jeudi 8 novembre": [
+                {
+                    time: "9h - 12h30",
+                    duration: "3h30",
+                    task: "Finalisation de l'apprentissage de Django et réflexion sur les prochaines étapes."
+                }
+            ],
+            "Vendredi 9 novembre": [
+                {
+                    time: "9h - 12h30",
+                    duration: "3h30",
+                    task: "Mise à jour des connaissances sur Django et partage avec d'autres développeurs."
+                }
+            ],
         }
     }
 };
+
 
 
 
