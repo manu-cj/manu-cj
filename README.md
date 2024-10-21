@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Tone.js](https://tonejs.github.io/)**: Une bibliothèque pour créer de la musique et des sons avec JavaScript.
+ **[Immutable.js](https://immutable-js.github.io/immutable-js/)**: Une bibliothèque pour créer des structures de données immuables.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -121,8 +121,7 @@ Other        0 secs          ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 <div align="center">
  <!-- START_AGENDA_SECTION -->
 <h3>Agenda du Lundi 21 octobre
- 🗓️</h3><div align="center">9h - 12h30 : Exploration des vues dans Django et création de vues simples.
-</div><div align="center">13h30 - 17h : Manipulation des templates Django : création et utilisation.
+ 🗓️</h3><div align="center">10h30 - 12h30 : Créer une application dans le projet. Ajouter des modèles avec des champs simples.
 </div>
 
 <!-- END_AGENDA_SECTION -->
