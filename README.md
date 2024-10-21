@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[GSAP](https://greensock.com/gsap/)**: Une bibliothèque puissante pour créer des animations.
+ **[Tailwind CSS](https://tailwindcss.com/)**: Un framework CSS utilitaire.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
