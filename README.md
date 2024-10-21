@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Tailwind CSS](https://tailwindcss.com/)**: Un framework CSS utilitaire.
+ **[FullCalendar](https://fullcalendar.io/)**: Une bibliothèque pour créer des calendriers interactifs.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
