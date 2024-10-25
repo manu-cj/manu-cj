@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Tippy.js](https://atomiks.github.io/tippyjs/)**: Bibliothèque pour les infobulles et les poppers
+ **[LiveServer](https://www.npmjs.com/package/live-server)**: Un serveur de développement local avec rechargement automatique.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -120,8 +120,8 @@ JSON         9 mins          🟧⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 <a href="https://wakatime.com/@e81d490c-17bb-4b85-8611-87004287614f"><img src="https://wakatime.com/badge/user/e81d490c-17bb-4b85-8611-87004287614f.svg?style=plastic" alt="Total time coded since Sep 9 2024" /></a>
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Jeudi 24 octobre
- 🗓️</h3><div align="center">10h30 - 12h30 : Configurer les URL pour les vues. Tester l'accès via le navigateur.
+<h3>Agenda du Vendredi 25 octobre
+ 🗓️</h3><div align="center">10h30 - 12h30 : Créer des formulaires pour ajouter/modifier des données. Tester les formulaires.
 </div>
 
 <!-- END_AGENDA_SECTION -->
