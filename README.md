@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Cordova](https://cordova.apache.org/)**: Un framework pour créer des applications mobiles avec HTML, CSS, et JavaScript.
+ **[Day.js](https://day.js.org/)**: Bibliothèque légère pour la manipulation de dates
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -120,8 +120,9 @@ Other      0 secs          ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 <a href="https://wakatime.com/@e81d490c-17bb-4b85-8611-87004287614f"><img src="https://wakatime.com/badge/user/e81d490c-17bb-4b85-8611-87004287614f.svg?style=plastic" alt="Total time coded since Sep 9 2024" /></a>
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Dimanche 27 octobre
- 🗓️</h3><div align="center">10h30 - 12h30 : Apprendre à utiliser l'ORM Django : effectuer des requêtes simples sur les modèles.
+<h3>Agenda du Lundi 28 octobre
+ 🗓️</h3><div align="center">9h - 12h30 : Installer Django REST Framework. Créer une API simple pour les modèles.
+</div><div align="center">13h30 - 17h : Configurer des serializers pour les modèles. Tester l'API avec des données.
 </div>
 
 <!-- END_AGENDA_SECTION -->
