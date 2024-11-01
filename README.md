@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Date Range Picker](https://www.daterangepicker.com/)**: Sélecteur de plage de dates
+ **[CamanJS](http://camanjs.com/)**: Éditeur d'images en JavaScript
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -118,9 +118,9 @@ Markdown   1 min           ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 <a href="https://wakatime.com/@e81d490c-17bb-4b85-8611-87004287614f"><img src="https://wakatime.com/badge/user/e81d490c-17bb-4b85-8611-87004287614f.svg?style=plastic" alt="Total time coded since Sep 9 2024" /></a>
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Jeudi 31 octobre
- 🗓️</h3><div align="center">9h - 12h30 : Mettre en place des tests unitaires pour les modèles et les vues.
-</div><div align="center">13h30 - 17h : Gérer les fichiers statiques et médias dans Django.
+<h3>Agenda du Vendredi 1 novembre
+ 🗓️</h3><div align="center">9h - 12h30 : Configurer les notifications par e-mail dans Django.
+</div><div align="center">13h30 - 17h : Utiliser les templates pour rendre l'interface utilisateur dynamique.
 </div>
 
 <!-- END_AGENDA_SECTION -->
