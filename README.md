@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[CamanJS](http://camanjs.com/)**: Éditeur d'images en JavaScript
+ **[Parallax.js](https://matthew.wagerfield.com/parallax/)**: Bibliothèque simple pour des effets de parallaxe
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -118,9 +118,8 @@ Markdown   1 min           ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 <a href="https://wakatime.com/@e81d490c-17bb-4b85-8611-87004287614f"><img src="https://wakatime.com/badge/user/e81d490c-17bb-4b85-8611-87004287614f.svg?style=plastic" alt="Total time coded since Sep 9 2024" /></a>
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Vendredi 1 novembre
- 🗓️</h3><div align="center">9h - 12h30 : Configurer les notifications par e-mail dans Django.
-</div><div align="center">13h30 - 17h : Utiliser les templates pour rendre l'interface utilisateur dynamique.
+<h3>Agenda du Samedi 2 novembre
+ 🗓️</h3><div align="center">10h30 - 12h30 : Explorer des paquets tiers pour ajouter des fonctionnalités.
 </div>
 
 <!-- END_AGENDA_SECTION -->
