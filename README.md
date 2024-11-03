@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Choices.js](https://joshuajohnson.co.uk/Choices/)**: Bibliothèque pour créer des listes déroulantes et des champs multi-sélection
+ **[Resumable.js](http://www.resumablejs.com/)**: Uploader de fichiers en plusieurs parties
 <!-- END_LIBRARY_SECTION -->
 </div>
 
