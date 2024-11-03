@@ -324,49 +324,49 @@ const agenda = {
                 {
                     time: "13h - 15h",
                     duration: "2h",
-                    task: "Commencer le développement de l'application de budget en Next.js (version app) et SQLite."
+                    task: "Initialiser le projet de l'application de budget en Next.js (version app) avec TypeScript et configurer SQLite."
                 }
             ],
             "Lundi 4 novembre": [
                 {
                     time: "14h - 16h",
                     duration: "2h",
-                    task: "Créer la page d'accueil avec les informations importantes."
+                    task: "Créer la base de données avec les tables : users, revenus, expenses, categories, et budgets."
                 }
             ],
             "Mardi 5 novembre": [
                 {
                     time: "14h - 16h",
                     duration: "2h",
-                    task: "Développer la page de liste des dépenses."
+                    task: "Développer le modèle TypeScript pour les utilisateurs et les revenus."
                 }
             ],
             "Mercredi 6 novembre": [
                 {
                     time: "14h - 16h",
                     duration: "2h",
-                    task: "Mettre en place la page graphique pour visualiser les dépenses."
+                    task: "Mettre en place le modèle TypeScript pour les dépenses, catégories et budgets."
                 }
             ],
             "Jeudi 7 novembre": [
                 {
                     time: "14h - 16h",
                     duration: "2h",
-                    task: "Créer la page de profil utilisateur."
+                    task: "Développer l'API en TypeScript pour ajouter, lire, mettre à jour et supprimer des revenus et dépenses."
                 }
             ],
             "Vendredi 8 novembre": [
                 {
                     time: "14h - 16h",
                     duration: "2h",
-                    task: "Développer le formulaire d'inscription."
+                    task: "Créer l'API en TypeScript pour gérer les utilisateurs (inscription, login)."
                 }
             ],
             "Samedi 9 novembre": [
                 {
                     time: "13h - 15h",
                     duration: "2h",
-                    task: "Réviser et ajouter le formulaire de login."
+                    task: "Commencer à travailler sur la page d'accueil avec les informations importantes et la structure des composants en TypeScript."
                 }
             ]
         }
@@ -377,74 +377,74 @@ const agenda = {
                 {
                     time: "13h - 15h",
                     duration: "2h",
-                    task: "Développer le formulaire d'ajout de dépense/revenu."
+                    task: "Finaliser la page d'accueil et définir les composants nécessaires en TypeScript."
                 }
             ],
             "Lundi 11 novembre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
-                    task: "Commencer le développement du projet de stage en Next.js."
+                    task: "Démarrer le projet de stage en Next.js avec TypeScript et définir les fonctionnalités clés."
                 },
                 {
                     time: "13h30 - 17h",
                     duration: "3h30",
-                    task: "Développer les fonctionnalités de base du projet de stage."
+                    task: "Établir l'architecture du projet de stage (back-end et front-end)."
                 }
             ],
             "Mardi 12 novembre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
-                    task: "Concevoir l'architecture du projet de stage en Next.js."
+                    task: "Mettre en place la base de données pour le projet de stage."
                 },
                 {
                     time: "13h30 - 17h",
                     duration: "3h30",
-                    task: "Développer les composants principaux du projet de stage."
+                    task: "Développer l'API en TypeScript pour le projet de stage."
                 }
             ],
             "Mercredi 13 novembre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
-                    task: "Intégrer la gestion des utilisateurs dans le projet de stage."
+                    task: "Créer des endpoints en TypeScript pour les fonctionnalités du projet de stage."
                 },
                 {
                     time: "13h30 - 17h",
                     duration: "3h30",
-                    task: "Développer des fonctionnalités pour la manipulation des données dans le projet de stage."
+                    task: "Commencer à développer le front-end du projet de stage en TypeScript."
                 }
             ],
             "Jeudi 14 novembre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
-                    task: "Développer des fonctionnalités avancées pour le projet de stage."
+                    task: "Mettre en place la logique de gestion des utilisateurs en TypeScript dans le projet de stage."
                 },
                 {
                     time: "13h30 - 17h",
                     duration: "3h30",
-                    task: "Créer une API pour le projet de stage."
+                    task: "Travailler sur l'intégration de l'API dans le front-end du projet de stage."
                 }
             ],
             "Vendredi 15 novembre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
-                    task: "Continuer le développement des fonctionnalités du projet de stage."
+                    task: "Raffiner le back-end de l'application de budget avec des validations supplémentaires en TypeScript."
                 },
                 {
                     time: "13h30 - 17h",
                     duration: "3h30",
-                    task: "Travailler sur l'application de budget pour y ajouter des améliorations."
+                    task: "Commencer le développement de la page de liste des dépenses avec ses composants en TypeScript."
                 }
             ],
             "Samedi 16 novembre": [
                 {
                     time: "13h - 15h",
                     duration: "2h",
-                    task: "Améliorer la logique de gestion des budgets dans l'application."
+                    task: "Développer les composants pour ajouter des dépenses/revenus en TypeScript."
                 }
             ]
         }
@@ -455,79 +455,75 @@ const agenda = {
                 {
                     time: "13h - 15h",
                     duration: "2h",
-                    task: "Développer le formulaire de mise à jour des informations de profil."
+                    task: "Finaliser le développement des composants d'ajout de dépenses/revenus en TypeScript."
                 }
             ],
             "Lundi 18 novembre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
-                    task: "Travailler sur les ajustements du projet de stage."
+                    task: "Développer la page graphique pour visualiser les dépenses dans l'application de budget avec TypeScript."
                 },
                 {
                     time: "13h30 - 17h",
                     duration: "3h30",
-                    task: "Développer les fonctionnalités de l'application de budget."
+                    task: "Travailler sur la mise en page graphique et les composants pour la page graphique de l'application de budget en TypeScript."
                 }
             ],
             "Mardi 19 novembre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
-                    task: "Développer l'intégration des données dans le projet de stage."
+                    task: "Améliorer la sécurité de l'API du projet de stage en TypeScript."
                 },
                 {
                     time: "13h30 - 17h",
                     duration: "3h30",
-                    task: "Poursuivre le développement de l'application de budget."
+                    task: "Finaliser les composants graphiques et les intégrer dans l'application de budget en TypeScript."
                 }
             ],
             "Mercredi 20 novembre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
-                    task: "Développer les fonctionnalités de reporting du projet de stage."
+                    task: "Préparer la documentation pour l'API du projet de stage en TypeScript."
                 },
                 {
                     time: "13h30 - 17h",
                     duration: "3h30",
-                    task: "Finaliser le développement de l'application de budget."
+                    task: "Commencer le développement de la page de profil utilisateur avec ses composants en TypeScript."
                 }
             ],
             "Jeudi 21 novembre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
-                    task: "Mettre en place des fonctionnalités de partage pour le projet de stage."
+                    task: "Vérifier la documentation et le code du projet de stage en TypeScript."
                 },
                 {
                     time: "13h30 - 17h",
                     duration: "3h30",
-                    task: "Réviser et améliorer l'application de budget."
+                    task: "Finaliser le développement de la page de profil utilisateur et intégrer les formulaires de mise à jour en TypeScript."
                 }
             ],
             "Vendredi 22 novembre": [
                 {
                     time: "9h - 12h30",
                     duration: "3h30",
-                    task: "Finaliser les ajustements pour le projet de stage."
-                },
-                {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Travailler sur l'application de budget."
+                    task: "Finaliser le projet de budget avec des ajouts de fonctionnalités si nécessaire en TypeScript."
                 }
             ],
             "Samedi 23 novembre": [
                 {
                     time: "13h - 15h",
                     duration: "2h",
-                    task: "Améliorer l'expérience utilisateur de l'application de budget."
+                    task: "Finaliser le projet de budget et préparer une démo des fonctionnalités en TypeScript."
                 }
             ]
         }
     }
 };
+
 
 
 
