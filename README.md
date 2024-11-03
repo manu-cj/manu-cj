@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Parallax.js](https://matthew.wagerfield.com/parallax/)**: Bibliothèque simple pour des effets de parallaxe
+ **[bleach](https://bleach.readthedocs.io/en/latest/)**: Sanitisation HTML en Python
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -119,8 +119,8 @@ Markdown     1 min           ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 <a href="https://wakatime.com/@e81d490c-17bb-4b85-8611-87004287614f"><img src="https://wakatime.com/badge/user/e81d490c-17bb-4b85-8611-87004287614f.svg?style=plastic" alt="Total time coded since Sep 9 2024" /></a>
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Samedi 2 novembre
- 🗓️</h3><div align="center">10h30 - 12h30 : Explorer des paquets tiers pour ajouter des fonctionnalités.
+<h3>Agenda du Dimanche 3 novembre
+ 🗓️</h3><div align="center">10h30 - 12h30 : Déployer l'application sur un serveur (ex : Heroku).
 </div>
 
 <!-- END_AGENDA_SECTION -->
