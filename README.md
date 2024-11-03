@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Wave.js](https://github.com/horenku/wave)**: Bibliothèque pour créer des animations de vagues
+ **[Choices.js](https://joshuajohnson.co.uk/Choices/)**: Bibliothèque pour créer des listes déroulantes et des champs multi-sélection
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -121,7 +121,7 @@ CSS          1 min           ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 <div align="center">
  <!-- START_AGENDA_SECTION -->
 <h3>Agenda du Dimanche 3 novembre
- 🗓️</h3><div align="center">13h - 15h : Commencer le développement de l'application de budget en Next.js (version app) et SQLite.
+ 🗓️</h3><div align="center">13h - 15h : Initialiser le projet de l'application de budget en Next.js (version app) avec TypeScript et configurer SQLite.
 </div>
 
 <!-- END_AGENDA_SECTION -->
