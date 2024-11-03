@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[bleach](https://bleach.readthedocs.io/en/latest/)**: Sanitisation HTML en Python
+ **[Wave.js](https://github.com/horenku/wave)**: Bibliothèque pour créer des animations de vagues
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -121,7 +121,7 @@ CSS          1 min           ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 <div align="center">
  <!-- START_AGENDA_SECTION -->
 <h3>Agenda du Dimanche 3 novembre
- 🗓️</h3><div align="center">10h30 - 12h30 : Déployer l'application sur un serveur (ex : Heroku).
+ 🗓️</h3><div align="center">13h - 15h : Commencer le développement de l'application de budget en Next.js (version app) et SQLite.
 </div>
 
 <!-- END_AGENDA_SECTION -->
