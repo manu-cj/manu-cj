@@ -318,216 +318,217 @@ const libraries = [
 
 // Définir l'agenda
 const agenda = {
-    "Semaine 3": {
-        "20 octobre - 26 octobre": {
-            "Dimanche 20 octobre": [
-                {
-                    time: "10h30 - 12h30",
-                    duration: "2h",
-                    task: "Installer Django. Créer un nouveau projet et comprendre la structure des fichiers."
-                }
-            ],
-            "Lundi 21 octobre": [
-                {
-                    time: "10h30 - 12h30",
-                    duration: "2h",
-                    task: "Créer une application dans le projet. Ajouter des modèles avec des champs simples."
-                }
-            ],
-            "Mardi 22 octobre": [
-                {
-                    time: "10h30 - 12h30",
-                    duration: "2h",
-                    task: "Configurer l'admin de Django pour gérer les modèles. Ajouter des données via l'admin."
-                }
-            ],
-            "Mercredi 23 octobre": [
-                {
-                    time: "10h30 - 12h30",
-                    duration: "2h",
-                    task: "Créer des vues simples pour afficher les données des modèles. Tester les vues avec des données."
-                }
-            ],
-            "Jeudi 24 octobre": [
-                {
-                    time: "10h30 - 12h30",
-                    duration: "2h",
-                    task: "Configurer les URL pour les vues. Tester l'accès via le navigateur."
-                }
-            ],
-            "Vendredi 25 octobre": [
-                {
-                    time: "10h30 - 12h30",
-                    duration: "2h",
-                    task: "Créer des formulaires pour ajouter/modifier des données. Tester les formulaires."
-                }
-            ],
-            "Samedi 26 octobre": [
-                {
-                    time: "10h30 - 12h30",
-                    duration: "2h",
-                    task: "Gérer les validations de formulaires et afficher les messages d'erreur."
-                },
-            ],
-        }
-    },
-    "Semaine 4": {
-        "27 octobre - 2 novembre": {
-            "Dimanche 27 octobre": [
-                {
-                    time: "10h30 - 12h30",
-                    duration: "2h",
-                    task: "Apprendre à utiliser l'ORM Django : effectuer des requêtes simples sur les modèles."
-                }
-            ],
-            "Lundi 28 octobre": [
-                {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Installer Django REST Framework. Créer une API simple pour les modèles."
-                },
-                {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Configurer des serializers pour les modèles. Tester l'API avec des données."
-                }
-            ],
-            "Mardi 29 octobre": [
-                {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Créer des vues pour l'API et configurer les URLs associées."
-                },
-                {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Tester l'API avec Postman : effectuer des requêtes GET, POST, PUT, DELETE."
-                }
-            ],
-            "Mercredi 30 octobre": [
-                {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Ajouter l'authentification par token à l'API."
-                },
-                {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Explorer les permissions dans l'API pour sécuriser les accès."
-                }
-            ],
-            "Jeudi 31 octobre": [
-                {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Mettre en place des tests unitaires pour les modèles et les vues."
-                },
-                {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Gérer les fichiers statiques et médias dans Django."
-                }
-            ],
-            "Vendredi 1 novembre": [
-                {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Configurer les notifications par e-mail dans Django."
-                },
-                {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Utiliser les templates pour rendre l'interface utilisateur dynamique."
-                }
-            ],
-            "Samedi 2 novembre": [
-                {
-                    time: "10h30 - 12h30",
-                    duration: "2h",
-                    task: "Explorer des paquets tiers pour ajouter des fonctionnalités."
-                }
-            ],
-        }
-    },
-    "Semaine 5": {
+    "Semaine 1": {
         "3 novembre - 9 novembre": {
             "Dimanche 3 novembre": [
                 {
-                    time: "10h30 - 12h30",
+                    time: "13h - 15h",
                     duration: "2h",
-                    task: "Déployer l'application sur un serveur (ex : Heroku)."
+                    task: "Commencer le développement de l'application de budget en Next.js (version app) et SQLite."
                 }
             ],
             "Lundi 4 novembre": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Évaluer les compétences acquises et planifier les prochaines étapes."
-                },
-                {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Explorer des cas d'utilisation avancés de Django."
+                    time: "14h - 16h",
+                    duration: "2h",
+                    task: "Créer la page d'accueil avec les informations importantes."
                 }
             ],
             "Mardi 5 novembre": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Découvrir les signaux et leur utilisation dans Django."
-                },
-                {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Créer des tâches en arrière-plan avec Celery."
+                    time: "14h - 16h",
+                    duration: "2h",
+                    task: "Développer la page de liste des dépenses."
                 }
             ],
             "Mercredi 6 novembre": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Mettre en place la gestion des utilisateurs et des groupes."
-                },
-                {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Configurer les permissions avancées."
+                    time: "14h - 16h",
+                    duration: "2h",
+                    task: "Mettre en place la page graphique pour visualiser les dépenses."
                 }
             ],
             "Jeudi 7 novembre": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Utiliser les migrations avancées pour gérer les modifications de modèle."
-                },
-                {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Mettre en place des tests de charge pour l'application."
+                    time: "14h - 16h",
+                    duration: "2h",
+                    task: "Créer la page de profil utilisateur."
                 }
             ],
             "Vendredi 8 novembre": [
                 {
-                    time: "9h - 12h30",
-                    duration: "3h30",
-                    task: "Réviser les concepts clés de Django et identifier les domaines à approfondir."
-                },
-                {
-                    time: "13h30 - 17h",
-                    duration: "3h30",
-                    task: "Travailler sur la documentation du projet."
+                    time: "14h - 16h",
+                    duration: "2h",
+                    task: "Développer le formulaire d'inscription."
                 }
             ],
             "Samedi 9 novembre": [
                 {
-                    time: "10h30 - 12h30",
+                    time: "13h - 15h",
                     duration: "2h",
-                    task: "Réfléchir aux prochaines étapes pour continuer à améliorer les compétences en Django."
+                    task: "Réviser et ajouter le formulaire de login."
+                }
+            ]
+        }
+    },
+    "Semaine 2": {
+        "10 novembre - 16 novembre": {
+            "Dimanche 10 novembre": [
+                {
+                    time: "13h - 15h",
+                    duration: "2h",
+                    task: "Développer le formulaire d'ajout de dépense/revenu."
+                }
+            ],
+            "Lundi 11 novembre": [
+                {
+                    time: "9h - 12h30",
+                    duration: "3h30",
+                    task: "Commencer le développement du projet de stage en Next.js."
+                },
+                {
+                    time: "13h30 - 17h",
+                    duration: "3h30",
+                    task: "Développer les fonctionnalités de base du projet de stage."
+                }
+            ],
+            "Mardi 12 novembre": [
+                {
+                    time: "9h - 12h30",
+                    duration: "3h30",
+                    task: "Concevoir l'architecture du projet de stage en Next.js."
+                },
+                {
+                    time: "13h30 - 17h",
+                    duration: "3h30",
+                    task: "Développer les composants principaux du projet de stage."
+                }
+            ],
+            "Mercredi 13 novembre": [
+                {
+                    time: "9h - 12h30",
+                    duration: "3h30",
+                    task: "Intégrer la gestion des utilisateurs dans le projet de stage."
+                },
+                {
+                    time: "13h30 - 17h",
+                    duration: "3h30",
+                    task: "Développer des fonctionnalités pour la manipulation des données dans le projet de stage."
+                }
+            ],
+            "Jeudi 14 novembre": [
+                {
+                    time: "9h - 12h30",
+                    duration: "3h30",
+                    task: "Développer des fonctionnalités avancées pour le projet de stage."
+                },
+                {
+                    time: "13h30 - 17h",
+                    duration: "3h30",
+                    task: "Créer une API pour le projet de stage."
+                }
+            ],
+            "Vendredi 15 novembre": [
+                {
+                    time: "9h - 12h30",
+                    duration: "3h30",
+                    task: "Continuer le développement des fonctionnalités du projet de stage."
+                },
+                {
+                    time: "13h30 - 17h",
+                    duration: "3h30",
+                    task: "Travailler sur l'application de budget pour y ajouter des améliorations."
+                }
+            ],
+            "Samedi 16 novembre": [
+                {
+                    time: "13h - 15h",
+                    duration: "2h",
+                    task: "Améliorer la logique de gestion des budgets dans l'application."
+                }
+            ]
+        }
+    },
+    "Semaine 3": {
+        "17 novembre - 23 novembre": {
+            "Dimanche 17 novembre": [
+                {
+                    time: "13h - 15h",
+                    duration: "2h",
+                    task: "Développer le formulaire de mise à jour des informations de profil."
+                }
+            ],
+            "Lundi 18 novembre": [
+                {
+                    time: "9h - 12h30",
+                    duration: "3h30",
+                    task: "Travailler sur les ajustements du projet de stage."
+                },
+                {
+                    time: "13h30 - 17h",
+                    duration: "3h30",
+                    task: "Développer les fonctionnalités de l'application de budget."
+                }
+            ],
+            "Mardi 19 novembre": [
+                {
+                    time: "9h - 12h30",
+                    duration: "3h30",
+                    task: "Développer l'intégration des données dans le projet de stage."
+                },
+                {
+                    time: "13h30 - 17h",
+                    duration: "3h30",
+                    task: "Poursuivre le développement de l'application de budget."
+                }
+            ],
+            "Mercredi 20 novembre": [
+                {
+                    time: "9h - 12h30",
+                    duration: "3h30",
+                    task: "Développer les fonctionnalités de reporting du projet de stage."
+                },
+                {
+                    time: "13h30 - 17h",
+                    duration: "3h30",
+                    task: "Finaliser le développement de l'application de budget."
+                }
+            ],
+            "Jeudi 21 novembre": [
+                {
+                    time: "9h - 12h30",
+                    duration: "3h30",
+                    task: "Mettre en place des fonctionnalités de partage pour le projet de stage."
+                },
+                {
+                    time: "13h30 - 17h",
+                    duration: "3h30",
+                    task: "Réviser et améliorer l'application de budget."
+                }
+            ],
+            "Vendredi 22 novembre": [
+                {
+                    time: "9h - 12h30",
+                    duration: "3h30",
+                    task: "Finaliser les ajustements pour le projet de stage."
+                },
+                {
+                    time: "13h30 - 17h",
+                    duration: "3h30",
+                    task: "Travailler sur l'application de budget."
+                }
+            ],
+            "Samedi 23 novembre": [
+                {
+                    time: "13h - 15h",
+                    duration: "2h",
+                    task: "Améliorer l'expérience utilisateur de l'application de budget."
                 }
             ]
         }
     }
 };
+
 
 
 
