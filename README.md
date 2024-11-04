@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Resumable.js](http://www.resumablejs.com/)**: Uploader de fichiers en plusieurs parties
+ **[Three.js](https://threejs.org/)**: Bibliothèque pour créer des graphiques 3D
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -120,8 +120,8 @@ CSS          1 min           ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 <a href="https://wakatime.com/@e81d490c-17bb-4b85-8611-87004287614f"><img src="https://wakatime.com/badge/user/e81d490c-17bb-4b85-8611-87004287614f.svg?style=plastic" alt="Total time coded since Sep 9 2024" /></a>
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Dimanche 3 novembre
- 🗓️</h3><div align="center">13h - 15h : Initialiser le projet de l'application de budget en Next.js (version app) avec TypeScript et configurer SQLite.
+<h3>Agenda du Lundi 4 novembre
+ 🗓️</h3><div align="center">14h - 16h : Créer la base de données avec les tables : users, revenus, expenses, categories, et budgets.
 </div>
 
 <!-- END_AGENDA_SECTION -->
