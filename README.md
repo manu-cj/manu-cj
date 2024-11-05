@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Three.js](https://threejs.org/)**: Bibliothèque pour créer des graphiques 3D
+ **[Bulma](https://bulma.io/)**: Un framework CSS moderne basé sur Flexbox.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -120,8 +120,8 @@ Bash         2 mins          ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 <a href="https://wakatime.com/@e81d490c-17bb-4b85-8611-87004287614f"><img src="https://wakatime.com/badge/user/e81d490c-17bb-4b85-8611-87004287614f.svg?style=plastic" alt="Total time coded since Sep 9 2024" /></a>
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Lundi 4 novembre
- 🗓️</h3><div align="center">14h - 16h : Créer la base de données avec les tables : users, revenus, expenses, categories, et budgets.
+<h3>Agenda du Mardi 5 novembre
+ 🗓️</h3><div align="center">14h - 16h : Développer le modèle TypeScript pour les utilisateurs et les revenus.
 </div>
 
 <!-- END_AGENDA_SECTION -->
