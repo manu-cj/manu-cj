@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Playwright](https://playwright.dev/)**: Une bibliothèque pour tester des applications web avec des navigateurs modernes.
+ **[Cypress](https://www.cypress.io/)**: Un framework de test end-to-end pour les applications web.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -120,8 +120,8 @@ Bash         2 mins          ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 <a href="https://wakatime.com/@e81d490c-17bb-4b85-8611-87004287614f"><img src="https://wakatime.com/badge/user/e81d490c-17bb-4b85-8611-87004287614f.svg?style=plastic" alt="Total time coded since Sep 9 2024" /></a>
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Mercredi 6 novembre
- 🗓️</h3><div align="center">14h - 16h : Mettre en place le modèle TypeScript pour les dépenses, catégories et budgets.
+<h3>Agenda du Jeudi 7 novembre
+ 🗓️</h3><div align="center">14h - 16h : Développer l'API en TypeScript pour ajouter, lire, mettre à jour et supprimer des revenus et dépenses.
 </div>
 
 <!-- END_AGENDA_SECTION -->
