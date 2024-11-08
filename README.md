@@ -105,7 +105,7 @@
  <!--START_SECTION:waka-->
 
 ```JavaScript, Svelte
-From: 29 October 2024 - To: 05 November 2024
+From: 30 October 2024 - To: 06 November 2024
 
 Total Time: 7 hrs 47 mins
 
