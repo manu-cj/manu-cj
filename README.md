@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Cypress](https://www.cypress.io/)**: Un framework de test end-to-end pour les applications web.
+ **[TypeScript](https://www.typescriptlang.org/)**: Un sur-ensemble de JavaScript qui ajoute des types statiques.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -120,8 +120,8 @@ Bash         7 mins          ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 <a href="https://wakatime.com/@e81d490c-17bb-4b85-8611-87004287614f"><img src="https://wakatime.com/badge/user/e81d490c-17bb-4b85-8611-87004287614f.svg?style=plastic" alt="Total time coded since Sep 9 2024" /></a>
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Jeudi 7 novembre
- 🗓️</h3><div align="center">14h - 16h : Développer l'API en TypeScript pour ajouter, lire, mettre à jour et supprimer des revenus et dépenses.
+<h3>Agenda du Vendredi 8 novembre
+ 🗓️</h3><div align="center">14h - 16h : Créer l'API en TypeScript pour gérer les utilisateurs (inscription, login).
 </div>
 
 <!-- END_AGENDA_SECTION -->
