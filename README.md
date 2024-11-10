@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Svelte](https://svelte.dev/)**: Un framework pour construire des interfaces utilisateur réactives sans le coût de la bibliothèque virtuelle DOM.
+ **[PixiJS](https://pixijs.com/)**: Une bibliothèque pour créer des graphiques 2D haute performance.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -120,8 +120,8 @@ CSS          1 min           ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 <a href="https://wakatime.com/@e81d490c-17bb-4b85-8611-87004287614f"><img src="https://wakatime.com/badge/user/e81d490c-17bb-4b85-8611-87004287614f.svg?style=plastic" alt="Total time coded since Sep 9 2024" /></a>
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Samedi 9 novembre
- 🗓️</h3><div align="center">13h - 15h : Commencer à travailler sur la page d'accueil avec les informations importantes et la structure des composants en TypeScript.
+<h3>Agenda du Dimanche 10 novembre
+ 🗓️</h3><div align="center">13h - 15h : Finaliser la page d'accueil et définir les composants nécessaires en TypeScript.
 </div>
 
 <!-- END_AGENDA_SECTION -->
