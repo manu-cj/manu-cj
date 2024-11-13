@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Bulma](https://bulma.io/)**: Un framework CSS moderne basé sur Flexbox.
+ **[Underscore](https://underscorejs.org/)**: Une bibliothèque utilitaire qui fournit des fonctions de programmation fonctionnelle.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -119,9 +119,9 @@ Other        4 mins          ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 <a href="https://wakatime.com/@e81d490c-17bb-4b85-8611-87004287614f"><img src="https://wakatime.com/badge/user/e81d490c-17bb-4b85-8611-87004287614f.svg?style=plastic" alt="Total time coded since Sep 9 2024" /></a>
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Mardi 12 novembre
- 🗓️</h3><div align="center">9h - 12h30 : Mettre en place la base de données pour le projet de stage.
-</div><div align="center">13h30 - 17h : Développer l'API en TypeScript pour le projet de stage.
+<h3>Agenda du Mercredi 13 novembre
+ 🗓️</h3><div align="center">9h - 12h30 : Créer des endpoints en TypeScript pour les fonctionnalités du projet de stage.
+</div><div align="center">13h30 - 17h : Commencer à développer le front-end du projet de stage en TypeScript.
 </div>
 
 <!-- END_AGENDA_SECTION -->
