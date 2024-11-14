@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Underscore](https://underscorejs.org/)**: Une bibliothèque utilitaire qui fournit des fonctions de programmation fonctionnelle.
+ **[jQuery](https://jquery.com/)**: Une bibliothèque pour simplifier la manipulation du DOM et les requêtes AJAX.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -119,9 +119,9 @@ Other        4 mins          ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 <a href="https://wakatime.com/@e81d490c-17bb-4b85-8611-87004287614f"><img src="https://wakatime.com/badge/user/e81d490c-17bb-4b85-8611-87004287614f.svg?style=plastic" alt="Total time coded since Sep 9 2024" /></a>
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Mercredi 13 novembre
- 🗓️</h3><div align="center">9h - 12h30 : Créer des endpoints en TypeScript pour les fonctionnalités du projet de stage.
-</div><div align="center">13h30 - 17h : Commencer à développer le front-end du projet de stage en TypeScript.
+<h3>Agenda du Jeudi 14 novembre
+ 🗓️</h3><div align="center">9h - 12h30 : Mettre en place la logique de gestion des utilisateurs en TypeScript dans le projet de stage.
+</div><div align="center">13h30 - 17h : Travailler sur l'intégration de l'API dans le front-end du projet de stage.
 </div>
 
 <!-- END_AGENDA_SECTION -->
