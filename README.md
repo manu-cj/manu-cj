@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Ionic](https://ionicframework.com/)**: Framework pour le développement mobile
+ **[Konva](https://konvajs.org/)**: Une bibliothèque pour manipuler des éléments graphiques sur des canevas HTML5.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -119,9 +119,8 @@ Other        4 mins          ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 <a href="https://wakatime.com/@e81d490c-17bb-4b85-8611-87004287614f"><img src="https://wakatime.com/badge/user/e81d490c-17bb-4b85-8611-87004287614f.svg?style=plastic" alt="Total time coded since Sep 9 2024" /></a>
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Vendredi 15 novembre
- 🗓️</h3><div align="center">9h - 12h30 : Raffiner le back-end de l'application de budget avec des validations supplémentaires en TypeScript.
-</div><div align="center">13h30 - 17h : Commencer le développement de la page de liste des dépenses avec ses composants en TypeScript.
+<h3>Agenda du Samedi 16 novembre
+ 🗓️</h3><div align="center">13h - 15h : Développer les composants pour ajouter des dépenses/revenus en TypeScript.
 </div>
 
 <!-- END_AGENDA_SECTION -->
