@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Konva](https://konvajs.org/)**: Une bibliothèque pour manipuler des éléments graphiques sur des canevas HTML5.
+ **[Rough.js](https://roughjs.com/)**: Générateur de graphiques dessinés à la main pour le web
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -120,8 +120,8 @@ Bash         6 mins          ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 <a href="https://wakatime.com/@e81d490c-17bb-4b85-8611-87004287614f"><img src="https://wakatime.com/badge/user/e81d490c-17bb-4b85-8611-87004287614f.svg?style=plastic" alt="Total time coded since Sep 9 2024" /></a>
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Samedi 16 novembre
- 🗓️</h3><div align="center">13h - 15h : Développer les composants pour ajouter des dépenses/revenus en TypeScript.
+<h3>Agenda du Dimanche 17 novembre
+ 🗓️</h3><div align="center">13h - 15h : Finaliser le développement des composants d'ajout de dépenses/revenus en TypeScript.
 </div>
 
 <!-- END_AGENDA_SECTION -->
