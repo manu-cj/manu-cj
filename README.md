@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[React Big Calendar](https://github.com/jquense/react-big-calendar)**: Calendrier pour React avec événements
+ **[Immutable.js](https://immutable-js.github.io/immutable-js/)**: Une bibliothèque pour créer des structures de données immuables.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -120,9 +120,9 @@ Other        11 mins         ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 <a href="https://wakatime.com/@e81d490c-17bb-4b85-8611-87004287614f"><img src="https://wakatime.com/badge/user/e81d490c-17bb-4b85-8611-87004287614f.svg?style=plastic" alt="Total time coded since Sep 9 2024" /></a>
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Mardi 19 novembre
- 🗓️</h3><div align="center">9h - 12h30 : Améliorer la sécurité de l'API du projet de stage en TypeScript.
-</div><div align="center">13h30 - 17h : Finaliser les composants graphiques et les intégrer dans l'application de budget en TypeScript.
+<h3>Agenda du Mercredi 20 novembre
+ 🗓️</h3><div align="center">9h - 12h30 : Préparer la documentation pour l'API du projet de stage en TypeScript.
+</div><div align="center">13h30 - 17h : Commencer le développement de la page de profil utilisateur avec ses composants en TypeScript.
 </div>
 
 <!-- END_AGENDA_SECTION -->
