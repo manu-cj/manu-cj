@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Tailwind CSS](https://tailwindcss.com/)**: Un framework CSS utilitaire.
+ **[Nuxt.js](https://nuxtjs.org/)**: Un framework basé sur Vue.js pour créer des applications universelles.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
@@ -120,10 +120,7 @@ Other        11 mins         ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 <a href="https://wakatime.com/@e81d490c-17bb-4b85-8611-87004287614f"><img src="https://wakatime.com/badge/user/e81d490c-17bb-4b85-8611-87004287614f.svg?style=plastic" alt="Total time coded since Sep 9 2024" /></a>
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Samedi 23 novembre
- 🗓️</h3><div align="center">13h - 15h : Finaliser le projet de budget et préparer une démo des fonctionnalités en TypeScript.
-</div>
-
+Aucun agenda disponible pour ce jour.
 <!-- END_AGENDA_SECTION -->
 </div>
 
