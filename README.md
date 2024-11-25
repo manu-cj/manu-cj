@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Nuxt.js](https://nuxtjs.org/)**: Un framework basé sur Vue.js pour créer des applications universelles.
+ **[Parcel](https://parceljs.org/)**: Un bundler d'applications web sans configuration.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
