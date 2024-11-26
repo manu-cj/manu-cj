@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Parcel](https://parceljs.org/)**: Un bundler d'applications web sans configuration.
+ **[Reveal.js](https://revealjs.com/)**: Une bibliothèque pour créer des présentations web interactives.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
