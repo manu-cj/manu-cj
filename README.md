@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[D3.js](https://d3js.org/)**: Une bibliothèque pour créer des graphiques dynamiques et interactifs.
+ **[Expo](https://expo.dev/)**: Un outil pour développer des applications React Native rapidement.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
