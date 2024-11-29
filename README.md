@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Expo](https://expo.dev/)**: Un outil pour développer des applications React Native rapidement.
+ **[Styled-components](https://styled-components.com/)**: Une bibliothèque pour le CSS-in-JS dans React.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
