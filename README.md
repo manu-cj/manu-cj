@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Styled-components](https://styled-components.com/)**: Une bibliothèque pour le CSS-in-JS dans React.
+ **[Lottie](https://airbnb.io/lottie/)**: Bibliothèque pour rendre des animations Adobe After Effects
 <!-- END_LIBRARY_SECTION -->
 </div>
 
