@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Lottie](https://airbnb.io/lottie/)**: Bibliothèque pour rendre des animations Adobe After Effects
+ **[Bootstrap](https://getbootstrap.com/)**: Un framework CSS populaire pour le développement web responsive.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
