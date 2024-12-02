@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Bootstrap](https://getbootstrap.com/)**: Un framework CSS populaire pour le développement web responsive.
+ **[HTML5 Sortable](https://github.com/SortableJS/Sortable)**: Sortables et drag-and-drop en HTML5
 <!-- END_LIBRARY_SECTION -->
 </div>
 
