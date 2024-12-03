@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[HTML5 Sortable](https://github.com/SortableJS/Sortable)**: Sortables et drag-and-drop en HTML5
+ **[Underscore](https://underscorejs.org/)**: Une bibliothèque utilitaire qui fournit des fonctions de programmation fonctionnelle.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
