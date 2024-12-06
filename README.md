@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Vega](https://vega.github.io/vega/)**: Outil de visualisation de données basé sur JSON
+ **[Tui Calendar](https://github.com/nhn/tui.calendar)**: Calendrier flexible et personnalisable
 <!-- END_LIBRARY_SECTION -->
 </div>
 
