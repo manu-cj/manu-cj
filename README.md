@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Tui Calendar](https://github.com/nhn/tui.calendar)**: Calendrier flexible et personnalisable
+ **[CodeMirror](https://codemirror.net/)**: Un éditeur de code dans le navigateur avec support pour diverses langages.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
