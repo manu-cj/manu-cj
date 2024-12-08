@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[CodeMirror](https://codemirror.net/)**: Un éditeur de code dans le navigateur avec support pour diverses langages.
+ **[Preact](https://preactjs.com/)**: Une alternative rapide et légère à React.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
