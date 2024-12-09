@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Preact](https://preactjs.com/)**: Une alternative rapide et légère à React.
+ **[Nuxt.js](https://nuxtjs.org/)**: Un framework basé sur Vue.js pour créer des applications universelles.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
