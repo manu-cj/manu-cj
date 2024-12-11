@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Voca](https://vocajs.com/)**: Bibliothèque pour la manipulation et l'analyse des chaînes de caractères
+ **[Select2](https://select2.org/)**: Une bibliothèque pour améliorer les menus déroulants HTML.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
