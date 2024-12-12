@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Select2](https://select2.org/)**: Une bibliothèque pour améliorer les menus déroulants HTML.
+ **[Wavesurfer.js](https://wavesurfer-js.org/)**: Bibliothèque pour afficher et interagir avec des formes d'onde audio
 <!-- END_LIBRARY_SECTION -->
 </div>
 
