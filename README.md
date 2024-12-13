@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Wavesurfer.js](https://wavesurfer-js.org/)**: Bibliothèque pour afficher et interagir avec des formes d'onde audio
+ **[Backbone.js](https://backbonejs.org/)**: Une bibliothèque pour structurer les applications JavaScript en modèles MVC.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
