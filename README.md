@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Backbone.js](https://backbonejs.org/)**: Une bibliothèque pour structurer les applications JavaScript en modèles MVC.
+ **[Grunt](https://gruntjs.com/)**: Un gestionnaire de tâches pour automatiser les processus de développement.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
