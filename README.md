@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Microtip](https://github.com/MatteoGabriele/microtip)**: Bibliothèque pour des infobulles légères et flexibles
+ **[Cleave.js](https://nosir.github.io/cleave.js/)**: Une bibliothèque pour formater automatiquement les champs de formulaire.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
