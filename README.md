@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Cleave.js](https://nosir.github.io/cleave.js/)**: Une bibliothèque pour formater automatiquement les champs de formulaire.
+ **[Chai](https://www.chaijs.com/)**: Une bibliothèque d'assertions pour les tests JavaScript.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
