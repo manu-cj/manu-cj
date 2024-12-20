@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[jsCalendar](https://js-calendar.github.io/jsCalendar/)**: Calendrier léger et personnalisable
+ **[Receptor](https://github.com/adamrenklint/receptor)**: Gestionnaire d'événements de type middleware
 <!-- END_LIBRARY_SECTION -->
 </div>
 
