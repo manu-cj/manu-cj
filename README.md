@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Receptor](https://github.com/adamrenklint/receptor)**: Gestionnaire d'événements de type middleware
+ **[Pico.js](https://github.com/tehnokv/picojs)**: Bibliothèque JavaScript pour la détection de visages
 <!-- END_LIBRARY_SECTION -->
 </div>
 
