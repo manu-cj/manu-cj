@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Pico.js](https://github.com/tehnokv/picojs)**: Bibliothèque JavaScript pour la détection de visages
+ **[Blotter.js](https://blotterjs.com/)**: Bibliothèque pour des animations de texte créatives
 <!-- END_LIBRARY_SECTION -->
 </div>
 
