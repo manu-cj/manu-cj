@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[dnd-kit](https://dndkit.com/)**: Kit de glisser-déposer pour React
+ **[xss-filters](https://github.com/yahoo/xss-filters)**: Filtres XSS pour JavaScript
 <!-- END_LIBRARY_SECTION -->
 </div>
 
