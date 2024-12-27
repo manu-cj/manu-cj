@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Tailwind CSS](https://tailwindcss.com/)**: Un framework CSS utilitaire.
+ **[Bottleneck](https://www.npmjs.com/package/bottleneck)**: Gestion des taux de requêtes pour limiter les appels d'API
 <!-- END_LIBRARY_SECTION -->
 </div>
 
