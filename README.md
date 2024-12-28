@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Bottleneck](https://www.npmjs.com/package/bottleneck)**: Gestion des taux de requêtes pour limiter les appels d'API
+ **[Leaflet](https://leafletjs.com/)**: Une bibliothèque pour créer des cartes interactives.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
