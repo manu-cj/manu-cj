@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Leaflet](https://leafletjs.com/)**: Une bibliothèque pour créer des cartes interactives.
+ **[CamanJS](http://camanjs.com/)**: Éditeur d'images en JavaScript
 <!-- END_LIBRARY_SECTION -->
 </div>
 
