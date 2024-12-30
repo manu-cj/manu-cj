@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[CamanJS](http://camanjs.com/)**: Éditeur d'images en JavaScript
+ **[Parallax.js](https://matthew.wagerfield.com/parallax/)**: Bibliothèque simple pour des effets de parallaxe
 <!-- END_LIBRARY_SECTION -->
 </div>
 
