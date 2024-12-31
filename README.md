@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Parallax.js](https://matthew.wagerfield.com/parallax/)**: Bibliothèque simple pour des effets de parallaxe
+ **[Ionic](https://ionicframework.com/)**: Un framework pour construire des applications mobiles et web avec une seule base de code.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
