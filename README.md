@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Ionic](https://ionicframework.com/)**: Un framework pour construire des applications mobiles et web avec une seule base de code.
+ **[Electron](https://www.electronjs.org/)**: Un framework pour créer des applications desktop avec JavaScript, HTML, et CSS.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
