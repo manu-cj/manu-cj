@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Electron](https://www.electronjs.org/)**: Un framework pour créer des applications desktop avec JavaScript, HTML, et CSS.
+ **[Mustache.js](https://github.com/janl/mustache.js/)**: Moteur de template simple et sans logique
 <!-- END_LIBRARY_SECTION -->
 </div>
 
