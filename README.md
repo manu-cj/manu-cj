@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[FullCalendar](https://fullcalendar.io/)**: Une bibliothèque pour créer des calendriers interactifs.
+ **[Konva](https://konvajs.org/)**: Une bibliothèque pour manipuler des éléments graphiques sur des canevas HTML5.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
