@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Konva](https://konvajs.org/)**: Une bibliothèque pour manipuler des éléments graphiques sur des canevas HTML5.
+ **[Storybook](https://storybook.js.org/)**: Un outil pour construire et tester des composants UI de manière isolée.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
