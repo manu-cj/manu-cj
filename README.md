@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Dropzone.js](https://www.dropzonejs.com/)**: Zone de dépôt de fichiers pour les uploads
+ **[SortableJS](https://sortablejs.github.io/Sortable/)**: Bibliothèque pour créer des listes drag-and-drop triables
 <!-- END_LIBRARY_SECTION -->
 </div>
 
