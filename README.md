@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[SortableJS](https://sortablejs.github.io/Sortable/)**: Bibliothèque pour créer des listes drag-and-drop triables
+ **[Voca](https://vocajs.com/)**: Bibliothèque pour la manipulation et l'analyse des chaînes de caractères
 <!-- END_LIBRARY_SECTION -->
 </div>
 
