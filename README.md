@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Gulp](https://gulpjs.com/)**: Un toolkit pour l'automatisation des tâches de développement.
+ **[Grunt](https://gruntjs.com/)**: Un gestionnaire de tâches pour automatiser les processus de développement.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
