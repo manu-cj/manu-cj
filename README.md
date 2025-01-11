@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Grunt](https://gruntjs.com/)**: Un gestionnaire de tâches pour automatiser les processus de développement.
+ **[Webpack Dev Server](https://webpack.js.org/configuration/dev-server/)**: Un serveur de développement pour Webpack avec rechargement à chaud.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
