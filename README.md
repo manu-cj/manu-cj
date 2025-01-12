@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Webpack Dev Server](https://webpack.js.org/configuration/dev-server/)**: Un serveur de développement pour Webpack avec rechargement à chaud.
+ **[Mithril](https://mithril.js.org/)**: Un framework JavaScript moderne pour construire des applications web rapides.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
