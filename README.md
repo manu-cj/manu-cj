@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Mithril](https://mithril.js.org/)**: Un framework JavaScript moderne pour construire des applications web rapides.
+ **[Filestack](https://www.filestack.com/)**: Upload, transformation et gestion des fichiers
 <!-- END_LIBRARY_SECTION -->
 </div>
 
