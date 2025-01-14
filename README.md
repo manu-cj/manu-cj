@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Filestack](https://www.filestack.com/)**: Upload, transformation et gestion des fichiers
+ **[Glide.js](https://glidejs.com/)**: Carrousel responsive
 <!-- END_LIBRARY_SECTION -->
 </div>
 
