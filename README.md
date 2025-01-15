@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Glide.js](https://glidejs.com/)**: Carrousel responsive
+ **[Chartist](https://gionkunz.github.io/chartist-js/)**: Une bibliothèque pour créer des graphiques réactifs et simples.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
