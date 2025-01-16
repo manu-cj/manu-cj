@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Chartist](https://gionkunz.github.io/chartist-js/)**: Une bibliothèque pour créer des graphiques réactifs et simples.
+ **[Idb-keyval](https://github.com/jakearchibald/idb-keyval)**: Promesses simplifiées pour stocker des paires clé-valeur dans IndexedDB
 <!-- END_LIBRARY_SECTION -->
 </div>
 
