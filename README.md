@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Idb-keyval](https://github.com/jakearchibald/idb-keyval)**: Promesses simplifiées pour stocker des paires clé-valeur dans IndexedDB
+ **[Puppeteer](https://pptr.dev/)**: Une bibliothèque pour contrôler des navigateurs Chromium via l'API DevTools.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
