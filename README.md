@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Puppeteer](https://pptr.dev/)**: Une bibliothèque pour contrôler des navigateurs Chromium via l'API DevTools.
+ **[React Dropzone](https://react-dropzone.js.org/)**: Zone de dépôt pour React
 <!-- END_LIBRARY_SECTION -->
 </div>
 
