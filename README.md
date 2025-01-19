@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[React Dropzone](https://react-dropzone.js.org/)**: Zone de dépôt pour React
+ **[Reveal.js](https://revealjs.com/)**: Une bibliothèque pour créer des présentations web interactives.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
