@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[FilePond](https://pqina.nl/filepond/)**: Bibliothèque d'upload de fichiers
+ **[Chance.js](https://chancejs.com/)**: Une bibliothèque pour générer des données aléatoires.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
