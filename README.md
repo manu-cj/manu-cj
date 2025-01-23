@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Grunt](https://gruntjs.com/)**: Un gestionnaire de tâches pour automatiser les processus de développement.
+ **[Interact.js](https://interactjs.io/)**: Manipulation des éléments dans le navigateur
 <!-- END_LIBRARY_SECTION -->
 </div>
 
