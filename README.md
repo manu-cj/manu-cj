@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Underscore](https://underscorejs.org/)**: Une bibliothèque utilitaire qui fournit des fonctions de programmation fonctionnelle.
+ **[Ember.js](https://emberjs.com/)**: Un framework pour créer des applications web ambitieuses.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
