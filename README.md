@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Ember.js](https://emberjs.com/)**: Un framework pour créer des applications web ambitieuses.
+ **[Grid.js](https://gridjs.io/)**: Tableau et grille de données personnalisable
 <!-- END_LIBRARY_SECTION -->
 </div>
 
