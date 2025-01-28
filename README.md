@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Grid.js](https://gridjs.io/)**: Tableau et grille de données personnalisable
+ **[Alpine.js](https://alpinejs.dev/)**: Un framework léger pour manipuler le DOM directement dans le HTML.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
