@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Alpine.js](https://alpinejs.dev/)**: Un framework léger pour manipuler le DOM directement dans le HTML.
+ **[Wave.js](https://github.com/horenku/wave)**: Bibliothèque pour créer des animations de vagues
 <!-- END_LIBRARY_SECTION -->
 </div>
 
