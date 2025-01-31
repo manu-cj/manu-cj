@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Axios](https://axios-http.com/)**: Une bibliothèque pour faire des requêtes HTTP.
+ **[Vue Router](https://router.vuejs.org/)**: Une bibliothèque pour la gestion des routes dans une application Vue.js.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
