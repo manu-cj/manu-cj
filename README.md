@@ -27,7 +27,7 @@
        <img src="https://readme-typing-svg.herokuapp.com?color=5be2ff&font=Fira+Code&weight=700&size=40&duration=2000&pause=99000&center=true&vCenter=truerandom=false&reapeat=false&width=435&height=100&lines=Databases">
       <p align="center">
         <a href="https://skillicons.dev">
-          <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgresql,sqlite" />
+          <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgresql,sqlite,prisma" />
         </a>
       </p>
     </td>
