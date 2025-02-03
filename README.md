@@ -86,7 +86,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Isotope](https://isotope.metafizzy.co/)**: Filtrage et mise en page dynamique
+ **[PostCSS](https://postcss.org/)**: Un outil pour transformer le CSS avec des plugins JavaScript.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
