@@ -15,28 +15,19 @@
   <tr>
     <td valign="top" width="33%" style="border: 2px solid black; padding: 10px; background-color: #f9f9f9;">
       <br>
-       <img src="https://readme-typing-svg.herokuapp.com?color=5be2ff&font=Fira+Code&weight=700&size=40&duration=2000&pause=99000&center=true&vCenter=truerandom=false&reapeat=false&width=435&height=100&lines=Frontend">
+       <img src="https://readme-typing-svg.herokuapp.com?color=5be2ff&font=Fira+Code&weight=700&size=40&duration=2000&pause=99000&center=true&vCenter=truerandom=false&reapeat=false&width=435&height=100&lines=Techno">
       <p align="center">
         <a href="https://skillicons.dev">
-          <img src="https://skillicons.dev/icons?i=tailwind,js,vue,react,svelte,ts" />
-        </a>
-      </p>
-    </td>
-    <td valign="top" width="33%" style="border: 2px solid black; padding: 10px; background-color: #e9e9e9;">
-       <br>
-       <img src="https://readme-typing-svg.herokuapp.com?color=5be2ff&font=Fira+Code&weight=700&size=40&duration=2000&pause=99000&center=true&vCenter=truerandom=false&reapeat=false&width=435&height=100&lines=Backend">
-      <p align="center">
-        <a href="https://skillicons.dev">
-          <img src="https://skillicons.dev/icons?i=nodejs,php,django" />
+          <img src="https://skillicons.dev/icons?i=tailwind,js,react,nextjs,ts,nodejs,php,django" />
         </a>
       </p>
     </td>
     <td valign="top" width="33%" style="border: 2px solid black; padding: 10px; background-color: #d9d9d9;">
        <br>
-       <img src="https://readme-typing-svg.herokuapp.com?color=5be2ff&font=Fira+Code&weight=700&size=40&duration=2000&pause=99000&center=true&vCenter=truerandom=false&reapeat=false&width=435&height=100&lines=DevOps+Tools">
+       <img src="https://readme-typing-svg.herokuapp.com?color=5be2ff&font=Fira+Code&weight=700&size=40&duration=2000&pause=99000&center=true&vCenter=truerandom=false&reapeat=false&width=435&height=100&lines=Database">
       <p align="center">
         <a href="https://skillicons.dev">
-          <img src="https://skillicons.dev/icons?i=git,docker,linux,mongodb,mysql,sqlite" />
+          <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgresql,sqlite" />
         </a>
       </p>
     </td>
@@ -49,7 +40,7 @@
       </div>
       <p align="center">
         <a href="https://skillicons.dev">
-          <img src="https://skillicons.dev/icons?i=angular,electron,nextjs,lua" />
+          <img src="https://skillicons.dev/icons?i=angular,cs,java" />
         </a>
       </p>
     </td>
@@ -66,9 +57,7 @@
    <img height="190rem" alt="Most Used Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=manu-cj&langs_count=6&layout=compact&title_color=ce540a&icon_color=83e6b0&text_color=5be2ff&bg_color=00000000&border_radius=15&border_color=00000000&hide=css,html,hack,Dockerfile,scss"/>
 </div>
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=manu-cj&theme=dark" alt="GitHub Streak" height="200px" />
-</div>
+
 <div align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=manu-cj&theme=react&langs_count=6&layout=compact&title_color=007acc&icon_color=007acc&text_color=007acc&bg_color=00000000&border_radius=15&border_color=00000000&hide=jupyter%20notebook" height="300px" width="500px" />
 </div>
