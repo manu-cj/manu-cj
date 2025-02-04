@@ -75,7 +75,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[PostCSS](https://postcss.org/)**: Un outil pour transformer le CSS avec des plugins JavaScript.
+ **[Karma](https://karma-runner.github.io/)**: Un test runner pour les tests unitaires dans les navigateurs.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
