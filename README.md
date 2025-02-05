@@ -75,7 +75,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Karma](https://karma-runner.github.io/)**: Un test runner pour les tests unitaires dans les navigateurs.
+ **[Mustache.js](https://github.com/janl/mustache.js)**: Un moteur de template léger pour JavaScript.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
