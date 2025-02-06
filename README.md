@@ -75,7 +75,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Mustache.js](https://github.com/janl/mustache.js)**: Un moteur de template léger pour JavaScript.
+ **[LiveServer](https://www.npmjs.com/package/live-server)**: Un serveur de développement local avec rechargement automatique.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
