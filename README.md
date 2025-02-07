@@ -75,7 +75,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[LiveServer](https://www.npmjs.com/package/live-server)**: Un serveur de développement local avec rechargement automatique.
+ **[Fuse.js](https://fusejs.io/)**: Bibliothèque de recherche floue pour effectuer des recherches basées sur des algorithmes de similarité
 <!-- END_LIBRARY_SECTION -->
 </div>
 
