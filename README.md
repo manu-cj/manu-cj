@@ -75,7 +75,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Fuse.js](https://fusejs.io/)**: Bibliothèque de recherche floue pour effectuer des recherches basées sur des algorithmes de similarité
+ **[Cytoscape.js](https://js.cytoscape.org/)**: Une bibliothèque pour visualiser des graphes complexes.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
