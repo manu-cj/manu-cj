@@ -75,7 +75,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Cytoscape.js](https://js.cytoscape.org/)**: Une bibliothèque pour visualiser des graphes complexes.
+ **[react-dropzone](https://react-dropzone.js.org/)**: Zone de dépôt de fichiers pour React
 <!-- END_LIBRARY_SECTION -->
 </div>
 
