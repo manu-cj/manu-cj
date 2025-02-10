@@ -75,7 +75,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[react-dropzone](https://react-dropzone.js.org/)**: Zone de dépôt de fichiers pour React
+ **[Swiper](https://swiperjs.com/)**: Une bibliothèque pour créer des carrousels et sliders responsives.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
