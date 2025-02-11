@@ -75,7 +75,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Swiper](https://swiperjs.com/)**: Une bibliothèque pour créer des carrousels et sliders responsives.
+ **[Sapper](https://sapper.svelte.dev/)**: Un framework pour construire des applications web avec Svelte.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
