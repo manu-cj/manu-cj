@@ -75,7 +75,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Sapper](https://sapper.svelte.dev/)**: Un framework pour construire des applications web avec Svelte.
+ **[Axios](https://axios-http.com/)**: Une bibliothèque pour faire des requêtes HTTP.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
