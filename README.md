@@ -75,7 +75,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Electron](https://www.electronjs.org/)**: Un framework pour créer des applications desktop avec JavaScript, HTML, et CSS.
+ **[Dragula](https://github.com/bevacqua/dragula)**: Drag and drop sans dépendances
 <!-- END_LIBRARY_SECTION -->
 </div>
 
