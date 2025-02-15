@@ -94,7 +94,7 @@
  <!--START_SECTION:waka-->
 
 ```JavaScript, Svelte
-From: 05 February 2025 - To: 12 February 2025
+From: 07 February 2025 - To: 14 February 2025
 
 Total Time: 22 mins
 
