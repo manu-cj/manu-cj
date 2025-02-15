@@ -75,7 +75,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Dragula](https://github.com/bevacqua/dragula)**: Drag and drop sans dépendances
+ **[NativeScript](https://nativescript.org/)**: Un framework pour construire des applications mobiles natives avec JavaScript.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
