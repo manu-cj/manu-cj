@@ -75,7 +75,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[NativeScript](https://nativescript.org/)**: Un framework pour construire des applications mobiles natives avec JavaScript.
+ **[Locomotive Scroll](https://locomotivemtl.github.io/locomotive-scroll/)**: Bibliothèque pour créer des effets de défilement lisses
 <!-- END_LIBRARY_SECTION -->
 </div>
 
