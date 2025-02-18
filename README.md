@@ -75,7 +75,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Day.js](https://day.js.org/)**: Bibliothèque légère pour la manipulation de dates
+ **[Isotope](https://isotope.metafizzy.co/)**: Filtrage et mise en page dynamique
 <!-- END_LIBRARY_SECTION -->
 </div>
 
