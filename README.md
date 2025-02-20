@@ -75,7 +75,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Jest](https://jestjs.io/)**: Un framework de test JavaScript avec un focus sur la simplicité.
+ **[Rellax](https://dixonandmoe.com/rellax/)**: Bibliothèque de parallaxe légère
 <!-- END_LIBRARY_SECTION -->
 </div>
 
