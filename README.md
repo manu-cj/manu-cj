@@ -75,7 +75,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Rellax](https://dixonandmoe.com/rellax/)**: Bibliothèque de parallaxe légère
+ **[Webpack Encore](https://symfony.com/doc/current/frontend/encore/installation.html)**: Un wrapper de Webpack pour Symfony.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
