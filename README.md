@@ -75,7 +75,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Webpack Encore](https://symfony.com/doc/current/frontend/encore/installation.html)**: Un wrapper de Webpack pour Symfony.
+ **[Tagify](https://yaireo.github.io/tagify/)**: Gestion de tags et d'entrées
 <!-- END_LIBRARY_SECTION -->
 </div>
 
