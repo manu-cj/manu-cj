@@ -75,7 +75,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Tagify](https://yaireo.github.io/tagify/)**: Gestion de tags et d'entrées
+ **[Resumable.js](http://www.resumablejs.com/)**: Uploader de fichiers en plusieurs parties
 <!-- END_LIBRARY_SECTION -->
 </div>
 
