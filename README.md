@@ -75,7 +75,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Resumable.js](http://www.resumablejs.com/)**: Uploader de fichiers en plusieurs parties
+ **[Nano ID](https://github.com/ai/nanoid)**: Générateur d'ID unique et sécurisé
 <!-- END_LIBRARY_SECTION -->
 </div>
 
