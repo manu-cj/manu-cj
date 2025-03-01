@@ -51,8 +51,10 @@
 
 ###
 <div align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=manu-cj&stroke=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true&&theme=gruvbox-duo" />
+
  
-   <img height="190rem" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=manu-cj&show_icons=true&title_color=ce540a&icon_color=83e6b0&text_color=5be2ff&bg_color=00000000&border_radius=15&border_color=00000000&count_private=true&hide=contribs&hide_rank=true"/>
+   <img height="190rem" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=manu-cj&show_icons=true&title_color=ce540a&icon_color=83e6b0&text_color=ce540a&bg_color=00000000&border_radius=15&border_color=00000000&count_private=true&hide=contribs&hide_rank=true"/>
    
    <img height="190rem" alt="Most Used Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=manu-cj&langs_count=6&layout=compact&title_color=ce540a&icon_color=83e6b0&text_color=5be2ff&bg_color=00000000&border_radius=15&border_color=00000000&hide=css,html,hack,Dockerfile,scss"/>
 </div>
