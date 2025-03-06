@@ -77,7 +77,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Popper.js](https://popper.js.org/)**: Une bibliothèque pour gérer les popovers, tooltips, et dropdowns.
+ **[Glide.js](https://glidejs.com/)**: Carrousel responsive
 <!-- END_LIBRARY_SECTION -->
 </div>
 
