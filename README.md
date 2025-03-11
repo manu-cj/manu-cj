@@ -77,7 +77,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Glide.js](https://glidejs.com/)**: Carrousel responsive
+ **[Sapper](https://sapper.svelte.dev/)**: Framework de développement web basé sur Svelte
 <!-- END_LIBRARY_SECTION -->
 </div>
 
