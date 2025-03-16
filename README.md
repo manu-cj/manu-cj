@@ -77,7 +77,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Cypress](https://www.cypress.io/)**: Un framework de test end-to-end pour les applications web.
+ **[Apollo Angular](https://apollo-angular.com/)**: Intégration GraphQL pour Angular
 <!-- END_LIBRARY_SECTION -->
 </div>
 
