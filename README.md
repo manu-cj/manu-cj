@@ -77,7 +77,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Sapper](https://sapper.svelte.dev/)**: Framework de développement web basé sur Svelte
+ **[Cypress](https://www.cypress.io/)**: Un framework de test end-to-end pour les applications web.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
