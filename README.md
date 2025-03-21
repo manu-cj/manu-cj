@@ -77,7 +77,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Apollo Angular](https://apollo-angular.com/)**: Intégration GraphQL pour Angular
+ **[React](https://reactjs.org/)**: Une bibliothèque pour construire des interfaces utilisateur interactives.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
