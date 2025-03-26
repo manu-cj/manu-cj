@@ -77,7 +77,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[React](https://reactjs.org/)**: Une bibliothèque pour construire des interfaces utilisateur interactives.
+ **[Alpine.js](https://alpinejs.dev/)**: Un framework léger pour manipuler le DOM directement dans le HTML.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
