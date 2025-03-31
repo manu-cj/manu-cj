@@ -77,7 +77,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Alpine.js](https://alpinejs.dev/)**: Un framework léger pour manipuler le DOM directement dans le HTML.
+ **[Select2](https://select2.org/)**: Une bibliothèque pour améliorer les menus déroulants HTML.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
