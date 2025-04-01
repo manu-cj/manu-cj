@@ -77,7 +77,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Select2](https://select2.org/)**: Une bibliothèque pour améliorer les menus déroulants HTML.
+ **[Expo](https://expo.dev/)**: Un outil pour développer des applications React Native rapidement.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
