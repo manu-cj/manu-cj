@@ -77,7 +77,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Expo](https://expo.dev/)**: Un outil pour développer des applications React Native rapidement.
+ **[Storybook](https://storybook.js.org/)**: Un outil pour construire et tester des composants UI de manière isolée.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
