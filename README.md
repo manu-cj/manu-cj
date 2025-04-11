@@ -77,7 +77,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Storybook](https://storybook.js.org/)**: Un outil pour construire et tester des composants UI de manière isolée.
+ **[jQuery](https://jquery.com/)**: Une bibliothèque pour simplifier la manipulation du DOM et les requêtes AJAX.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
