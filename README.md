@@ -77,7 +77,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[jQuery](https://jquery.com/)**: Une bibliothèque pour simplifier la manipulation du DOM et les requêtes AJAX.
+ **[Cordova](https://cordova.apache.org/)**: Un framework pour créer des applications mobiles avec HTML, CSS, et JavaScript.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
