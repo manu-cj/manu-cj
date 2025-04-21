@@ -77,7 +77,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Cordova](https://cordova.apache.org/)**: Un framework pour créer des applications mobiles avec HTML, CSS, et JavaScript.
+ **[Angular Fire](https://github.com/angular/angularfire)**: Intégration Firebase pour Angular
 <!-- END_LIBRARY_SECTION -->
 </div>
 
