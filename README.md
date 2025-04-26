@@ -77,7 +77,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Angular Fire](https://github.com/angular/angularfire)**: Intégration Firebase pour Angular
+ **[Gatsby](https://www.gatsbyjs.com/)**: Un générateur de sites statiques basé sur React.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
