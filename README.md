@@ -77,7 +77,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Gatsby](https://www.gatsbyjs.com/)**: Un générateur de sites statiques basé sur React.
+ **[Polly](https://github.com/App-vNext/Polly)**: Bibliothèque de résilience pour gérer les échecs intermittents.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
