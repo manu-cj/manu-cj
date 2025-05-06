@@ -77,7 +77,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Polly](https://github.com/App-vNext/Polly)**: Bibliothèque de résilience pour gérer les échecs intermittents.
+ **[Nodemon](https://nodemon.io/)**: Un outil qui surveille les changements dans votre projet Node.js et redémarre automatiquement l'application.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
