@@ -77,7 +77,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Nodemon](https://nodemon.io/)**: Un outil qui surveille les changements dans votre projet Node.js et redémarre automatiquement l'application.
+ **[Immutable.js](https://immutable-js.github.io/immutable-js/)**: Une bibliothèque pour créer des structures de données immuables.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
