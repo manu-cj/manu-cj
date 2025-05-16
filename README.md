@@ -77,7 +77,7 @@
 <div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Immutable.js](https://immutable-js.github.io/immutable-js/)**: Une bibliothèque pour créer des structures de données immuables.
+ **[Nightwatch](https://nightwatchjs.org/)**: Un framework de test end-to-end pour les applications web.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
