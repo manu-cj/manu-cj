@@ -6,8 +6,8 @@
    <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=04e4e6&height=120&section=header"
 </div>
    
-<img src="https://readme-typing-svg.herokuapp.com/?color=1BF7B3&size=35&center=true&weight=700&size=40&pause=1500&&vCenter=true&width=1000&lines=Hi,+I'm+Manu;I'm+a+Full+Stack+Js+Developer;Be+Welcome!+😁">
-<p> I'm Manu, a full-stack developer specialized in JavaScript technologies. I enjoy designing web applications with a solid architecture and ensuring that my code is clear and efficient. I find great motivation in learning new skills to continually improve my projects.</p>
+<img src="https://readme-typing-svg.herokuapp.com/?color=1DF7d3&size=35&center=true&weight=700&size=40&pause=1500&&vCenter=true&width=1000&lines=Hi,+I'm+Manu;I'm+a+Full+Stack+Developer;Be+Welcome!+😁">
+<p>I'm Manu, a backend developer specialized in Java technologies. I enjoy building robust and scalable systems with clean architecture, writing clear and efficient code. I'm highly motivated by learning new skills to constantly improve the quality and reliability of my projects.</p>
 <br/>  
 <br/>  
 
@@ -15,32 +15,19 @@
   <tr>
     <td valign="top" width="33%" style="border: 2px solid black; padding: 10px; background-color: #f9f9f9;">
       <br>
-       <img src="https://readme-typing-svg.herokuapp.com?color=5be2ff&font=Fira+Code&weight=700&size=40&duration=2000&pause=99000&center=true&vCenter=truerandom=false&reapeat=false&width=435&height=100&lines=Technos">
+       <img src="https://readme-typing-svg.herokuapp.com?color=5be2ff&font=Fira+Code&weight=700&size=25&duration=2000&pause=99000&center=true&vCenter=truerandom=false&reapeat=false&width=435&height=70&lines=Technos">
       <p align="center">
         <a href="https://skillicons.dev">
-          <img src="https://skillicons.dev/icons?i=tailwind,js,react,nextjs,ts,nodejs" />
+          <img src="https://skillicons.dev/icons?i=java,spring,nodejs" />
         </a>
       </p>
     </td>
     <td valign="top" width="33%" style="border: 2px solid black; padding: 10px; background-color: #d9d9d9;">
        <br>
-       <img src="https://readme-typing-svg.herokuapp.com?color=5be2ff&font=Fira+Code&weight=700&size=40&duration=2000&pause=99000&center=true&vCenter=truerandom=false&reapeat=false&width=435&height=100&lines=Databases">
+       <img src="https://readme-typing-svg.herokuapp.com?color=5be2ff&font=Fira+Code&weight=700&size=25&duration=2000&pause=99000&center=true&vCenter=truerandom=false&reapeat=false&width=435&height=70&lines=Databases">
       <p align="center">
         <a href="https://skillicons.dev">
           <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgresql,sqlite,prisma" />
-        </a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="3" valign="top" style="border: 2px solid black; padding: 10px; background-color: #c9c9c9;">
-       <br>
-      <div align="center">
-       <img src="https://readme-typing-svg.herokuapp.com?color=5be2ff&font=Fira+Code&weight=700&size=30&duration=1000&pause=99000&center=true&vCenter=truerandom=false&reapeat=false&width=435&height=100&lines=Interested">
-      </div>
-      <p align="center">
-        <a href="https://skillicons.dev">
-          <img src="https://skillicons.dev/icons?i=angular,cs,java" />
         </a>
       </p>
     </td>
@@ -74,7 +61,7 @@
        <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=04e4e6&height=120&section=footer"/>
    </a> 
 
-<div align="center"><h3>Bibliothèque JavaScript du jours 📙</h3>
+<div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
  **[Nightwatch](https://nightwatchjs.org/)**: Un framework de test end-to-end pour les applications web.
