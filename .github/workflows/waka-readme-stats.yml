@@ -28,3 +28,4 @@ jobs:
           SHOW_TOTAL_CODE_TIME: "false"
           COMMIT_BY_ME: "false"
           COMMIT_SINGLE: "false"
+          SYMBOL_VERSIONle : "3"
