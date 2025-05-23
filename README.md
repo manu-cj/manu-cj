@@ -81,18 +81,40 @@
     📊 Weekly Coding Stats 🖥️
   </h3>
  <!--START_SECTION:waka-->
+![Profile Views](http://img.shields.io/badge/Profile%20Views-99-blue)
 
-```JavaScript, Svelte
-From: 13 May 2025 - To: 20 May 2025
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-6.0%20million%20lines%20of%20code-blue)
 
-Total Time: 15 hrs 16 mins
+**🐱 My GitHub Data** 
 
-Java         13 hrs 32 mins  🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧⬜⬜⬜   88.62 %
-TypeScript   1 hr 15 mins    🟧🟧⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   08.19 %
-CSV          16 mins         ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   01.82 %
-JavaScript   4 mins          ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   00.45 %
+> 📦 455.2 kB Used in GitHub's Storage 
+ > 
+> 🏆 664 Contributions in the Year 2025
+ > 
+> 💼 Opted to Hire
+ > 
+> 📜 44 Public Repositories 
+ > 
+> 🔑 117 Private Repositories 
+ > 
+**I Mostly Code in JavaScript** 
+
+```text
+JavaScript               55 repos            █████████░░░░░░░░░░░░░░░░   37.67 % 
+HTML                     20 repos            ███░░░░░░░░░░░░░░░░░░░░░░   13.70 % 
+TypeScript               10 repos            ██░░░░░░░░░░░░░░░░░░░░░░░   06.85 % 
+C#                       2 repos             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.37 % 
+Java                     2 repos             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.37 % 
 ```
 
+
+
+**Timeline**
+
+![Lines of Code chart](https://raw.githubusercontent.com/manu-cj/manu-cj/main/assets/bar_graph.png)
+
+
+ Last Updated on 23/05/2025 20:05:43 UTC
 <!--END_SECTION:waka-->
 </div>
 <a href="https://wakatime.com/@e81d490c-17bb-4b85-8611-87004287614f"><img src="https://wakatime.com/badge/user/e81d490c-17bb-4b85-8611-87004287614f.svg?style=plastic" alt="Total time coded since Sep 9 2024" /></a>
