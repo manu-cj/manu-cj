@@ -25,6 +25,6 @@ jobs:
           SHOW_PROFILE_VIEWS: "true"
           SHOW_SHORT_INFO: "false"
           SHOW_UPDATED_DATE: "false"
-          SHOW_TOTAL_CODE_TIME: "true"
+          SHOW_TOTAL_CODE_TIME: "false"
           COMMIT_BY_ME: "false"
           COMMIT_SINGLE: "false"
