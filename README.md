@@ -81,8 +81,6 @@
     📊 Weekly Coding Stats 🖥️
   </h3>
  <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-394%20hrs%2040%20mins-blue)
-
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-7-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-6.0%20million%20lines%20of%20code-blue)
@@ -91,8 +89,8 @@
 
 ```text
 🌞 Morning                1530 commits        ██████░░░░░░░░░░░░░░░░░░░   22.84 % 
-🌆 Daytime                3570 commits        █████████████░░░░░░░░░░░░   53.29 % 
-🌃 Evening                988 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.75 % 
+🌆 Daytime                3570 commits        █████████████░░░░░░░░░░░░   53.28 % 
+🌃 Evening                989 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.76 % 
 🌙 Night                  611 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.12 % 
 ```
 
