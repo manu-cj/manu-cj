@@ -13,7 +13,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           SHOW_LANGUAGE: "true"
-          SHOW_LINES_OF_CODE: "true"
+          SHOW_LINES_OF_CODE: "false"
           SHOW_OS: "false"
           SHOW_PROJECTS: "false"
           SHOW_EDITORS: "false"
