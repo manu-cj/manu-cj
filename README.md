@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Newtonsoft.Json](https://www.newtonsoft.com/json)**: Bibliothèque de sérialisation JSON populaire pour .NET.
+ **[svelte-i18n](https://github.com/kaisermann/svelte-i18n)**: Internationalisation pour Svelte
 <!-- END_LIBRARY_SECTION -->
 </div>
 
