@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[svelte-i18n](https://github.com/kaisermann/svelte-i18n)**: Internationalisation pour Svelte
+ **[Nightwatch](https://nightwatchjs.org/)**: Un framework de test end-to-end pour les applications web.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
