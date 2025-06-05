@@ -5,7 +5,7 @@
 <div>
    <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=04e4e6&height=120&section=header"
 </div>
-   
+    
 <img src="https://readme-typing-svg.herokuapp.com/?color=1DF7d3&size=35&center=true&weight=700&size=40&pause=1500&&vCenter=true&width=1000&lines=Hi,+I'm+Manu;I'm+a+Full+Stack+Developer;Be+Welcome!+😁">
 <p>I'm Manu, a backend developer specialized in Java technologies. I enjoy building robust and scalable systems with clean architecture, writing clear and efficient code. I'm highly motivated by learning new skills to constantly improve the quality and reliability of my projects.</p>
 <br/>  
