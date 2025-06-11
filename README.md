@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[xss-filters](https://github.com/yahoo/xss-filters)**: Filtres XSS pour JavaScript
+ **[Chance.js](https://chancejs.com/)**: Bibliothèque pour générer des données aléatoires (noms, adresses, etc.)
 <!-- END_LIBRARY_SECTION -->
 </div>
 
