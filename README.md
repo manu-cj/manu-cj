@@ -18,7 +18,7 @@
        <img src="https://readme-typing-svg.herokuapp.com?color=5be2ff&font=Fira+Code&weight=700&size=25&duration=2000&pause=99000&center=true&vCenter=truerandom=false&reapeat=false&width=435&height=70&lines=Technos">
       <p align="center">
         <a href="https://skillicons.dev">
-          <img src="https://skillicons.dev/icons?i=java,spring,nodejs" />
+          <img src="https://skillicons.dev/icons?i=java,spring,nodejs,nextjs" />
         </a>
       </p>
     </td>
