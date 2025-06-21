@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Vue Router](https://router.vuejs.org/)**: Une bibliothèque pour la gestion des routes dans une application Vue.js.
+ **[Tui Calendar](https://github.com/nhn/tui.calendar)**: Calendrier flexible et personnalisable
 <!-- END_LIBRARY_SECTION -->
 </div>
 
