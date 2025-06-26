@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Tui Calendar](https://github.com/nhn/tui.calendar)**: Calendrier flexible et personnalisable
+ **[Framer Motion](https://www.framer.com/motion/)**: Une bibliothèque pour animer les composants React.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
