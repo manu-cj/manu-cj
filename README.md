@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Hibernate](https://hibernate.org/)**: Framework ORM pour Java permettant d'interagir avec les bases de données.
+ **[Tagify](https://yaireo.github.io/tagify/)**: Gestion de tags et d'entrées
 <!-- END_LIBRARY_SECTION -->
 </div>
 
