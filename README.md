@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Tagify](https://yaireo.github.io/tagify/)**: Gestion de tags et d'entrées
+ **[Gson](https://github.com/google/gson)**: Bibliothèque de sérialisation/désérialisation JSON.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
