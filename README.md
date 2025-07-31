@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Cleave.js](https://nosir.github.io/cleave.js/)**: Bibliothèque pour formater des champs de saisie au fur et à mesure de la frappe
+ **[Bottleneck](https://www.npmjs.com/package/bottleneck)**: Gestion des taux de requêtes pour limiter les appels d'API
 <!-- END_LIBRARY_SECTION -->
 </div>
 
