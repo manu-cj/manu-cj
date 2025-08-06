@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Gumshoe](https://github.com/aggro/Gumshoe.js)**: Bibliothèque pour le suivi des défilements et des sections de page
+ **[RxJS](https://rxjs.dev/)**: Une bibliothèque pour la programmation réactive utilisant des observables.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
