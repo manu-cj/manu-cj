@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[RxJS](https://rxjs.dev/)**: Une bibliothèque pour la programmation réactive utilisant des observables.
+ **[Filestack](https://www.filestack.com/)**: Upload, transformation et gestion des fichiers
 <!-- END_LIBRARY_SECTION -->
 </div>
 
