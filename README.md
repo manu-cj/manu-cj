@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Filestack](https://www.filestack.com/)**: Upload, transformation et gestion des fichiers
+ **[Trix](https://trix-editor.org/)**: Un éditeur de texte WYSIWYG pour les applications Web.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
