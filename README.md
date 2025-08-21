@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Trix](https://trix-editor.org/)**: Un éditeur de texte WYSIWYG pour les applications Web.
+ **[PM2](https://pm2.keymetrics.io/)**: Un gestionnaire de processus pour les applications Node.js.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
