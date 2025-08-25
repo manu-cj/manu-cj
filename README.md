@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[PM2](https://pm2.keymetrics.io/)**: Un gestionnaire de processus pour les applications Node.js.
+ **[Entity Framework Core](https://learn.microsoft.com/en-us/ef/core/)**: ORM permettant de travailler avec des bases de données en utilisant des objets .NET.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
