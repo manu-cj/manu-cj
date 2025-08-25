@@ -83,11 +83,11 @@
  <!--START_SECTION:waka-->
 
 ```JavaScript, Svelte
-From: 13 August 2025 - To: 20 August 2025
+From: 17 August 2025 - To: 24 August 2025
 
-Total Time: 2 hrs 43 mins
+Total Time: 6 hrs 19 mins
 
-Java   2 hrs 43 mins   🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧   100.00 %
+Java   6 hrs 19 mins   🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧   100.00 %
 ```
 
 <!--END_SECTION:waka-->
