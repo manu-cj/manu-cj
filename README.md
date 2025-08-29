@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Entity Framework Core](https://learn.microsoft.com/en-us/ef/core/)**: ORM permettant de travailler avec des bases de données en utilisant des objets .NET.
+ **[Air Datepicker](https://t1m0n.name/air-datepicker/docs/index.html)**: Sélecteur de date moderne et léger
 <!-- END_LIBRARY_SECTION -->
 </div>
 
