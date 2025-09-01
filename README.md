@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[TypeScript](https://www.typescriptlang.org/)**: Un sur-ensemble de JavaScript qui ajoute des types statiques.
+ **[Tagify](https://yaireo.github.io/tagify/)**: Gestion de tags et d'entrées
 <!-- END_LIBRARY_SECTION -->
 </div>
 
