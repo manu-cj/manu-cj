@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Tagify](https://yaireo.github.io/tagify/)**: Gestion de tags et d'entrées
+ **[Bottleneck](https://github.com/SGrondin/bottleneck)**: Une bibliothèque pour limiter le débit d'appels asynchrones.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
