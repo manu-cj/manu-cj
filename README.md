@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Bottleneck](https://github.com/SGrondin/bottleneck)**: Une bibliothèque pour limiter le débit d'appels asynchrones.
+ **[CsvHelper](https://joshclose.github.io/CsvHelper/)**: Bibliothèque pour lire et écrire des fichiers CSV.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
