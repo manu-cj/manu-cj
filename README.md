@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[CsvHelper](https://joshclose.github.io/CsvHelper/)**: Bibliothèque pour lire et écrire des fichiers CSV.
+ **[bgfx](https://bkaradzic.github.io/bgfx/bgfx.html)**: Bibliothèque de rendu graphique multiplateforme
 <!-- END_LIBRARY_SECTION -->
 </div>
 
