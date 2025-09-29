@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Axios](https://axios-http.com/)**: Une bibliothèque pour faire des requêtes HTTP.
+ **[Foundation](https://get.foundation/)**: Un framework CSS responsive pour les applications web.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
