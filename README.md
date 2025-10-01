@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Foundation](https://get.foundation/)**: Un framework CSS responsive pour les applications web.
+ **[Svelte Virtual List](https://github.com/sveltejs/svelte-virtual-list)**: Rendu performant de longues listes
 <!-- END_LIBRARY_SECTION -->
 </div>
 
