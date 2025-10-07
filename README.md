@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[xss-clean](https://github.com/nfriedly/xss-clean)**: Middleware pour nettoyer les entrées
+ **[Algolia InstantSearch](https://www.algolia.com/doc/guides/building-search-ui/what-is-instantsearch/js/)**: Une bibliothèque pour implémenter une recherche instantanée.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
