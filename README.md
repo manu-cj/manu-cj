@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Just-Validate](https://github.com/DevDreams/Just-Validate)**: Bibliothèque légère pour la validation des formulaires
+ **[Jest](https://jestjs.io/)**: Un framework de test JavaScript avec un focus sur la simplicité.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
