@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Puppeteer](https://pptr.dev/)**: Une bibliothèque pour contrôler des navigateurs Chromium via l'API DevTools.
+ **[PixiJS](https://pixijs.com/)**: Bibliothèque 2D rapide et flexible
 <!-- END_LIBRARY_SECTION -->
 </div>
 
