@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[PixiJS](https://pixijs.com/)**: Bibliothèque 2D rapide et flexible
+ **[Apache Commons](https://commons.apache.org/)**: Collection de bibliothèques Java utilitaires.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
