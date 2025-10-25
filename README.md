@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Apache Commons](https://commons.apache.org/)**: Collection de bibliothèques Java utilitaires.
+ **[Webpack](https://webpack.js.org/)**: Un module bundler pour JavaScript et les autres ressources web.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
