@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Webpack](https://webpack.js.org/)**: Un module bundler pour JavaScript et les autres ressources web.
+ **[npm](https://www.npmjs.com/)**: Le gestionnaire de paquets par défaut pour Node.js.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
