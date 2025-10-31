@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[npm](https://www.npmjs.com/)**: Le gestionnaire de paquets par défaut pour Node.js.
+ **[dayjs](https://day.js.org/)**: Une alternative légère à Moment.js pour la manipulation de dates
 <!-- END_LIBRARY_SECTION -->
 </div>
 
