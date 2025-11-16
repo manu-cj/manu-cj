@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Grid.js](https://gridjs.io/)**: Tableau et grille de données personnalisable
+ **[xss-clean](https://github.com/nfriedly/xss-clean)**: Middleware pour nettoyer les entrées
 <!-- END_LIBRARY_SECTION -->
 </div>
 
