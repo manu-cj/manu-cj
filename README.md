@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[xss-clean](https://github.com/nfriedly/xss-clean)**: Middleware pour nettoyer les entrées
+ **[Capacitor](https://capacitorjs.com/)**: Un framework pour créer des applications mobiles multiplateformes avec JavaScript.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
