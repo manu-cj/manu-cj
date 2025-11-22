@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Capacitor](https://capacitorjs.com/)**: Un framework pour créer des applications mobiles multiplateformes avec JavaScript.
+ **[RestSharp](https://restsharp.dev/)**: Client HTTP pour interagir avec des API REST.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
