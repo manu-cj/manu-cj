@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[RestSharp](https://restsharp.dev/)**: Client HTTP pour interagir avec des API REST.
+ **[Angular Flex Layout](https://github.com/angular/flex-layout)**: Système de disposition flexible
 <!-- END_LIBRARY_SECTION -->
 </div>
 
