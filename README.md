@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Angular Flex Layout](https://github.com/angular/flex-layout)**: Système de disposition flexible
+ **[Interact.js](https://interactjs.io/)**: Manipulation des éléments dans le navigateur
 <!-- END_LIBRARY_SECTION -->
 </div>
 
