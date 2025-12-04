@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Cypress](https://www.cypress.io/)**: Un framework de test end-to-end pour les applications web.
+ **[dragselect](https://github.com/NoahZinsmeister/dragselect)**: Sélection d'éléments avec glisser-déposer
 <!-- END_LIBRARY_SECTION -->
 </div>
 
