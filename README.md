@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[dragselect](https://github.com/NoahZinsmeister/dragselect)**: Sélection d'éléments avec glisser-déposer
+ **[Framer Motion](https://www.framer.com/motion/)**: Une bibliothèque pour animer les composants React.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
