@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[RxJS](https://rxjs.dev/)**: Une bibliothèque pour la programmation réactive utilisant des observables.
+ **[Tempus Dominus](https://tempusdominus.github.io/bootstrap-4/)**: Sélecteur de date et heure basé sur Bootstrap
 <!-- END_LIBRARY_SECTION -->
 </div>
 
