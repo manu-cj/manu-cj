@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[SVG.js](https://svgjs.dev/)**: Manipulation d'éléments SVG
+ **[Mustache.js](https://github.com/janl/mustache.js)**: Un moteur de template léger pour JavaScript.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
