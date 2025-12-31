@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Mustache.js](https://github.com/janl/mustache.js)**: Un moteur de template léger pour JavaScript.
+ **[AutoMapper](https://automapper.org/)**: Outil de mapping automatique entre objets .NET.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
