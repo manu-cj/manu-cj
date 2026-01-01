@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[AutoMapper](https://automapper.org/)**: Outil de mapping automatique entre objets .NET.
+ **[Quill](https://quilljs.com/)**: Un éditeur WYSIWYG moderne pour le Web.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
