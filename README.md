@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Pico.js](https://github.com/tehnokv/picojs)**: Bibliothèque JavaScript pour la détection de visages
+ **[Backbone.js](https://backbonejs.org/)**: Une bibliothèque pour structurer les applications JavaScript en modèles MVC.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
