@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Backbone.js](https://backbonejs.org/)**: Une bibliothèque pour structurer les applications JavaScript en modèles MVC.
+ **[pnpm](https://pnpm.io/)**: Un gestionnaire de paquets rapide et efficace pour JavaScript.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
