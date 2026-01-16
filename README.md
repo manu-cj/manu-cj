@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[pnpm](https://pnpm.io/)**: Un gestionnaire de paquets rapide et efficace pour JavaScript.
+ **[Grid.js](https://gridjs.io/)**: Tableau et grille de données personnalisable
 <!-- END_LIBRARY_SECTION -->
 </div>
 
