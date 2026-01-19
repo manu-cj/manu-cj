@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Grid.js](https://gridjs.io/)**: Tableau et grille de données personnalisable
+ **[Chocolat](https://noelboss.github.io/Chocolat/)**: Affichage d'images dans une boîte modale
 <!-- END_LIBRARY_SECTION -->
 </div>
 
