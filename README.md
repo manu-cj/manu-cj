@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Chocolat](https://noelboss.github.io/Chocolat/)**: Affichage d'images dans une boîte modale
+ **[Ant Design](https://ant.design/)**: Une bibliothèque de composants UI pour React.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
