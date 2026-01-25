@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Ant Design](https://ant.design/)**: Une bibliothèque de composants UI pour React.
+ **[Axios](https://axios-http.com/)**: Une bibliothèque pour faire des requêtes HTTP.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
