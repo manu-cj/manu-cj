@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Fuse.js](https://fusejs.io/)**: Bibliothèque de recherche floue pour effectuer des recherches basées sur des algorithmes de similarité
+ **[sanitize-html](https://github.com/apostrophecms/sanitize-html)**: Sanitisation HTML configurable
 <!-- END_LIBRARY_SECTION -->
 </div>
 
