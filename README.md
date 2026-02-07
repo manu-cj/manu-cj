@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Playwright](https://playwright.dev/)**: Une bibliothèque pour tester des applications web avec des navigateurs modernes.
+ **[Webpack Encore](https://symfony.com/doc/current/frontend/encore/installation.html)**: Un wrapper de Webpack pour Symfony.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
