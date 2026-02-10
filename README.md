@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Webpack Encore](https://symfony.com/doc/current/frontend/encore/installation.html)**: Un wrapper de Webpack pour Symfony.
+ **[Micromodal](https://micromodal.vercel.app/)**: Bibliothèque légère pour la gestion des modales
 <!-- END_LIBRARY_SECTION -->
 </div>
 
