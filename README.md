@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[xUnit](https://xunit.net/)**: Framework de test unitaire pour .NET.
+ **[Eslint](https://eslint.org/)**: Un linter JavaScript pour identifier et signaler les problèmes de code.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
