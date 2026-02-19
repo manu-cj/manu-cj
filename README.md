@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Eslint](https://eslint.org/)**: Un linter JavaScript pour identifier et signaler les problèmes de code.
+ **[TSDoc](https://tsdoc.org/)**: Un outil pour documenter les projets TypeScript avec des commentaires JSDoc.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
