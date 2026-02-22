@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[TSDoc](https://tsdoc.org/)**: Un outil pour documenter les projets TypeScript avec des commentaires JSDoc.
+ **[SortableJS](https://github.com/SortableJS/Sortable)**: Bibliothèque de tri et de glisser-déposer
 <!-- END_LIBRARY_SECTION -->
 </div>
 
