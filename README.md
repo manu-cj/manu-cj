@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[SortableJS](https://github.com/SortableJS/Sortable)**: Bibliothèque de tri et de glisser-déposer
+ **[Angular Calendar](https://github.com/mattlewis92/angular-calendar)**: Calendrier pour Angular
 <!-- END_LIBRARY_SECTION -->
 </div>
 
