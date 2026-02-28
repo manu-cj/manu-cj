@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Angular Calendar](https://github.com/mattlewis92/angular-calendar)**: Calendrier pour Angular
+ **[sanitize-html](https://github.com/apostrophecms/sanitize-html)**: Sanitisation HTML configurable
 <!-- END_LIBRARY_SECTION -->
 </div>
 
