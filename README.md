@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Eslint](https://eslint.org/)**: Un linter JavaScript pour identifier et signaler les problèmes de code.
+ **[PicoCSS](https://picocss.com/)**: Un framework CSS minimaliste pour des interfaces légères et rapides.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
