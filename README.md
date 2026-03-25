@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Fuse.js](https://fusejs.io/)**: Bibliothèque de recherche floue pour effectuer des recherches basées sur des algorithmes de similarité
+ **[FullPage.js](https://alvarotrigo.com/fullPage/)**: Sites web à défilement plein écran
 <!-- END_LIBRARY_SECTION -->
 </div>
 
