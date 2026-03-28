@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[FullPage.js](https://alvarotrigo.com/fullPage/)**: Sites web à défilement plein écran
+ **[Mark.js](https://markjs.io/)**: Une bibliothèque pour mettre en surbrillance des mots dans un texte.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
