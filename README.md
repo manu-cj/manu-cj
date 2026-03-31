@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Mark.js](https://markjs.io/)**: Une bibliothèque pour mettre en surbrillance des mots dans un texte.
+ **[Yarn](https://yarnpkg.com/)**: Un gestionnaire de paquets rapide, fiable et sécurisé pour JavaScript.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
