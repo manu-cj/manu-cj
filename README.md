@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Yarn](https://yarnpkg.com/)**: Un gestionnaire de paquets rapide, fiable et sécurisé pour JavaScript.
+ **[Lodash](https://lodash.com/)**: Une bibliothèque utilitaire qui fournit des fonctions pour des tâches courantes.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
