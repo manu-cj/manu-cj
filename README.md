@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Lodash](https://lodash.com/)**: Une bibliothèque utilitaire qui fournit des fonctions pour des tâches courantes.
+ **[Formik](https://formik.org/)**: Une bibliothèque pour gérer les formulaires dans React.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
