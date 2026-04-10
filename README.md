@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Angular Material](https://material.angular.io/)**: Composants basés sur Material Design
+ **[RxJS](https://rxjs.dev/)**: Extensions réactives pour JavaScript
 <!-- END_LIBRARY_SECTION -->
 </div>
 
