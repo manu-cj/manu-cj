@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[RxJS](https://rxjs.dev/)**: Extensions réactives pour JavaScript
+ **[Pikaday](https://pikaday.com/)**: Sélecteur de date simple et léger
 <!-- END_LIBRARY_SECTION -->
 </div>
 
