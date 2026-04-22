@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Tailwind CSS](https://tailwindcss.com/)**: Un framework CSS utilitaire.
+ **[Storybook](https://storybook.js.org/)**: Un outil pour construire et tester des composants UI de manière isolée.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
