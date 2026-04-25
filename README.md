@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Storybook](https://storybook.js.org/)**: Un outil pour construire et tester des composants UI de manière isolée.
+ **[Lax.js](https://alexfoxy.github.io/lax.js/)**: Bibliothèque pour ajouter des animations de défilement simples
 <!-- END_LIBRARY_SECTION -->
 </div>
 
