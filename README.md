@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Lax.js](https://alexfoxy.github.io/lax.js/)**: Bibliothèque pour ajouter des animations de défilement simples
+ **[Chart.js](https://www.chartjs.org/)**: Une bibliothèque pour créer des graphiques animés et interactifs.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
