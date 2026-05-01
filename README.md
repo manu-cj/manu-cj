@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Chart.js](https://www.chartjs.org/)**: Une bibliothèque pour créer des graphiques animés et interactifs.
+ **[Immutable.js](https://immutable-js.github.io/immutable-js/)**: Une bibliothèque pour créer des structures de données immuables.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
