@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Immutable.js](https://immutable-js.github.io/immutable-js/)**: Une bibliothèque pour créer des structures de données immuables.
+ **[Vivus](https://maxwellito.github.io/vivus/)**: Bibliothèque pour animer les SVG au trait
 <!-- END_LIBRARY_SECTION -->
 </div>
 
