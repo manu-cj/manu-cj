@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Vivus](https://maxwellito.github.io/vivus/)**: Bibliothèque pour animer les SVG au trait
+ **[Lombok](https://projectlombok.org/)**: Outil permettant de réduire le code boilerplate en Java.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
