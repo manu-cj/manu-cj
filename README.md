@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Lombok](https://projectlombok.org/)**: Outil permettant de réduire le code boilerplate en Java.
+ **[Hammer.js](https://hammerjs.github.io/)**: Une bibliothèque pour gérer les événements tactiles et gestuels.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
