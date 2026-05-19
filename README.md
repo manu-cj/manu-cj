@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Formik](https://formik.org/)**: Une bibliothèque pour gérer les formulaires dans React.
+ **[Akka.NET](https://getakka.net/)**: Framework pour la programmation concurrente et distribuée.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
