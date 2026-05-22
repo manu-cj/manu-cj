@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Akka.NET](https://getakka.net/)**: Framework pour la programmation concurrente et distribuée.
+ **[Clarity](https://clarity.design/)**: Framework UI d'entreprise
 <!-- END_LIBRARY_SECTION -->
 </div>
 
