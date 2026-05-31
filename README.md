@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Angular Material](https://material.angular.io/)**: Composants basés sur Material Design
+ **[BenchmarkDotNet](https://benchmarkdotnet.org/)**: Bibliothèque pour mesurer les performances de code C#.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
