@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[BenchmarkDotNet](https://benchmarkdotnet.org/)**: Bibliothèque pour mesurer les performances de code C#.
+ **[Tagify](https://yaireo.github.io/tagify/)**: Bibliothèque pour ajouter des balises dans des champs de texte
 <!-- END_LIBRARY_SECTION -->
 </div>
 
