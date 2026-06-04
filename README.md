@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Tagify](https://yaireo.github.io/tagify/)**: Bibliothèque pour ajouter des balises dans des champs de texte
+ **[Nodemon](https://nodemon.io/)**: Un outil qui surveille les changements dans votre projet Node.js et redémarre automatiquement l'application.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
