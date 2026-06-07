@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Nodemon](https://nodemon.io/)**: Un outil qui surveille les changements dans votre projet Node.js et redémarre automatiquement l'application.
+ **[Clipboard.js](https://clipboardjs.com/)**: Gestion du copier-coller
 <!-- END_LIBRARY_SECTION -->
 </div>
 
