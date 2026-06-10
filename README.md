@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Clipboard.js](https://clipboardjs.com/)**: Gestion du copier-coller
+ **[Newtonsoft.Json](https://www.newtonsoft.com/json)**: Bibliothèque de sérialisation JSON populaire pour .NET.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
