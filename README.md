@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Bottleneck](https://www.npmjs.com/package/bottleneck)**: Gestion des taux de requêtes pour limiter les appels d'API
+ **[Tsparticles](https://tsparticles.github.io/)**: Effets de particules modernes
 <!-- END_LIBRARY_SECTION -->
 </div>
 
