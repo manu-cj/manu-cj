@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[CountUp.js](https://inorganik.github.io/countUp.js/)**: Animations de compte à rebours
+ **[CamanJS](http://camanjs.com/)**: Une bibliothèque de manipulation d'images directement dans le navigateur.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
