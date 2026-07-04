@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Wave.js](https://github.com/horenku/wave)**: Bibliothèque pour créer des animations de vagues
+ **[SVG.js](https://svgjs.dev/)**: Manipulation d'éléments SVG
 <!-- END_LIBRARY_SECTION -->
 </div>
 
