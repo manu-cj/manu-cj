@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[MiniProfiler](https://miniprofiler.com/)**: Outil de profilage léger pour les applications .NET.
+ **[Apollo Client](https://www.apollographql.com/docs/react/)**: Une bibliothèque pour interagir avec des API GraphQL.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
