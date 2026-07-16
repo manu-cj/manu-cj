@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Apollo Client](https://www.apollographql.com/docs/react/)**: Une bibliothèque pour interagir avec des API GraphQL.
+ **[React Router](https://reactrouter.com/)**: Une bibliothèque pour la gestion des routes dans une application React.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
