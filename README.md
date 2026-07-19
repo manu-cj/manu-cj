@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[React Router](https://reactrouter.com/)**: Une bibliothèque pour la gestion des routes dans une application React.
+ **[React Dropzone](https://react-dropzone.js.org/)**: Zone de dépôt pour React
 <!-- END_LIBRARY_SECTION -->
 </div>
 
