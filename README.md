@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Mocha](https://mochajs.org/)**: Un framework de test pour JavaScript.
+ **[Plyr](https://plyr.io/)**: Lecteur multimédia simple et élégant
 <!-- END_LIBRARY_SECTION -->
 </div>
 
