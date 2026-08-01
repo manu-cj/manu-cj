@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Vue.Draggable.Next](https://github.com/SortableJS/Vue.Draggable.Next)**: Drag and drop pour Vue 3
+ **[Nx](https://nx.dev/)**: Un outil pour la gestion des monorepos JavaScript et TypeScript.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
