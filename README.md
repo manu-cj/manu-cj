@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Nx](https://nx.dev/)**: Un outil pour la gestion des monorepos JavaScript et TypeScript.
+ **[Flatpickr](https://flatpickr.js.org/)**: Sélecteur de date et heure
 <!-- END_LIBRARY_SECTION -->
 </div>
 
