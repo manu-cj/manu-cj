@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Flatpickr](https://flatpickr.js.org/)**: Sélecteur de date et heure
+ **[Vivus](https://maxwellito.github.io/vivus/)**: Bibliothèque pour animer les SVG au trait
 <!-- END_LIBRARY_SECTION -->
 </div>
 
