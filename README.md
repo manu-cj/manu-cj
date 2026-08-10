@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Vivus](https://maxwellito.github.io/vivus/)**: Bibliothèque pour animer les SVG au trait
+ **[date-fns](https://date-fns.org/)**: Utilitaires de manipulation de dates fonctionnels et légers
 <!-- END_LIBRARY_SECTION -->
 </div>
 
