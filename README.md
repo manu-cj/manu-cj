@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[date-fns](https://date-fns.org/)**: Utilitaires de manipulation de dates fonctionnels et légers
+ **[Gatsby-plugin-sanitized-html](https://www.gatsbyjs.com/plugins/gatsby-plugin-sanitized-html/)**: Sanitisation dans Gatsby
 <!-- END_LIBRARY_SECTION -->
 </div>
 
