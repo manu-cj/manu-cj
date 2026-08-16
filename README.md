@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Gatsby-plugin-sanitized-html](https://www.gatsbyjs.com/plugins/gatsby-plugin-sanitized-html/)**: Sanitisation dans Gatsby
+ **[Barba.js](https://barba.js.org/)**: Une bibliothèque pour créer des transitions fluides entre les pages.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
