@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Barba.js](https://barba.js.org/)**: Une bibliothèque pour créer des transitions fluides entre les pages.
+ **[Svelte Notifications](https://github.com/beyonk-adventures/svelte-notifications)**: Système de notifications
 <!-- END_LIBRARY_SECTION -->
 </div>
 
