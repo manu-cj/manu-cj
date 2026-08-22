@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Svelte Notifications](https://github.com/beyonk-adventures/svelte-notifications)**: Système de notifications
+ **[xss](https://github.com/leizongmin/js-xss)**: Filtrage des entrées XSS
 <!-- END_LIBRARY_SECTION -->
 </div>
 
