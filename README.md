@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Webpack Dev Server](https://webpack.js.org/configuration/dev-server/)**: Un serveur de développement pour Webpack avec rechargement à chaud.
+ **[Less](https://lesscss.org/)**: Un préprocesseur CSS avec des fonctionnalités similaires à Sass.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
