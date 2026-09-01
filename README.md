@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[D3.js](https://d3js.org/)**: Une bibliothèque pour créer des graphiques dynamiques et interactifs.
+ **[Vite](https://vitejs.dev/)**: Un outil de développement front-end rapide avec un hot module replacement performant.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
