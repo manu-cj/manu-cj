@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Vite](https://vitejs.dev/)**: Un outil de développement front-end rapide avec un hot module replacement performant.
+ **[RestSharp](https://restsharp.dev/)**: Client HTTP pour interagir avec des API REST.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
