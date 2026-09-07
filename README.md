@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[RestSharp](https://restsharp.dev/)**: Client HTTP pour interagir avec des API REST.
+ **[Day.js](https://day.js.org/)**: Library lightweight pour manipuler les dates
 <!-- END_LIBRARY_SECTION -->
 </div>
 
