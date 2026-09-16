@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Rebus](https://github.com/rebus-org/Rebus)**: Framework de messagerie simple pour .NET.
+ **[Tagify](https://yaireo.github.io/tagify/)**: Bibliothèque pour ajouter des balises dans des champs de texte
 <!-- END_LIBRARY_SECTION -->
 </div>
 
