@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Sapper](https://sapper.svelte.dev/)**: Framework de développement web basé sur Svelte
+ **[Day.js](https://day.js.org/)**: Bibliothèque légère pour la manipulation de dates
 <!-- END_LIBRARY_SECTION -->
 </div>
 
