@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Tempus Dominus](https://tempusdominus.github.io/bootstrap-4/)**: Sélecteur de date et heure basé sur Bootstrap
+ **[Micromodal](https://micromodal.vercel.app/)**: Bibliothèque légère pour créer des modales accessibles
 <!-- END_LIBRARY_SECTION -->
 </div>
 
