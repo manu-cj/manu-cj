@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[particles.js](https://github.com/VincentGarreau/particles.js)**: Effets de particules en arrière-plan
+ **[Fancybox](https://fancyapps.com/fancybox/3/)**: Galeries et modales élégantes
 <!-- END_LIBRARY_SECTION -->
 </div>
 
