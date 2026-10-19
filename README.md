@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Fancybox](https://fancyapps.com/fancybox/3/)**: Galeries et modales élégantes
+ **[Isotope](https://isotope.metafizzy.co/)**: Filtrage et mise en page dynamique
 <!-- END_LIBRARY_SECTION -->
 </div>
 
