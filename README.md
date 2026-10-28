@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Isotope](https://isotope.metafizzy.co/)**: Filtrage et mise en page dynamique
+ **[Nightwatch](https://nightwatchjs.org/)**: Un framework de test end-to-end pour les applications web.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
