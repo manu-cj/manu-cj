@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Nightwatch](https://nightwatchjs.org/)**: Un framework de test end-to-end pour les applications web.
+ **[dayjs](https://day.js.org/)**: Une alternative légère à Moment.js pour la manipulation de dates
 <!-- END_LIBRARY_SECTION -->
 </div>
 
