@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[dayjs](https://day.js.org/)**: Une alternative légère à Moment.js pour la manipulation de dates
+ **[ScrollReveal](https://scrollrevealjs.org/)**: Animations d'apparition lors du défilement
 <!-- END_LIBRARY_SECTION -->
 </div>
 
