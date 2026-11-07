@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Calendar.js](https://github.com/kciter/calendar.js)**: Générateur de calendriers simples
+ **[Browsersync](https://browsersync.io/)**: Un outil pour synchroniser le développement entre plusieurs navigateurs.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
