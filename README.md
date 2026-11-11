@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Browsersync](https://browsersync.io/)**: Un outil pour synchroniser le développement entre plusieurs navigateurs.
+ **[Swiper](https://swiperjs.com/)**: Une bibliothèque pour créer des carrousels et sliders responsives.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
