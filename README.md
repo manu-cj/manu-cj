@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Swiper](https://swiperjs.com/)**: Une bibliothèque pour créer des carrousels et sliders responsives.
+ **[Lottie](https://airbnb.io/lottie/)**: Une bibliothèque pour animer les fichiers JSON exportés depuis Adobe After Effects.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
