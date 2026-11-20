@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[SharpDX](https://github.com/sharpdx/SharpDX)**: Wrapper DirectX pour le développement graphique en .NET.
+ **[Hibernate](https://hibernate.org/)**: Framework ORM pour Java permettant d'interagir avec les bases de données.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
