@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Hibernate](https://hibernate.org/)**: Framework ORM pour Java permettant d'interagir avec les bases de données.
+ **[Ngx-translate](https://github.com/ngx-translate/core)**: Internationalisation pour Angular
 <!-- END_LIBRARY_SECTION -->
 </div>
 
