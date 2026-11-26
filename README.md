@@ -64,7 +64,7 @@
 <div align="center"><h3>Bibliothèque du jours 📙</h3>
 
 <!-- START_LIBRARY_SECTION -->
- **[Ngx-translate](https://github.com/ngx-translate/core)**: Internationalisation pour Angular
+ **[Material-UI](https://mui.com/)**: Une bibliothèque de composants UI pour React avec le design Material.
 <!-- END_LIBRARY_SECTION -->
 </div>
 
